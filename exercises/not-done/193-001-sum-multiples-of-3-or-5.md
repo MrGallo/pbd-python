@@ -1,0 +1,102 @@
+
+
+
+
+Project Euler 001
+
+
+
+
+* Author: Colin Hughes
+* Filename: Euler001.java
+
+
+
+
+
+Project Euler
+=============
+
+
+Problem 1
+---------
+
+
+
+If we list all the natural numbers below 10 that are multiples of 3
+or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+
+
+Find the sum of all the multiples of 3 or 5 below 1000.
+
+
+
+If you want, you can [view
+this problem at Project Euler](https://projecteuler.net/problem=1) instead.
+
+
+What You Should Do on Your Own
+------------------------------
+
+
+Assignments turned in *without* these things will not receive
+any points.
+
+
+1. After your program is done and working, add a comment at the
+ top containing the final answer. If your program does not produce
+ the correct answer in a reasonable amount of time, you will not
+ receive points for this assignment.
+
+
+Frequently-Asked Questions
+--------------------------
+
+
+
+"Project Euler"? What's up with that?
+ [Project Euler](https://projecteuler.net/about) is a site
+ of challenging math-based problems. The easiest problems (like this one!)
+ have been solved by more than 100,000 people. The most difficult (ex:
+ [The Silver Dollar Game](https://projecteuler.net/problem=344))
+ have been solved by only about one hundred people worldwide.
+
+ How do I know if my solution is correct?
+ The easiest way is to [create
+ an account](https://projecteuler.net/register) on the Project Euler website. Then you can check your
+ answers and keep track of your progress.
+ 
+ There are hundreds of Project Euler problems but you only have a few
+ in the assignment list. Will I get points for solving the others?
+ Of course. When you turn in a correct solution I will determine a
+ fair number of points for it.
+ 
+ How many Project Euler problems have you solved, Mr. Mitchell?
+ As of November 2012 I have solved 47 problems (1-45, 48 & 67).
+ That puts me in the top 9% of participants on the site.
+
+
+```
+
+
+
+```
+
+
+
+---
+
+
+©2021 Daniel Gallo
+
+
+This assignment is licensed under a
+[Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License](https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US).  
+
+![Creative Commons License](images/by-nc-sa.png)
+
+
+
+
+
+Adapted for Python from Graham Mitchell's [Programming By Doing](https://programmingbydoing.com/)
