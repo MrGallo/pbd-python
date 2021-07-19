@@ -86,7 +86,7 @@
     {
         "section": "Keyboard Input",
         "number": 14,
-        "name": "Asking Questions",
+        "name": "User Input",
         "points": "10"
     },
     {
@@ -116,7 +116,7 @@
     {
         "section": "Keyboard Input",
         "number": 19,
-        "name": "A Dumb Calculator",
+        "name": "A Silly Calculator",
         "points": "20"
     },
     {
