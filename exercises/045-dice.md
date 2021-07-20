@@ -2,10 +2,9 @@
 
 
 Write a program that simulates a dice roll by picking a random
- number from 1-6 and then picking a second random number from 1-6. Add
- the two values together, and display the total.
+number from `1-6` and then picking a second random number from `1-6`. Add the two values together, and display the total.
 
-
+Name the file: `045_dice.py`
 
 ```
 HERE COMES THE DICE!
@@ -16,10 +15,6 @@ The total is 8!
 
 ```
 
- 
-
-
-
 ```
 HERE COMES THE DICE!
 
@@ -29,19 +24,10 @@ The total is 6!
 
 ```
 
-
-```
-
-
-
-```
-
-
-
 ---
 
 
-©2021 Daniel Gallo
+©2013 [Graham Mitchell](https://programmingbydoing.com/)
 
 
 This assignment is licensed under a
@@ -49,8 +35,3 @@ This assignment is licensed under a
 
 ![Creative Commons License](images/by-nc-sa.png)
 
-
-
-
-
-Adapted for Python from Graham Mitchell's [Programming By Doing](https://programmingbydoing.com/)
