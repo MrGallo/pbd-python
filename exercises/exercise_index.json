@@ -336,25 +336,25 @@
         "points": "30"
     },
     {
-        "section": "Do-While Loops",
+        "section": "Post-test Loops",
         "number": 56,
-        "name": "Do-While Swimming",
+        "name": "Swimming",
         "points": "15"
     },
     {
-        "section": "Do-While Loops",
+        "section": "Post-test Loops",
         "number": 57,
         "name": "Flip Again?",
         "points": "20"
     },
     {
-        "section": "Do-While Loops",
+        "section": "Post-test Loops",
         "number": 58,
         "name": "Shorter Double Dice",
         "points": "40"
     },
     {
-        "section": "Do-While Loops",
+        "section": "Post-test Loops",
         "number": 59,
         "name": "Again with the Number-Guessing",
         "points": "35"
@@ -382,6 +382,18 @@
         "number": 63,
         "name": "Short Adventure 2: With a Loop",
         "points": "75"
+    },
+    {
+        "section": "While Loops",
+        "number": 63.1,
+        "name": "Baby Nim",
+        "points": "60"
+    },
+    {
+        "section": "While Loops",
+        "number": 63.2,
+        "name": "Nim",
+        "points": "70-185"
     },
     {
         "section": "For Loops",
@@ -684,7 +696,7 @@
         "points": "85"
     },
     {
-        "section": "Do-While Loops",
+        "section": "Post-test Loops",
         "number": 114,
         "name": "Baby Calculator",
         "points": "20"

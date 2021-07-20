@@ -1,11 +1,14 @@
-# Number-Guessing with a Counter
+# Again with the Number-Guessing
 
 
-Modify your previous [number-guessing game](keep-guessing.html)
-so that they can guess until they get it right **AND**
-count the number of tries it takes them to guess it.
+Redo the [Number-Guessing with a Counter](053-number-guessing-with-a-counter.md)
+assignment using a post-test loop instead
+of a `while` loop. Otherwise it should do exactly the
+same things (including the counter).
 
+Make sure that it doesn't mess up if you guess it on the first try.
 
+Name your file: `059_guess_again.py`
 
 ```
 I have chosen a number between 1 and 10.  Try to guess it.
@@ -18,17 +21,7 @@ That is incorrect.  Guess again.
 Your guess: 6
 That's right!  You're a good guesser.
 It only took you 4 tries.
-
 ```
-
-
-```
-
-
-
-```
-
-
 
 ---
 
@@ -40,9 +33,5 @@ This assignment is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License](https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US).  
 
 ![Creative Commons License](images/by-nc-sa.png)
-
-
-
-
 
 Adapted for Python from Graham Mitchell's [Programming By Doing](https://programmingbydoing.com/)

@@ -1,12 +1,9 @@
 # Keep Guessing
 
 
-Modify your previous [number-guessing game](a-number-guessing-game.html)
-so that they can guess **until** they get it right. That means
-it will keep looping as long as the guess is different from the secret number.
-Use a `while` loop.
+Modify your previous [number-guessing game](043_a-number-guessing-game.md) so that they can guess **until** they get it right. That means it will keep looping as long as the guess is different from the secret number. Use a `while` loop.
 
-
+Name your file: `049_keep_guessing.py`
 
 ```
 I have chosen a number between 1 and 10. Try to guess it.
@@ -21,28 +18,13 @@ That's right! You're a good guesser.
 
 ```
 
-
-```
-
-
-
-```
-
-
-
 ---
 
 
-©2021 Daniel Gallo
+©2013 [Graham Mitchell]((https://programmingbydoing.com/))
 
 
 This assignment is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License](https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US).  
 
 ![Creative Commons License](images/by-nc-sa.png)
-
-
-
-
-
-Adapted for Python from Graham Mitchell's [Programming By Doing](https://programmingbydoing.com/)

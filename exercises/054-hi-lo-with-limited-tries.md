@@ -1,19 +1,18 @@
 # Hi-Lo with Limited Tries
 
 
-Write a program that picks a random number from 1-100.
+Write a program that picks a random number from `1-100`.
 The user keeps guessing as long as their guess is wrong,
-**and** they've guessed less than 7 times. If their
-guess is higher than the number, say "Too high." If their guess
-is lower than the number, say "Too low." When they get it right,
+**and** they've guessed less than `7` times. If their
+guess is higher than the number, say `"Too high."` If their guess
+is lower than the number, say `"Too low."` When they get it right,
 the game stops. Or, if they hit seven guesses, the game stops
 even if they never got it right.
 
 
-This means your `while` loop will have
-a compound condition using `&&`.
+This means your `while` loop will have a compound condition using `and`.
 
-
+Name the file: `054_hi_lo_limited.py`
 
 ```
 I'm thinking of a number between 1-100.  You have 7 guesses.
@@ -29,10 +28,6 @@ Guess # 5: 84
 You guessed it!  What are the odds?!?
 
 ```
-
- 
-
-
 
 ```
 I'm thinking of a number between 1-100.  You have 7 guesses.
@@ -53,28 +48,12 @@ Sorry, you didn't guess it in 7 tries.  You lose.
 
 ```
 
-
-```
-
-
-
-```
-
-
-
 ---
 
-
-©2021 Daniel Gallo
+©2013 [Graham Mitchell]((https://programmingbydoing.com/))
 
 
 This assignment is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License](https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US).  
 
 ![Creative Commons License](images/by-nc-sa.png)
-
-
-
-
-
-Adapted for Python from Graham Mitchell's [Programming By Doing](https://programmingbydoing.com/)

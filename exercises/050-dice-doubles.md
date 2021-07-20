@@ -8,7 +8,7 @@ until they get doubles (the same number on both dice).
 Notice that since there's no user input, this will happen very
 quickly (all the rolls will happen one right after the other).
 
-
+Name your file: `050_dice_doubles.py`
 
 ```
 HERE COMES THE DICE!
@@ -31,28 +31,13 @@ The total is 2!
 
 ```
 
-
-```
-
-
-
-```
-
-
-
 ---
 
 
-©2021 Daniel Gallo
+©2013 [Graham Mitchell]((https://programmingbydoing.com/))
 
 
 This assignment is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License](https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US).  
 
 ![Creative Commons License](images/by-nc-sa.png)
-
-
-
-
-
-Adapted for Python from Graham Mitchell's [Programming By Doing](https://programmingbydoing.com/)

@@ -12,12 +12,10 @@ different ways for the game to end.
 
 ## Files Needed
 
+* [adventure2.py](examples/adventure2.py) - empty shell
+* [adventure2_example.py](examples/adventure2_example.py) - tiny sample game
 
-* [Adventure2.java](examples/Adventure2.java) - empty shell
- * [Adventure2Example.java](examples/Adventure2Example.java) - tiny sample game
-
-
-
+Name your file: `063_adventure2.py`
 
 ```
 MITCHELL'S TINY ADVENTURE 2!
@@ -62,14 +60,6 @@ You have died.
 ```
 
 
-```
-
-
-
-```
-
-
-
 ---
 
 
@@ -80,9 +70,5 @@ This assignment is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License](https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US).  
 
 ![Creative Commons License](images/by-nc-sa.png)
-
-
-
-
 
 Adapted for Python from Graham Mitchell's [Programming By Doing](https://programmingbydoing.com/)

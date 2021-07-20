@@ -1,8 +1,7 @@
 # Right Triangle Checker
 
-
 Write a program to allow the user to enter three integers. You
-must use `do-while` or `while`
+must use pre-test or post-test `while`
 loops to enforce that these integers are in ascending order,
 though duplicate numbers are allowed.
 
@@ -10,7 +9,7 @@ though duplicate numbers are allowed.
 Tell the user whether or not these integers would represent the
 sides of a right triangle.
 
-
+Name the file: `061_right_triangle_checker.py`
 
 ```
 Enter three integers:
@@ -29,9 +28,6 @@ NO!  These sides do not make a right triangle!
 
 ```
 
- 
-
-
 
 ```
 Enter three integers:
@@ -41,13 +37,6 @@ Side 3: 10
 
 Your three sides are 6 8 10
 These sides *do* make a right triangle.  Yippy-skippy!
-
-```
-
-
-```
-
-
 
 ```
 
@@ -63,9 +52,6 @@ This assignment is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License](https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US).  
 
 ![Creative Commons License](images/by-nc-sa.png)
-
-
-
 
 
 Adapted for Python from Graham Mitchell's [Programming By Doing](https://programmingbydoing.com/)

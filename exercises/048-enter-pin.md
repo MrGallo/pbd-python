@@ -4,42 +4,28 @@
 Type in the following code, and get it to compile. This assignment will help you learn how
 to make a loop, so that you can repeat a section of code over and over again!
 
+Name your file: `048_pin.py`
+
+```python
+PIN = "12345"
+
+print("WELCOME TO THE BANK OF GALLO.")
+entry = input("ENTER YOUR PIN: ")
+
+while entry != PIN:
+    print("\nINCORRECT PIN. TRY AGAIN.")
+    entry = input("ENTER YOUR PIN: ")
 
 
-```
-import java.util.Scanner;
-
-public class EnterPIN
-{
-	public static void main( String[] args )
-	{
-		Scanner keyboard = new Scanner(System.in);
-		int pin = 12345;
-
-		System.out.println("WELCOME TO THE BANK OF MITCHELL.");
-		System.out.print("ENTER YOUR PIN: ");
-		int entry = keyboard.nextInt();
-
-		while ( entry != pin )
-		{
-			System.out.println("\nINCORRECT PIN. TRY AGAIN.");
-			System.out.print("ENTER YOUR PIN: ");
-			entry = keyboard.nextInt();
-		}
-
-		System.out.println("\nPIN ACCEPTED. YOU NOW HAVE ACCESS TO YOUR ACCOUNT.");
-	}
-}
+print("\nPIN ACCEPTED. YOU NOW HAVE ACCESS TO YOUR ACCOUNT.")
 
 ```
 
 What You Should See
 -------------------
 
-
-
 ```
-WELCOME TO THE BANK OF MITCHELL.
+WELCOME TO THE BANK OF GALLO.
 ENTER YOUR PIN: 90210
 
 INCORRECT PIN. TRY AGAIN.
@@ -49,15 +35,12 @@ INCORRECT PIN. TRY AGAIN.
 ENTER YOUR PIN: 12345
 
 PIN ACCEPTED. YOU NOW HAVE ACCESS TO YOUR ACCOUNT.
-
 ```
 
 Notice what happens when we type the correct PIN on the first try:
 
-
-
 ```
-WELCOME TO THE BANK OF MITCHELL.
+WELCOME TO THE BANK OF GALLO.
 ENTER YOUR PIN: 12345
 
 PIN ACCEPTED. YOU NOW HAVE ACCESS TO YOUR ACCOUNT.
@@ -71,14 +54,11 @@ What You Should Do on Your Own
 Assignments turned in *without* these things will receive
 no credit.
 
-
 1. How is a `while` loop similar to an `if` statement?
- - How is a `while` loop different from an `if` statement?
- - Inside the `while` loop, why isn't there an `int`
- in front of the line `entry = keyboard.nextInt()`?
- - Delete the line `entry = keyboard.nextInt();` from inside
- the `while` loop. What happens? Why?
- - (Put the `entry = keyboard.nextInt();` back before you turn in the assignment.)
+2. How is a `while` loop different from an `if` statement?
+3. What would we have to change in our program if the `PIN` was stored as an integer rather than a string? For example if it was initialized as `PIN = 12345`.
+4. Comment out the line `entry = input(...)` from inside the `while` loop. What happens? Why?
+5. (Uncomment the `entry = input(...)` before you turn in the assignment.)
 
 
 
