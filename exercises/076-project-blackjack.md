@@ -1,13 +1,9 @@
 # Project: Blackjack
 
-
-
 Write a program that allows a human user to play a simplified version
 of Blackjack against a computer opponent. Make it as cool as you can.
 
-
 The simplified blackjack rules are as follows:
-
 
 * Don't worry about suits or face cards; "cards" will have values from
 2-11, and all values are equally likely (that is, unlike a real blackjack
@@ -24,14 +20,6 @@ should probably hit on sixteen or lower.
 * Assuming no one has busted, the player with the highest total wins.
 Dealer wins all ties.
 
-
-
-
-
-
-
-
-
 As will be the case with all projects, this is not an assigment with a
 fixed goal. Programs that merely do what is listed above will be
 passing, but will certainly not be worth 100. In order to score a high
@@ -43,9 +31,6 @@ suggested additional features to add:
 * Incorporate wagering.
 * Display some sort of graphical cards.
 * Anything else interesting you can think of.
-
-
-
 
 
 Be aware that you won't get any extra points for adding additional
@@ -67,11 +52,6 @@ you using good variable names? Are there any comments? (10%)
 that reflects the structure of your code? Is it easy to read?
 Are there blank lines which break up the major sections of your code?
 (5%)
-
-
-
-
-
 
 
 ```
@@ -104,15 +84,6 @@ Your total is 19.
 YOU WIN!
 
 ```
-
-
-```
-
-
-
-```
-
-
 
 ---
 

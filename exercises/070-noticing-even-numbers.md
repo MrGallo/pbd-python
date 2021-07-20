@@ -2,28 +2,22 @@
 
 
 Write a program that uses a `for`
-loop to display all the numbers from 1 to 20, marking those which
-are even (divisible by two). It should use modulus by 2: if the
-remainder is zero, it's divisible by 2.
+loop to display all the numbers from `1` to `20`, marking those which
+are even (divisible by two). It should use modulus `2`: if the
+remainder is zero, it's divisible by `2`.
 
 
-This means you'll need an `if` statement
-inside the loop.
+This means you'll need an `if` statement inside the loop.
 
-
+Name your file: `070_notice_even.py`
 
 ```
-**for** ( *<stuff>* )
-{
-    **if** ( *<something with modulus>* )
-    {
-        **System**.out.println( *<something>* );
-    }
-    **else**
-    {
-        **System**.out.println( *<something different>* );
-    }
-}
+# pseudo-code
+for whatever...
+    if someting with modulus:
+        print("something")
+    else:
+        print("something different")
 
 ```
 
@@ -52,15 +46,6 @@ inside the loop.
 20 <
 
 ```
-
-
-```
-
-
-
-```
-
-
 
 ---
 

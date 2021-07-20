@@ -1,43 +1,24 @@
-# Adding Values with a For Loop
+# Counting Machine
 
+Write a program that gets an integer from the user. Count from `0`
+to that number. Use a `for` loop to do it.
 
-Write a program that gets an integer from the user. Add up all
-the numbers from 1 to that number, and display the total.
-Use a `for` loop to do it.
-
-
-You have done something like this
-[before](adding-values-in-a-loop.html).
-
-
+Name the file `066_counting_machine.py`
 
 ```
-Number: 5
-
-1 2 3 4 5
-The sum is 15.
-
+Count to: 19
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
 ```
 
- 
-
-
-
 ```
-Number: 8
-1 2 3 4 5 6 7 8
-The sum is 36.
-
+Count to: 8
+0 1 2 3 4 5 6 7 8
 ```
 
-
 ```
-
-
-
+Count to: 25
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
 ```
-
-
 
 ---
 

@@ -1,50 +1,27 @@
-# Fizz Buzz
+# Counting By Halves
 
 
-Write a program that prints the numbers from 1 to 100. But for
-multiples of three print "Fizz" instead of the number and for the multiples
-of five print "Buzz". For numbers which are multiples of both three and
-five print "FizzBuzz".
+Write a program that uses a `for` loop. With the loop,
+make the variable `x` go from `-10` to `10`, counting by `0.5`.
+(This means that `x` can't be an `int`.)
 
-
-
-```
-1
-2
-Fizz
-4
-Buzz
-Fizz
-7
-8
-Fizz
-Buzz
-11
-Fizz
-13
-14
-FizzBuzz
-16
-17
-Fizz
-19
-Buzz
-	...
-97
-98
-Fizz
-Buzz
+Name the file: `068_counting_by_halves.py`
 
 ```
-
+ 
+x
+------
+-10.0
+-9.5
+-9.0
+-8.5
+-8.0
+...
+9.0
+9.5
+10.0
 
 ```
-
-
-
-```
-
-
 
 ---
 

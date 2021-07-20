@@ -5,7 +5,7 @@ Write a program that gets three integers from the user. Count from
 the first number to the second number in increments of the third number.
 Use a `for` loop to do it.
 
-
+Name the file `067_counting_machine_revisited.py`
 
 ```
 Count from: 4
@@ -13,7 +13,6 @@ Count to  : 13
 Count by  : 3
 
 4 7 10 13
-
 ```
 
  
@@ -26,7 +25,6 @@ Count to  : 20
 Count by  : 5
 
 5 10 15 20
-
 ```
 
  
@@ -39,17 +37,7 @@ Count to  : 10
 Count by  : 1
 
 2 3 4 5 6 7 8 9 10
-
 ```
-
-
-```
-
-
-
-```
-
-
 
 ---
 

@@ -1,36 +1,28 @@
-# Counting By Halves
+# Adding Values with a For Loop
 
+Write a program that gets an integer from the user. Add up all
+the numbers from `1` to that number, and display the total.
+Use a `for` loop to do it.
 
-Write a program that uses a `for` loop. With the loop,
-make the variable `x` go from -10 to 10, counting by 0.5.
-(This means that `x` can't be an `int`.)
+You have done something like this [before](055-adding-values-in-a-loop.md).
 
-
+Name the file `074_sum_for_loop.py`
 
 ```
- 
-x
-------
--10.0
--9.5
--9.0
--8.5
--8.0
-...
-9.0
-9.5
-10.0
+Number: 5
+
+1 2 3 4 5
+The sum is 15.
 
 ```
 
+```
+Number: 8
+
+1 2 3 4 5 6 7 8
+The sum is 36.
 
 ```
-
-
-
-```
-
-
 
 ---
 
