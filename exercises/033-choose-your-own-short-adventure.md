@@ -1,19 +1,15 @@
 # Choose Your Own Adventure!
 
-
 Make a short "Choose Your Own Adventure" game. The starting room
-should give the user two choices. Then the second room they travel
-to should give them two more choices. Finally the third room should
-give them two choices.
+should give the user two choices. Then the second room they 
+to should give them two more choices. Finally the third room should give them two choices.
 
+This means your game will have eight possible "endings". Your game will also have a total of fifteen rooms:
 
-This means your game will have eight possible "endings". Your game
-will also have a total of fifteen rooms:
-
-
+Name your file: `033_adventure.py`
 
 ```
-        \_ R1 \_
+        _ R1 _
        /      \
     R2          R3
    /  \        /  \
@@ -23,10 +19,7 @@ E1 E2 E3 E4 E5 E6 E7 E8
 
 ```
 
-You must use *nested* `if`
-statements to do this.
-
-
+You must use *nested* `if` statements to do this.
 
 ```
 WELCOME TO MITCHELL'S TINY ADVENTURE!
@@ -47,10 +40,6 @@ Would you like to eat some of the food? ("yes" or "no")
 You die of starvation... eventually.
 
 ```
-
- 
-
-
 
 ```
 WELCOME TO MITCHELL'S TINY ADVENTURE!
@@ -74,28 +63,12 @@ I'm tired of making nested if statements.
 
 ```
 
-
-```
-
-
-
-```
-
-
-
 ---
 
 
-©2021 Daniel Gallo
-
+©2013 [Graham Mitchell](https://programmingbydoing.com/)
 
 This assignment is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License](https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US).  
 
 ![Creative Commons License](images/by-nc-sa.png)
-
-
-
-
-
-Adapted for Python from Graham Mitchell's [Programming By Doing](https://programmingbydoing.com/)

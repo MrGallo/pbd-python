@@ -176,20 +176,20 @@
     {
         "section": "GUIs",
         "number": 29,
-        "name": "Using Swing for Input",
-        "points": "25"
+        "name": "Using Tkinter for Input",
+        "points": "20"
     },
     {
         "section": "GUIs",
         "number": 30,
-        "name": "A Boring Window",
-        "points": "10"
+        "name": "Favourite Colour",
+        "points": "30"
     },
     {
         "section": "GUIs",
         "number": 31,
-        "name": "A Frame with a Panel with Writing on It",
-        "points": "20"
+        "name": "Clear Text",
+        "points": "30"
     },
     {
         "section": "If Statements",
@@ -230,13 +230,13 @@
     {
         "section": "If Statements",
         "number": 38,
-        "name": "compareTo() Challenge",
+        "name": "Alpha Order",
         "points": "35"
     },
     {
         "section": "If Statements",
         "number": 39,
-        "name": "Alphabetical Order",
+        "name": "Attendance",
         "points": "30"
     },
     {
