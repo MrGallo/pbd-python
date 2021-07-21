@@ -1,5 +1,7 @@
 # Project: Blackjack
 
+Name this file as `076_blackjack.py`
+
 Write a program that allows a human user to play a simplified version
 of Blackjack against a computer opponent. Make it as cool as you can.
 

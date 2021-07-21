@@ -1,52 +1,31 @@
 # Flicker Phrase
 
-
 Finish the program provided. You'll need to write five if statements
 and some function calls. If you do it right it should display a
 phrase in an interesting way.
 
 
 ## Files Needed
+* [flicker_phrase.py](examples/flicker_phrase.py)
 
-
-* [FlickerPhrase.java](examples/FlickerPhrase.java)
-
+Save your file as `098_flicker_phrase.py`
 
 What You Should See
 -------------------
-
-
-
 ```
 I pledge allegiance to the flag.
-
 ```
+... but flickering on the screen.
 
 What You Should Do on Your Own
 ------------------------------
-
-
 Assignments turned in *without* these things will receive
 no credit.
 
-
 1. Add the five if statements and function calls where indicated.
-
- - (optional) Add a delay using `Thread.sleep()`
-
-
-
-
-```
-
-
-
-```
-
-
+2. (optional) Add a delay using `time.sleep()`
 
 ---
-
 
 ©2021 Daniel Gallo
 

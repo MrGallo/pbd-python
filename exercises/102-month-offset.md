@@ -1,53 +1,29 @@
 # Month Offset
 
-
 Write a function to give you the "month offset" given a number
-representing the month. You can get the month offset from the following
-table:
+representing the month. This refers to the day of the week the month starts on (mohths don't all start on a Sunday, but throught the week). You can get the month offset from the following table:
 
 
+| Month | Month offset (2013) |
+| - | - |
+| 1 |1 |
+| 2 |4 |
+| 3 |4 |
+| 4 |0 |
+| 5 |2 |
+| 6 |5 |
+| 7 |0 |
+| 8 |3 |
+| 9 |6 |
+| 10 | 1 |
+| 11 | 4 |
+| 12 | 6 |
+| anything else | -1 |
+
+Of course, here's the starter code to test your function.
 
 
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Month Month offset
-| 1 1
-| 2 4
-| 3 4
-| 4 0
-| 5 2
-| 6 5
-| 7 0
-| 8 3
-| 9 6
-| 10 1
-| 11 4
-| 12 6
-| anything else -1
- | |
- | |
- | |
- | |
- | |
- | |
- | |
- | |
- | |
- | |
- | |
- | |
- | |
- | |
-
-
-
-
-Of course, here's the main() to test your function.
-
-
-* [MonthOffset.java](examples/MonthOffset.java)
-
-
+* [102_month_offset.py](examples/102_month_offset.py)
 
 ```
 Offset for month 1: 1
@@ -65,15 +41,6 @@ Offset for month 12: 6
 Offset for month 43: -1
 
 ```
-
-
-```
-
-
-
-```
-
-
 
 ---
 
