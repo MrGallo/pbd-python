@@ -1,19 +1,14 @@
 # Refresher Challenge
 
 
-This assignment is almost the same as [A Refresher](a-refresher.html).
+This assignment is almost the same as [A Refresher](116-a-refresher.md).
 
 
-Write a program that prompts the user for a name. Then display that
-name ten times using a loop. However, if the name given is "Mitchell",
-display it only five times.
+Write a program that prompts the user for a name. Then display that name ten times using a loop. However, if the name given is `"Harambe"`, display it only five times.
 
+So here's the challenge: write the program using only *one* `if` statement (no `else`) and only *one* `for` loop.
 
-So here's the challenge: write the program using only *one*
-`if` statement (no `else`) and
-*one* `for` loop.
-
-
+Name the file `117_refresher2.py`
 
 ```
 Your name: gump
@@ -36,24 +31,15 @@ gump
 
 
 ```
-Your name: Mitchell
+Your name: Harambe
 
-Mitchell
-Mitchell
-Mitchell
-Mitchell
-Mitchell
-
-```
-
+Harambe
+Harambe
+Harambe
+Harambe
+Harambe
 
 ```
-
-
-
-```
-
-
 
 ---
 

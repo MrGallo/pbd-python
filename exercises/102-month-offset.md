@@ -1,10 +1,10 @@
 # Month Offset
 
 Write a function to give you the "month offset" given a number
-representing the month. This refers to the day of the week the month starts on (mohths don't all start on a Sunday, but throught the week). You can get the month offset from the following table:
+representing the month. This refers to the day of the week the month starts on (months don't all start on a Sunday, but throught the week). You can get the month offset from the following table:
 
 
-| Month | Month offset (2013) |
+| Month | Month offset |
 | - | - |
 | 1 |1 |
 | 2 |4 |

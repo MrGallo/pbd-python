@@ -1,13 +1,8 @@
 # Baby Calculator
 
+Write a calculator program that allows the user to add, subtract, multiply or divide two numbers. (This is sometimes called a "four-function" calculator.)
 
-Write a calculator program that allows the user
-to add, subtract, multiply or divide two numbers. (This is
-sometimes called a "four-function" calculator.)
-
-The program must loop until they enter a zero as the first number.
-
-
+The program must loop until they enter a zero as the first number. Use a `break` statement when that happens.
 
 ```
 >2 + 3
@@ -16,22 +11,11 @@ The program must loop until they enter a zero as the first number.
 36
 >0 + 2
 Bye, now.
-
 ```
 
 ## Files Needed
 
-
-* [BabyCalculator.java](examples/BabyCalculator.java)
-
-
-
-```
-
-
-
-```
-
+* [114_baby_calculator.py](examples/114_baby_calculator.py)
 
 
 ---

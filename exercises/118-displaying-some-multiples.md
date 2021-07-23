@@ -1,15 +1,10 @@
 # Displaying Some Multiples
 
-
-Write a program to calculate the multiples of a given number.
-Have the user enter a number, and then use a `for`
-loop to display all the multiples of that number from 1 to 12.
-It is not necessary to use a function.
-
+Write a program to calculate the multiples of a given number. Have the user enter a number, and then use a `for` loop to display all the multiples of that number from `1` to `12`. It is not necessary to use a function.
 
 You *must* use a `for` loop.
 
-
+Name the file `118_multiples.py`
 
 ```
 Choose a number: 7
@@ -26,16 +21,7 @@ Choose a number: 7
 7x10 = 70
 7x11 = 77
 7x12 = 84
-
 ```
-
-
-```
-
-
-
-```
-
 
 
 ---

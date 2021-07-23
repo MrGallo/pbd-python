@@ -4,12 +4,11 @@
 Download and finish the following code to practice working with
 functions:  
 
-[FillInFunctions.java](examples/FillInFunctions.java)
+[106_fill_in_functions.py](examples/106_fill_in_functions.py)
 
 
 If you do everything correctly, it should produce output like the
 following:
-
 
 
 ```
@@ -26,21 +25,12 @@ Now we take the absolute value of a number.
 
 That's all.  This program has been brought to you by:
 
-programmed by Graham Mitchell
+programmed by Daniel Gallo
 modified by [your name here]
-This code is distributed under the terms of the standard BSD license.  Do with i
-t as you wish.
+This code is distributed under the terms of the standard BSD license.
+Do with it as you wish.
 
 ```
-
-
-```
-
-
-
-```
-
-
 
 ---
 

@@ -1,55 +1,49 @@
 # Area Calculator
 
-
 Write a program to calculate the area of four different geometric
 shapes: triangles, squares, rectangles, and circles. You must use
 functions. Here are the functions you should create:
 
+![Copy-paste-proof image](images/area_calc_functions.jpg)
 
 
-```
-**public static double** area\_circle( **int** radius )              *// returns the area of a circle*
-**public static int** area\_rectangle( **int** length, **int** width )   *// returns the area of a rectangle*
-**public static int** area\_square( **int** side )                   *// returns the area of a square*
-**public static double** area\_triangle( **int** base, **int** height )  *// returns the area of a triangle*
-
-```
+Name your file `104_area_calculator.py`
 
 Your program should present a menu for the human to choose which
 shape to calculate, then ask them for the appropriate values (length,
 width, radius, etc.). Then it should pass those values to the
 appropriate function and display the resulting area.
 
-
 Notice that you *must not* input the values inside
 the functions, and you *must not* display the values inside
 the functions. *All* input and output must be in the 
-`main()`, and values must be passed to the functions
+`main()` function, and values must be passed to the functions
 and returned from them.
 
+You will need to construct your own `main` function and use the magical `if __name__ == "__main__":` statement as seen in previous assignments.
 
 
 
-|  |  |  |  |  |  |  |  |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| shape  formula
- | square  A = *s*²
- | rectangle A = *l* × *w*| triangle  A = ½*b**h*| circle  A = π*r*²
- | |
- | |
- | |
- | |
- | |
+| shape | formula |
+| - | - |
+| square | `A = s²` |
+| rectangle | `A = l × w` |
+| triangle | `A = ½bh` | 
+| circle | `A = πr²` |
+
 
 
 You'll need the value of π for `area_circle()`; feel
-free to use the built-in `double` variable called
-`Math.PI`.
+free to use the `math` library's pi variable.
+
+```python
+import math
+
+math.pi  # 3.141592653589793
+```
 
 
 The menu should keep looping until the human chooses to quit.
-
-
 
 ```
 Shape Area Calculator version 0.1 (c) 2005 Mitchell Sample Output, Inc.
@@ -120,15 +114,6 @@ Which shape: 5
 Goodbye.
 
 ```
-
-
-```
-
-
-
-```
-
-
 
 ---
 

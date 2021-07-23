@@ -680,7 +680,7 @@
     {
         "section": "Functions",
         "number": 111,
-        "name": "Calling Functions from Other Files",
+        "name": "Importing Functions from Other Files",
         "points": "40"
     },
     {

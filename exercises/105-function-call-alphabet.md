@@ -7,8 +7,7 @@ calls.
 
 ## Files Needed
 
-
-* [FunctionCallAlphabet.java](examples/FunctionCallAlphabet.java)
+* [105_function_call_alphabet.py](examples/105_function_call_alphabet.py)
 
 
 What You Should See
@@ -22,19 +21,8 @@ correctly, it should produce output like the following:
 
 
 ```
-Ant Banana Crocodile Doggie Elephant Frog Gorilla Horseradish 
-Ice\_cream Jackrabbit Kiwi Lhasa\_apso Monkey! Narwhal Orangutan Parrot Quail 
-Rabbit Snake Thyme Ugli\_fruit Valentine\_candy Walrus X\_men Yams Zebra
-
+Ant Banana Crocodile Doggie Elephant Frog Gorilla Horseradish Ice_cream Jackrabbit Kiwi Lhasa_apso Monkey! Narwhal Orangutan Parrot Quail Rabbit Snake Thyme Ugli_fruit Valentine_candy Walrus X_men Yams Zebra
 ```
-
-
-```
-
-
-
-```
-
 
 
 ---

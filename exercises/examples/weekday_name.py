@@ -3,13 +3,14 @@ from datetime import datetime
 
 def main():
     # Print a bunch of test days
-    print("Weekday 0: " + weekday_name(0))
     print("Weekday 1: " + weekday_name(1))
     print("Weekday 2: " + weekday_name(2))
     print("Weekday 3: " + weekday_name(3))
     print("Weekday 4: " + weekday_name(4))
     print("Weekday 5: " + weekday_name(5))
     print("Weekday 6: " + weekday_name(6))
+    print("Weekday 7: " + weekday_name(7))
+    print("Weekday 0: " + weekday_name(0))
     print()
     print("Weekday 43: " + weekday_name(43))
     print("Weekday 17: " + weekday_name(17))
@@ -17,7 +18,7 @@ def main():
 
     # Figure out today's weekday name
     today = datetime.now()
-    weekday = today.weekday()
+    weekday = today.isoweekday()
     print()
     print("Today is a {}!".format(weekday_name(weekday)))
 
@@ -25,9 +26,9 @@ def main():
 def weekday_name(weekday: int) -> str:
     result = ""
 
-    if weekday == 0:
+    if weekday == 1:
         result = "Monday"
-    elif weekday == 1:
+    elif weekday == 2:
         result = "Tuesday"
     
     return result

@@ -2,14 +2,14 @@
 
 
 Download and finish the following code to practice working with
-functions:  
+functions:
 
-[MoreFillInFunctions.java](examples/MoreFillInFunctions.java)
+- [107_more_fill_in_functions.py](examples/107_more_fill_in_functions.py)
 
+The functions are commented out. I would uncomment them one at a time once you get it correct.
 
 If you do everything correctly, it should produce output like the
 following:
-
 
 
 ```
@@ -32,15 +32,6 @@ you lose
 
 ```
 
-
-```
-
-
-
-```
-
-
-
 ---
 
 
@@ -51,9 +42,6 @@ This assignment is licensed under a
 [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License](https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US).  
 
 ![Creative Commons License](images/by-nc-sa.png)
-
-
-
 
 
 Adapted for Python from Graham Mitchell's [Programming By Doing](https://programmingbydoing.com/)

@@ -9,13 +9,14 @@ Use `if`, `elif` and `else` to complete it according to the following table:
 
 | Number | Weekday Name |
 | - | - |
-|0| Monday |
-|1| Tuesday |
-|2| Wednesday |
-|3| Thursday |
-|4| Fiday |
-|5| Saturday |
-|6| Sunday |
+|1| Monday |
+|2| Tuesday |
+|3| Wednesday |
+|4| Thursday |
+|5| Fiday |
+|6| Saturday |
+|7| Sunday |
+|0| Sunday |
 |anything else| error
 
 Save your solution as:
@@ -26,19 +27,20 @@ What You Should See
 -------------------
 
 ```
-Weekday 0: Monday
-Weekday 1: Tuesday
-Weekday 2: Wednesday
-Weekday 3: Thursday
-Weekday 4: Friday
-Weekday 5: Saturday
-Weekday 6: Sunday
+Weekday 1: Monday
+Weekday 2: Tuesday
+Weekday 3: Wednesday
+Weekday 4: Thursday
+Weekday 5: Friday
+Weekday 6: Saturday
+Weekday 7: Sunday
+Weekday 0: Sunday
 
 Weekday 43: error
 Weekday 17: error
 Weekday -1: error
 
-Today is a Monday!
+Today is a Wednesday!
 ```
 ---
 

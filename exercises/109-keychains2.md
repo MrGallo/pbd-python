@@ -2,7 +2,7 @@
 
 
 Okay, now it is time to make the
-[keychain shop](keychains1.html) actually work.
+[keychain shop](108-keychains1.html) actually work.
 
 
 
@@ -61,24 +61,24 @@ Thanks for your order, Biff!
  current number of keychains, and one to store the price per
  keychain.
 
- * The price should be $10 per keychain.
+ * The price should be `$10` per keychain.
 
- * add\_keychains() will need to be passed one int, and have a
- return type of int. It will ask the user for the number of keychains
+ * `add_keychains()` will need to be passed one `int`, and have a
+ return type of `int`. It will ask the user for the number of keychains
  to add to the order, and then return the new number of keychains.
 
- * remove\_keychains() will need to be passed one int, and
- have a return type of int. It will ask the user for the number
+ * `remove_keychains()` will need to be passed one `int`, and
+ have a return type of `int`. It will ask the user for the number
  of keychains to remove from the order, and then return the new
  number of keychains.
 
- * view\_order() will need to be passed two ints, and have a
- return type of void. It will display, on three different lines,
+ * `view_order()` will need to be passed two `int`s, and have a
+ return type of `None`. It will display, on three different lines,
  the number of keychains in the order, the price per keychain,
  and the total cost of the order.
 
- * checkout() will need to be passed two ints, and have a
- return type of void. It will ask the user for his/her name in
+ * `checkout()` will need to be passed two `int`s, and have a
+ return type of `None`. It will ask the user for his/her name in
  order to deliver them correctly, display the order information,
  and then thank the user, by name, for ordering.
 
