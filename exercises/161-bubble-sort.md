@@ -1,32 +1,19 @@
 # Bubble Sort
 
 
-Flesh out the following code so that it sorts the array using a
-bubble sort.
+Flesh out the following code so that it sorts the array using a bubble sort. The algorithm is very similar to the exchange sort.
 
 
-You should probably read this
-[visualization of bubble sort](http://www.algolist.net/Algorithms/Sorting/Bubble_sort).
+You should probably read this [visualization of bubble sort](http://www.algolist.net/Algorithms/Sorting/Bubble_sort).
 
 
-* [BubbleSort.java](examples/BubbleSort.java)
-
-
+* [161_bubble_sort.py](examples/161_bubble_sort.py)
 
 ```
 before: 45 87 39 32 93 86 12 44 75 50
 after : 12 32 39 44 45 50 75 86 87 93
 
 ```
-
-
-```
-
-
-
-```
-
-
 
 ---
 

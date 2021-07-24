@@ -1,4 +1,4 @@
-# PokéTrader
+# PokéTrader 2
 
 
 Download the following code, and get it to compile.
@@ -7,59 +7,45 @@ Download the following code, and get it to compile.
 ## Files Needed
 
 
-* [PokeTrader.java](examples/PokeTrader.java)
+* [158_poke_trader2.py](examples/158_poke_trader2.py)
 
 
 What You Should See
 -------------------
-
-
-
 ```
 EXCHANGE POKEMON
 
-0. PIKACHU
-        1. CHARMELEON
-        2. GEODUDE
-        3. GYARADOS
-        4. BUTTERFREE
-        5. MANKEY
+    0. PIKACHU
+    1. CHARMELEON
+    2. GEODUDE
+    3. GYARADOS
+    4. BUTTERFREE
+    5. MANKEY
 
-Choose a Pokemon to exchange with PIKACHU. (Or enter 0 to quit.)
-> 2
+Choose a Pokemon (or -1 to quit). => 1
+Choose a Pokemon to exchange with CHARMELEON. => 5
+
+Exchanging CHARMELEON with MANKEY.
+
 EXCHANGE POKEMON
 
-0. GEODUDE
-        1. CHARMELEON
-        2. PIKACHU
-        3. GYARADOS
-        4. BUTTERFREE
-        5. MANKEY
+    0. PIKACHU
+    1. MANKEY
+    2. GEODUDE
+    3. GYARADOS
+    4. BUTTERFREE
+    5. CHARMELEON
 
-Choose a Pokemon to exchange with GEODUDE. (Or enter 0 to quit.)
->
+Choose a Pokemon (or -1 to quit). => -1
 
 ```
 
 What You Should Do on Your Own
 ------------------------------
-
-
 Assignments turned in *without* these things will receive
 no credit.
 
-
-1. Write code where indicated that exchanges the Pokémon
- in slot 0 with the selected Pokémon.
-
-
-
-```
-
-
-
-```
-
+1. Write code where indicated that exchanges the two  selected Pokémon.
 
 
 ---

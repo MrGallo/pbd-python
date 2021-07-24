@@ -968,8 +968,8 @@
     {
         "section": "Sorting",
         "number": 159,
-        "name": "Sorting a List",
-        "points": "100"
+        "name": "Exchange Sort Inner Loop",
+        "points": "50"
     },
     {
         "section": "Sorting",

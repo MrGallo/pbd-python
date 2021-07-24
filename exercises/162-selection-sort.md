@@ -9,7 +9,7 @@ You should probably read this
 [visualization of selection sort](http://www.algolist.net/Algorithms/Sorting/Selection_sort).
 
 
-* [SelectionSort.java](examples/SelectionSort.java)
+* [162_selection_sort.py](examples/162_selection_sort.py)
 
 
 
@@ -18,15 +18,6 @@ before: 45 87 39 32 93 86 12 44 75 50
 after : 12 32 39 44 45 50 75 86 87 93
 
 ```
-
-
-```
-
-
-
-```
-
-
 
 ---
 

@@ -1,58 +1,46 @@
-# Sorting an Array
-
+# PokéTrader
 
 Download the following code, and get it to compile.
-
-
 ## Files Needed
-
-
-* [SortingValues.java](examples/SortingValues.java)
+* [157_poke_trader.py](examples/157_poke_trader.py)
 
 
 What You Should See
 -------------------
-
-
-
 ```
-before: 45 87 39 32 93 86 12 44 75 50
-after : 45 87 39 32 93 86 12 44 75 50
+EXCHANGE POKEMON
 
-```
+0. PIKACHU
+        1. CHARMELEON
+        2. GEODUDE
+        3. GYARADOS
+        4. BUTTERFREE
+        5. MANKEY
 
-After you add in the code you're supposed to, you should
-see something more like this:
+Choose a Pokemon to exchange with PIKACHU. (Or enter 0 to quit.)
+> 2
+EXCHANGE POKEMON
 
+0. GEODUDE
+        1. CHARMELEON
+        2. PIKACHU
+        3. GYARADOS
+        4. BUTTERFREE
+        5. MANKEY
 
-
-```
-before: 45 87 39 32 93 86 12 44 75 50
-after : 12 32 39 44 45 50 75 86 87 93
+Choose a Pokemon to exchange with GEODUDE. (Or enter 0 to quit.)
+>
 
 ```
 
 What You Should Do on Your Own
 ------------------------------
 
-
 Assignments turned in *without* these things will receive
 no credit.
 
 
-1. Use nested loops, an if statement, and some "swapping" code
- to rearrange the values in the array so that they're in order
- from smallest to largest.
-
-
-
-```
-
-
-
-```
-
-
+1. Write code where indicated that exchanges the Pokémon in index 0 with the selected Pokémon.
 
 ---
 

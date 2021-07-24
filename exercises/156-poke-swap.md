@@ -1,18 +1,11 @@
 # PokéSwap
 
 
-* Download the following code, and get it to compile.
-
-
-
-
+* Download the following code, and get it to run.
 What You Should See
 -------------------
 
-
-
 ```
-U:\My Documents\CompSci\>java PokeSwap
 Misty sent out STARMIE!
 
 STARMIE          Lv21
@@ -28,31 +21,18 @@ What will PIKACHU do?
 
 ## Files Needed
 
-
-* [PokeSwap.java](examples/PokeSwap.java)
+* [156_poke_swap.py](examples/156_poke_swap.py)
 
 
 What You Should Do on Your Own
 ------------------------------
-
-
 Assignments turned in *without* these things will receive
 no credit.
 
-
-1. Write code where indicated that exchanges Pikachu (slot 0)
- with Gyarados (slot 3). Make sure the code works in such a way
- that it would still swap slot 0 with slot 3, no matter what values
- were in there to begin with. You'll need to create an extra String variable.
-
-
-
-```
-
-
-
-```
-
+1. Write code where indicated that exchanges Pikachu (index 0)
+ with Gyarados (index 3). Make sure the code works in such a way
+ that it would still swap index 0 with index 3, no matter what values
+ were in there to begin with. You'll need to create an extra string variable.
 
 
 ---
