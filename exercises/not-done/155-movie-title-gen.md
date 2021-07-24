@@ -1,14 +1,11 @@
 # Movie Title Generator
 
-
 Download the following code, and get it to compile.
 It fills up an array with a bunch of random adjectives
 and another array with a bunch of random nouns.
 
-
 It is intended to create a random movie title by picking
 a random adjective and noun out of the arrays.
-
 
 ## Files Needed
 

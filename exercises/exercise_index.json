@@ -780,157 +780,157 @@
         "points": "90"
     },
     {
-        "section": "File Input and Output",
+        "section": "File RW",
         "number": 128,
         "name": "Letter Revisited",
         "points": "40"
     },
     {
-        "section": "File Input and Output",
+        "section": "File RW",
         "number": 129,
         "name": "High Score",
         "points": "50"
     },
     {
-        "section": "File Input and Output",
+        "section": "File RW",
         "number": 130,
-        "name": "Simple File Input",
+        "name": "Simple File Read",
         "points": "40"
     },
     {
-        "section": "File Input and Output",
+        "section": "File RW",
         "number": 131,
         "name": "Summing Three Numbers from a File",
         "points": "50"
     },
     {
-        "section": "File Input and Output",
+        "section": "File RW",
         "number": 132,
         "name": "Summing Three Numbers from Any File",
         "points": "65"
     },
     {
-        "section": "File Input and Output",
+        "section": "File RW",
         "number": 133,
         "name": "Displaying a File",
         "points": "60"
     },
     {
-        "section": "File Input and Output",
+        "section": "File RW",
         "number": 134,
         "name": "Summing Several Numbers from Any File",
         "points": "60"
     },
     {
-        "section": "File Input and Output",
+        "section": "File RW",
         "number": 135,
-        "name": "Simple Web Input",
-        "points": "15"
+        "name": "Simple Web Scrape",
+        "points": "10"
     },
     {
-        "section": "File Input and Output",
+        "section": "File RW",
         "number": 136,
         "name": "A Little Puzzle",
         "points": "75"
     },
     {
-        "section": "File Input and Output",
+        "section": "File RW",
         "number": 137,
         "name": "Vowel Capitalization",
         "points": "80"
     },
     {
-        "section": "Arrays",
+        "section": "Lists",
         "number": 138,
-        "name": "Basic Arrays 0",
+        "name": "Basic Lists 0",
         "points": "20"
     },
     {
-        "section": "Arrays",
+        "section": "Lists",
         "number": 139,
-        "name": "Basic Arrays 1",
+        "name": "Basic Lists 1",
         "points": "30"
     },
     {
-        "section": "Arrays",
+        "section": "Lists",
         "number": 140,
-        "name": "Basic Arrays 2",
+        "name": "Basic Lists 2",
         "points": "40"
     },
     {
-        "section": "Arrays",
+        "section": "Lists",
         "number": 141,
-        "name": "Basic Arrays 3",
+        "name": "Basic Lists 3",
         "points": "25"
     },
     {
-        "section": "Arrays",
+        "section": "Lists",
         "number": 142,
-        "name": "Copying Arrays",
+        "name": "Copying Lists",
         "points": "55"
     },
     {
-        "section": "Arrays",
+        "section": "Lists",
         "number": 143,
-        "name": "Grades in an Array and a File",
+        "name": "Grades in a List and a File",
         "points": "90"
     },
     {
-        "section": "Arrays",
+        "section": "Lists",
         "number": 144,
-        "name": "Finding a Value in an Array",
+        "name": "Finding a Value in a List",
         "points": "80"
     },
     {
-        "section": "Arrays",
+        "section": "Lists",
         "number": 145,
         "name": "How Many Times?",
         "points": "40"
     },
     {
-        "section": "Arrays",
+        "section": "Lists",
         "number": 146,
         "name": "Is It There or Not?",
         "points": "85"
     },
     {
-        "section": "Arrays",
+        "section": "Lists",
         "number": 147,
         "name": "Where Is It?",
         "points": "90"
     },
     {
-        "section": "Arrays",
+        "section": "Lists",
         "number": 148,
-        "name": "Finding the Largest Value in an Array",
+        "name": "Finding the Largest Value in a List",
         "points": "100"
     },
     {
-        "section": "Arrays",
+        "section": "Lists",
         "number": 149,
-        "name": "Locating the Largest Value in an Array",
+        "name": "Locating the Largest Value in a List",
         "points": "110"
     },
     {
-        "section": "Arrays",
+        "section": "Lists",
         "number": 150,
-        "name": "Giving an Array a Bunch of Values at Once",
+        "name": "Giving a List a Bunch of Values at Once",
         "points": "30"
     },
     {
-        "section": "Arrays",
+        "section": "Lists",
         "number": 151,
-        "name": "Parallel Arrays",
+        "name": "Parallel Lists",
         "points": "100"
     },
     {
-        "section": "Arrays",
+        "section": "Lists",
         "number": 152,
         "name": "Tic-Tac-Toe",
         "points": "150"
     },
     {
-        "section": "Arrays",
+        "section": "Lists",
         "number": 153,
         "name": "Hangman",
         "points": "200"
@@ -968,7 +968,7 @@
     {
         "section": "Sorting",
         "number": 159,
-        "name": "Sorting an Array",
+        "name": "Sorting a List",
         "points": "100"
     },
     {
@@ -998,7 +998,7 @@
     {
         "section": "Records",
         "number": 164,
-        "name": "Web Addresses Array",
+        "name": "Web Addresses List",
         "points": "10"
     },
     {
@@ -1052,7 +1052,7 @@
     {
         "section": "Records",
         "number": 173,
-        "name": "Sorting an Array of Records",
+        "name": "Sorting a List of Records",
         "points": "160"
     },
     {
@@ -1106,7 +1106,7 @@
     {
         "section": "ArrayLists",
         "number": 182,
-        "name": "Finding a Value in an ArrayList",
+        "name": "Finding a Value in a List",
         "points": "80"
     },
     {
@@ -1124,25 +1124,25 @@
     {
         "section": "ArrayLists",
         "number": 185,
-        "name": "Getting the Largest Value in an ArrayList",
+        "name": "Getting the Largest Value in a List",
         "points": "100"
     },
     {
         "section": "ArrayLists",
         "number": 186,
-        "name": "Locating the Largest Value in an ArrayList",
+        "name": "Locating the Largest Value in a List",
         "points": "110"
     },
     {
         "section": "ArrayLists",
         "number": 187,
-        "name": "Sorting an ArrayList",
+        "name": "Sorting a List",
         "points": "120"
     },
     {
         "section": "ArrayLists",
         "number": 188,
-        "name": "Sorting an ArrayList of Strings",
+        "name": "Sorting a List of Strings",
         "points": "150"
     },
     {
@@ -1154,7 +1154,7 @@
     {
         "section": "ArrayLists",
         "number": 190,
-        "name": "Sorting an ArrayList of Records",
+        "name": "Sorting a List of Records",
         "points": "160"
     },
     {
