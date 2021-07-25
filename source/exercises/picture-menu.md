@@ -7,7 +7,9 @@ to have the function to do its task for you.
 
 ## Files Needed
 
-* [picture_menu.py](../_static/examples/picture_menu.py)
+```eval_rst
+* :download:`picture_menu.py <examples/picture_menu.py>`
+```
 
 
 What You Should See

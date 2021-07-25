@@ -7,9 +7,15 @@ create your own loops later.)
 
 ## Files Needed
 
-* [`modulus_animation.py`](../_static/examples/modulus_animation.py) - modify this. It is the base-template.
- * [`modulus_animation_worm.py`](../_static/examples/modulus_animation_worm.py) - first example
- * [`modulus_animation_symbols.py`](../_static/examples/modulus_animation_symbols.py) - second example
+```eval_rst
+* :download:`modulus_animation.py <examples/modulus_animation.py>` - modify this. It is the base-template.
+``` 
+ ```eval_rst
+* :download:`modulus_animation_worm.py <examples/modulus_animation_worm.py>` - first example
+``` 
+ ```eval_rst
+* :download:`modulus_animation_symbols.py <examples/modulus_animation_symbols.py>` - second example
+``` 
 
 
 Name your file:

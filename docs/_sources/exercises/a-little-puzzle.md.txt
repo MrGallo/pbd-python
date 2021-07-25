@@ -5,8 +5,9 @@ of characters. You should read in *each* character from the file,
 one character at a time. Display every third character on the screen.
 Throw the other characters away.
 
-
-There is a sample input file called [puzzle.txt](../_static/examples/puzzle.txt), containing a little message you can use to test your program.
+```eval_rst
+There is a sample input file called :download:`puzzle.txt <examples/puzzle.txt>`, containing a little message you can use to test your program.
+```
 
 For fun, the "thrown-away" characters might say something, too, in
 case you care to try to view them somehow.
@@ -14,8 +15,12 @@ case you care to try to view them somehow.
 Name your program `puzzle.py`
 
 
-* [puzzle.txt](../_static/examples/puzzle.txt)
-* [puzzle2.txt](../_static/examples/puzzle2.txt)
+```eval_rst
+* :download:`puzzle.txt <examples/puzzle.txt>`
+```
+```eval_rst
+* :download:`puzzle2.txt <examples/puzzle2.txt>`
+```
 
 
 ```

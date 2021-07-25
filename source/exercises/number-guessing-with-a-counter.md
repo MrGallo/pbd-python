@@ -23,7 +23,7 @@ It only took you 4 tries.
 
 ---
 
-©2013 [Graham Mitchell]((https://programmingbydoing.com/))
+©2013 [Graham Mitchell](https://programmingbydoing.com/)
 
 
 This assignment is licensed under a

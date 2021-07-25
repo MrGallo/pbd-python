@@ -6,7 +6,9 @@ phrase in an interesting way.
 
 
 ## Files Needed
-* [flicker_phrase.py](../_static/examples/flicker_phrase.py)
+```eval_rst
+* :download:`flicker_phrase.py <examples/flicker_phrase.py>`
+```
 
 Save your file as `flicker_phrase.py`
 

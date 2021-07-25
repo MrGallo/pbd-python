@@ -9,7 +9,9 @@ a random adjective and noun out of the lists.
 
 ## Files Needed
 
-* [movie_title_gen.py](../_static/examples/movie_title_gen.py)
+```eval_rst
+* :download:`movie_title_gen.py <examples/movie_title_gen.py>`
+```
 
 
 What You Should See

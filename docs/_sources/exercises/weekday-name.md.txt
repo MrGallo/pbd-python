@@ -3,7 +3,9 @@
 I have provided a function that is supposed to return the name of a day of the week given the day number.
 
 ## Files Needed
-* [weekday_name.py](../_static/examples/weekday_name.py)
+```eval_rst
+* :download:`weekday_name.py <examples/weekday_name.py>`
+```
 
 Use `if`, `elif` and `else` to complete it according to the following table:
 

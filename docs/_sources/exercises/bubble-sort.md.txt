@@ -7,7 +7,9 @@ Flesh out the following code so that it sorts the array using a bubble sort. The
 You should probably read this [visualization of bubble sort](http://www.algolist.net/Algorithms/Sorting/Bubble_sort).
 
 
-* [bubble_sort.py](../_static/examples/bubble_sort.py)
+```eval_rst
+* :download:`bubble_sort.py <examples/bubble_sort.py>`
+```
 
 ```
 before: 45 87 39 32 93 86 12 44 75 50

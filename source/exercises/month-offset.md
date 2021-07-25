@@ -23,7 +23,9 @@ representing the month. This refers to the day of the week the month starts on (
 Of course, here's the starter code to test your function.
 
 
-* [month_offset.py](../_static/examples/month_offset.py)
+```eval_rst
+* :download:`month_offset.py <examples/month_offset.py>`
+```
 
 ```
 Offset for month 1: 1

@@ -28,7 +28,9 @@ and must have one parameter (an `int`), and return a
 
 And finally, here's some starter code.
 
-* [month_name.py](../_static/examples/month_name.py)
+```eval_rst
+* :download:`month_name.py <examples/month_name.py>`
+```
 
 Final result
 ------------

@@ -1,10 +1,8 @@
 # Letter Revisited
 
-
 Rewrite [A Letter to Your Principal](letter-to-principal.md),
 but modify it so that instead of displaying the letter on the screen,
 it puts it in a file.
-
 
 When you run your program, it will appear to do nothing. But if you
 wrote it correctly, it should have created a file in the same directory as your Python program called `letter.txt`  which you can then view using a text editor.
@@ -18,8 +16,6 @@ After running your program, we can find and open `letter.txt`. If you open it, i
 
 ![screenshot of letter.txt opened in Notepad](images/letter.png)
 
-Frequently-Asked Questions
---------------------------
 
 ---
 

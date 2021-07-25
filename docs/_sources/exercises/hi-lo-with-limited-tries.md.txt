@@ -50,7 +50,7 @@ Sorry, you didn't guess it in 7 tries.  You lose.
 
 ---
 
-©2013 [Graham Mitchell]((https://programmingbydoing.com/))
+©2013 [Graham Mitchell](https://programmingbydoing.com/)
 
 
 This assignment is licensed under a

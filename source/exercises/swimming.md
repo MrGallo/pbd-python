@@ -13,7 +13,9 @@ out the tiny difference.
 
 ## Files Needed
 
-* [swimming.py](../_static/examples/swimming.py)
+```eval_rst
+* :download:`swimming.py <examples/swimming.py>`
+```
 
 
 What You Should See

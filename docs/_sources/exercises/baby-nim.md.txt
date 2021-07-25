@@ -57,7 +57,7 @@ All piles are empty. Good job!
 ---
 
 
-©2013 [Graham Mitchell]((https://programmingbydoing.com/))
+©2013 [Graham Mitchell](https://programmingbydoing.com/)
 
 
 This assignment is licensed under a

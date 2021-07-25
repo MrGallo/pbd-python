@@ -79,9 +79,13 @@ ROOT_DIR = 'source/exercises'
 # regex = r"\((examples/.+)\)"
 # subst = "(../_static/\\1)"
 
-regex = r"\[[0-9]{3}_(.+)\]\((.+)[0-9]{3}_(.+)\)"
-subst = "[\\1](\\2\\3)"
+# regex = r"\[[0-9]{3}_(.+)\]\((.+)[0-9]{3}_(.+)\)"
+# subst = "[\\1](\\2\\3)"
 
+# regex = r"\* \[(.+)\]\(../_static/(.+)\)"
+# subst = "```eval_rst\\n* :download:`\\1 <\\2>`\\n```"
+
+## Iterate through exercise files and regex sub it's source
 # for file in os.listdir(ROOT_DIR):
 #     if not file.endswith(".md"):
 #         continue
@@ -95,6 +99,17 @@ subst = "[\\1](\\2\\3)"
 #         with open(ROOT_DIR + "/" + file, 'w') as f:
 #             f.write(result)
 #         print(f"Changed: {file}")
+
+
+# for file in os.listdir(ROOT_DIR):
+#     if not file.endswith(".md"):
+#         continue
+
+#     with open(ROOT_DIR + "/" + file, 'r') as f:
+#         source = f.read()
+
+#     if "../_static/" in source:
+#         print(file)
 
 
 # for file in os.listdir(ROOT_DIR + "/examples"):

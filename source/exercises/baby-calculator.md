@@ -15,7 +15,9 @@ Bye, now.
 
 ## Files Needed
 
-* [baby_calculator.py](../_static/examples/baby_calculator.py)
+```eval_rst
+* :download:`baby_calculator.py <examples/baby_calculator.py>`
+```
 
 
 ---

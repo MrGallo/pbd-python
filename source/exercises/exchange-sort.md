@@ -3,7 +3,9 @@
 
 Take your [exchange sort inner loop](exchange-sort-inner-loop.md) code and insert it in the following file in the appropriate loactions:
 
-* [exchange_sort.py](../_static/examples/exchange_sort.py)
+```eval_rst
+* :download:`exchange_sort.py <examples/exchange_sort.py>`
+```
 
 What to do
 ----------

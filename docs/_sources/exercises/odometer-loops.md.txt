@@ -6,7 +6,9 @@ Download the following code, and get it to run.
 
 ## Files Needed
 
-* [odometer_loops.py](../_static/examples/odometer_loops.py)
+```eval_rst
+* :download:`odometer_loops.py <examples/odometer_loops.py>`
+```
 
 
 

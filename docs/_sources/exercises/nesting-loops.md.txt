@@ -12,7 +12,9 @@ Start by downloading the following code, and get it to run.
 
 ## Files Needed
 
-* [nesting_loops.py](../_static/examples/nesting_loops.py)
+```eval_rst
+* :download:`nesting_loops.py <examples/nesting_loops.py>`
+```
 
 
 

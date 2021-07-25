@@ -1,21 +1,13 @@
 # Importing Functions from Other Files
 
-Rewrite the [Weekday Calculator](103-weekday-calculator.html) to have almost no functions in it. Start by opening up your solution to it (it should be called `weekday_calculator.py`) and saving a copy of it as `111_importing_functions.py`.
+Rewrite the [Weekday Calculator](weekday-calculator.md) to have almost no functions in it. Start by opening up your solution to it (it should be called `weekday_calculator.py`) and saving a copy of it as `importing_functions.py`.
 
 
 Then erase all the functions except for `main()` `is_leap()` and `weekday()`.
 
 Now, when you run it, you should get a lot of errors about undefined functions.
 
-To fix this, all we need to do is import those specific functions from files they are in. A big problem is we are technically not supposed to name Python files with number prefixes and when we try to import the files, we are going to get an error.
-
-First, locate and rename the files we need to import:
-| Before | After |
-| - | - |
-| `weekday_name.py` | `weekday_name.py` |
-| `month_name.py` | `month_name.py` |
-| `month_offset.py` | `month_offset.py` |
-
+To fix this, all we need to do is import those specific functions from files they are in. 
 
 At the top of your `importing_functions.py` file, let's import those freshly named files:
 

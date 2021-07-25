@@ -46,7 +46,9 @@ Of course, many of the words are randomized, so your output will probably look d
 ## Files Needed
 
 
-* [madlib_random.py](../_static/examples/madlib_random.py)
+```eval_rst
+* :download:`madlib_random.py <examples/madlib_random.py>`
+```
 
 
 What You Should Do on Your Own

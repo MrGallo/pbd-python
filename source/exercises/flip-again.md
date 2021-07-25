@@ -5,7 +5,9 @@ In this program, you'll see how using a "while True and break" (post-test) loop 
 
 ## Files Needed
 
-* [flip_again.py](../_static/examples/flip_again.py)
+```eval_rst
+* :download:`flip_again.py <examples/flip_again.py>`
+```
 
 
 What You Should See

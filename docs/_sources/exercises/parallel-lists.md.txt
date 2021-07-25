@@ -3,7 +3,7 @@
 Create three lists to store data about five people. The first list should be strings and should hold their last names. The next list should be `float`s and should hold a grade average (on a `100`-point scale). The last list should be a list of `int`s, should hold their student id numbers.
 
 
-Give each of the lists values (using [list initializers](150-giving-a-list-a-bunch-of-values-at-once.html)). Then print the values of all three lists on the screen.
+Give each of the lists values (using [list initializers](giving-a-list-a-bunch-of-values-at-once.md)). Then print the values of all three lists on the screen.
 
 
 Finally, ask the user for an ID number to lookup. Search through the ID list until you find that ID, and then print out the values from the same slot number of the other two lists.

@@ -9,7 +9,9 @@ You should probably read this
 [visualization of selection sort](http://www.algolist.net/Algorithms/Sorting/Selection_sort).
 
 
-* [selection_sort.py](../_static/examples/selection_sort.py)
+```eval_rst
+* :download:`selection_sort.py <examples/selection_sort.py>`
+```
 
 
 

@@ -193,7 +193,7 @@ However, your program does not need to use a winning strategy to earn bonus poin
 ---
 
 
-©2013 [Graham Mitchell]((https://programmingbydoing.com/))
+©2013 [Graham Mitchell](https://programmingbydoing.com/)
 
 
 This assignment is licensed under a

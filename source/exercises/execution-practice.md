@@ -2,7 +2,9 @@
 
 This assignment is designed to give you practice running (executing) a Python program. Start by saving the following file to your classwork folder.
 
-* [`star_wave.py`](../_static/examples/star_wave.py)
+```eval_rst
+* :download:`star_wave.py <examples/star_wave.py>`
+```
 
 (You can save the file by right-clicking and choosing 
 "`Save Target As...`" from the context menu.)

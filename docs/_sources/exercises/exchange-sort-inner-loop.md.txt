@@ -3,7 +3,9 @@
 Download the following code, and get it to run. Exchange sort works by using a marker at the front of the list and comparing the rest of the list to that marker using a loop. If, as you iterate through the rest of the list, you incounter a number that is smaller than the number at the marker, you need to swap the values.
 
 ## Files Needed
-* [exchange_sort_inner.py](../_static/examples/exchange_sort_inner.py)
+```eval_rst
+* :download:`exchange_sort_inner.py <examples/exchange_sort_inner.py>`
+```
 
 What You Should See
 -------------------

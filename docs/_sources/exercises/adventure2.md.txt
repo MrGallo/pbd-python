@@ -12,8 +12,12 @@ different ways for the game to end.
 
 ## Files Needed
 
-* [adventure2.py](../_static/examples/adventure2.py) - empty shell
-* [adventure2_example.py](../_static/examples/adventure2_example.py) - tiny sample game
+```eval_rst
+* :download:`adventure2.py <examples/adventure2.py>` - empty shell
+``` 
+```eval_rst
+* :download:`adventure2_example.py <examples/adventure2_example.py>` - tiny sample game
+``` 
 
 Name your file: `adventure2.py`
 

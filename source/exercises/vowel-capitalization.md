@@ -15,7 +15,9 @@ You can try the sample input file `vowels.txt` to see what your
 program does. You could also test it on any other file you like.
 
 
-* [vowels.txt](../_static/examples/vowels.txt)
+```eval_rst
+* :download:`vowels.txt <examples/vowels.txt>`
+```
 
 Original `voewls.txt`:
 ```

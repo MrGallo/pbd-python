@@ -8,8 +8,12 @@ give you back a result.
 
 ## Files Needed
 
-* [herons_formula.py](../_static/examples/herons_formula.py)
-* [herons_formula_no_function.py](../_static/examples/herons_formula_no_function.py)
+```eval_rst
+* :download:`herons_formula.py <examples/herons_formula.py>`
+```
+```eval_rst
+* :download:`herons_formula_no_function.py <examples/herons_formula_no_function.py>`
+```
 
 Save or rename `herons_formula.py` to `herons_formula.py`
 

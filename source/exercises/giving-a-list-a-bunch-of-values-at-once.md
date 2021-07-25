@@ -8,7 +8,9 @@ Download the provided code, and get it to run.
 ## Files Needed
 
 
-* [list_bunch_of_values.py](../_static/examples/list_bunch_of_values.py)
+```eval_rst
+* :download:`list_bunch_of_values.py <examples/list_bunch_of_values.py>`
+```
 
 
 What You Should See

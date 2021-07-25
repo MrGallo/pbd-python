@@ -22,7 +22,7 @@ Fortune cookie says: "Stick with your wife."
 ---
 
 
-©2013 [Graham Mitchell]((https://programmingbydoing.com/))
+©2013 [Graham Mitchell](https://programmingbydoing.com/)
 
 
 This assignment is licensed under a

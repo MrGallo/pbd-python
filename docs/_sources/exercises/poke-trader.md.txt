@@ -2,7 +2,9 @@
 
 Download the following code, and get it to compile.
 ## Files Needed
-* [poke_trader.py](../_static/examples/poke_trader.py)
+```eval_rst
+* :download:`poke_trader.py <examples/poke_trader.py>`
+```
 
 
 What You Should See

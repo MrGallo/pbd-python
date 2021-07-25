@@ -4,8 +4,9 @@
 Download and finish the following code to practice working with
 functions:  
 
-[fill_in_functions.py](../_static/examples/fill_in_functions.py)
-
+```eval_rst
+* :download:`fill_in_functions.py <examples/fill_in_functions.py>`
+```
 
 If you do everything correctly, it should produce output like the
 following:

@@ -7,7 +7,9 @@ calls.
 
 ## Files Needed
 
-* [function_call_alphabet.py](../_static/examples/function_call_alphabet.py)
+```eval_rst
+* :download:`function_call_alphabet.py <examples/function_call_alphabet.py>`
+```
 
 
 What You Should See

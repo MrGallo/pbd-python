@@ -210,16 +210,10 @@
             
   <div class="section" id="importing-functions-from-other-files">
 <h1>Importing Functions from Other Files<a class="headerlink" href="#importing-functions-from-other-files" title="Permalink to this headline">¶</a></h1>
-<p>Rewrite the <a class="reference external" href="103-weekday-calculator.html">Weekday Calculator</a> to have almost no functions in it. Start by opening up your solution to it (it should be called <code class="docutils literal notranslate"><span class="pre">weekday_calculator.py</span></code>) and saving a copy of it as <code class="docutils literal notranslate"><span class="pre">111_importing_functions.py</span></code>.</p>
+<p>Rewrite the <a class="reference internal" href="weekday-calculator.html"><span class="doc">Weekday Calculator</span></a> to have almost no functions in it. Start by opening up your solution to it (it should be called <code class="docutils literal notranslate"><span class="pre">weekday_calculator.py</span></code>) and saving a copy of it as <code class="docutils literal notranslate"><span class="pre">importing_functions.py</span></code>.</p>
 <p>Then erase all the functions except for <code class="docutils literal notranslate"><span class="pre">main()</span></code> <code class="docutils literal notranslate"><span class="pre">is_leap()</span></code> and <code class="docutils literal notranslate"><span class="pre">weekday()</span></code>.</p>
 <p>Now, when you run it, you should get a lot of errors about undefined functions.</p>
-<p>To fix this, all we need to do is import those specific functions from files they are in. A big problem is we are technically not supposed to name Python files with number prefixes and when we try to import the files, we are going to get an error.</p>
-<p>First, locate and rename the files we need to import:
-| Before | After |
-| - | - |
-| <code class="docutils literal notranslate"><span class="pre">weekday_name.py</span></code> | <code class="docutils literal notranslate"><span class="pre">weekday_name.py</span></code> |
-| <code class="docutils literal notranslate"><span class="pre">month_name.py</span></code> | <code class="docutils literal notranslate"><span class="pre">month_name.py</span></code> |
-| <code class="docutils literal notranslate"><span class="pre">month_offset.py</span></code> | <code class="docutils literal notranslate"><span class="pre">month_offset.py</span></code> |</p>
+<p>To fix this, all we need to do is import those specific functions from files they are in.</p>
 <p>At the top of your <code class="docutils literal notranslate"><span class="pre">importing_functions.py</span></code> file, let’s import those freshly named files:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">weekday_name</span>
 <span class="kn">import</span> <span class="nn">month_name</span>

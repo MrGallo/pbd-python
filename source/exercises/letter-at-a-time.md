@@ -16,7 +16,9 @@ Did you know that using a for loop, you can examine a string one letter at a tim
 
 
 ## Files Needed
-* [letter_at_a_time.py](../_static/examples/letter_at_a_time.py)
+```eval_rst
+* :download:`letter_at_a_time.py <examples/letter_at_a_time.py>`
+```
 
 Save the file as: `letter_at_a_time.py`
 

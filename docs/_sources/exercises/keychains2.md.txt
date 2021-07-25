@@ -1,8 +1,7 @@
 # Keychains for Sale, for real this time
 
 
-Okay, now it is time to make the
-[keychain shop](108-keychains1.html) actually work.
+Okay, now it is time to make the [keychain shop](keychains1.md) actually work.
 
 
 
