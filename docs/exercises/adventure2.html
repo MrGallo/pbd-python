@@ -1,0 +1,314 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Adventure 2 &mdash; Python Fundamental Exercises  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Baby Nim" href="baby-nim.html" />
+    <link rel="prev" title="Collatz Sequence" href="collatz-sequence.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Python Fundamental Exercises
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basics-and-printing.html">Basics and Printing (500 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../variables.html">Variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../keyboard-input.html">Keyboard Input</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements.html">If Statements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guis.html">GUIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements-ii.html">If Statements II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../random-numbers.html">Random Numbers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops.html">While Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops.html">Post-test Loops</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../while-loops-ii.html">While Loops II</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="safe-square-root.html">Safe Square Root</a></li>
+<li class="toctree-l2"><a class="reference internal" href="right-triangle-checker.html">Right Triangle Checker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="collatz-sequence.html">Collatz Sequence</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Adventure 2</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#files-needed">Files Needed</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="baby-nim.html">Baby Nim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nim.html">Nim</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops.html">For Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects.html">Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics.html">Graphics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functions.html">Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops-ii.html">Post-test Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-ii.html">Projects II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops-ii.html">For Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nested-loops.html">Nested Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../file-rw.html">File RW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists.html">Lists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting.html">Sorting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../records.html">Records</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting-ii.html">Sorting II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../objects.html">Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arraylists.html">ArrayLists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iii.html">Projects III</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-euler.html">Project Euler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics-ii.html">Graphics II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iiii.html">Projects IIII</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Python Fundamental Exercises</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../while-loops-ii.html">While Loops II</a> &raquo;</li>
+        
+      <li>Adventure 2</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/exercises/adventure2.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="adventure-2">
+<h1>Adventure 2<a class="headerlink" href="#adventure-2" title="Permalink to this headline">¶</a></h1>
+<p>Make another short “Choose Your Own Adventure” game. However, this
+time you need to use a loop so that they can freely move from room to
+room and back again.</p>
+<p>There need to be at least six rooms or destinations, and at least two
+different ways for the game to end.</p>
+<div class="section" id="files-needed">
+<h2>Files Needed<a class="headerlink" href="#files-needed" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="../_static/examples/adventure2.py">adventure2.py</a> - empty shell</p></li>
+<li><p><a class="reference external" href="../_static/examples/adventure2_example.py">adventure2_example.py</a> - tiny sample game</p></li>
+</ul>
+<p>Name your file: <code class="docutils literal notranslate"><span class="pre">adventure2.py</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>MITCHELL&#39;S TINY ADVENTURE 2!
+
+You are in a creepy house!  Would you like to go &quot;upstairs&quot; or into the
+&quot;kitchen&quot;?
+&gt; kitchen
+
+There is a long countertop with dirty dishes everywhere.  Off to one side
+there is, as you&#39;d expect, a refrigerator.  You may open the &quot;refrigerator&quot;
+or go &quot;back&quot;.
+&gt; back
+
+You are in a creepy house!  Would you like to go &quot;upstairs&quot; or into the
+&quot;kitchen&quot;?
+&gt; upstairs
+
+Upstairs you see a hallway.  At the end of the hallway is the master
+&quot;bedroom&quot;.  There is also a &quot;bathroom&quot; off the hallway.  Or, you can
+go back &quot;downstairs&quot;. Where would you like to go?
+&gt; downstairs
+
+You are in a creepy house!  Would you like to go &quot;upstairs&quot; or into the
+&quot;kitchen&quot;?
+&gt; kitchen
+
+There is a long countertop with dirty dishes everywhere.  Off to one side
+there is, as you&#39;d expect, a refrigerator.  You may open the &quot;refrigerator&quot;
+or go &quot;back&quot;.
+&gt; refrigerator
+
+Inside the refrigerator you see food and stuff.  It looks pretty nasty.
+Would you like to eat some of the food? (&quot;yes&quot; or &quot;no&quot;)
+&gt; yes
+
+The food is slimy and foul, but you manage to choke it down. Your stomach
+starts jumping like a frog in hot water.  You feel faint. Sliding to the
+floor, the darkness closes in.
+
+You have died.
+</pre></div>
+</div>
+<hr class="docutils" />
+<p>©2021 Daniel Gallo</p>
+<p>This assignment is licensed under a
+<a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License</a>.</p>
+<p><img alt="Creative Commons License" src="../_images/by-nc-sa.png" /></p>
+<p>Adapted for Python from Graham Mitchell’s <a class="reference external" href="https://programmingbydoing.com/">Programming By Doing</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="baby-nim.html" class="btn btn-neutral float-right" title="Baby Nim" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="collatz-sequence.html" class="btn btn-neutral float-left" title="Collatz Sequence" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Mr. Gallo.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-fundamental-exercises"
+version = "0.1.0"
+description = ""
+authors = ["Mr. Gallo <daniel.gallo@ycdsbk12.ca>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+Sphinx = "^4.1.1"
+sphinx-rtd-theme = "^0.5.2"
+sphinx-copybutton = "^0.4.0"
+rstcheck = "^3.3.1"
+recommonmark = "^0.7.1"
+python-slugify = "^5.0.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

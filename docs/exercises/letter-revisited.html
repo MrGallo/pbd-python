@@ -1,0 +1,280 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Letter Revisited &mdash; Python Fundamental Exercises  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="High Score" href="high-score.html" />
+    <link rel="prev" title="File RW" href="../file-rw.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Python Fundamental Exercises
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basics-and-printing.html">Basics and Printing (500 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../variables.html">Variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../keyboard-input.html">Keyboard Input</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements.html">If Statements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guis.html">GUIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements-ii.html">If Statements II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../random-numbers.html">Random Numbers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops.html">While Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops.html">Post-test Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops-ii.html">While Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops.html">For Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects.html">Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics.html">Graphics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functions.html">Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops-ii.html">Post-test Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-ii.html">Projects II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops-ii.html">For Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nested-loops.html">Nested Loops</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../file-rw.html">File RW</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Letter Revisited</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#what-you-should-see">What You Should See</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#frequently-asked-questions">Frequently-Asked Questions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="high-score.html">High Score</a></li>
+<li class="toctree-l2"><a class="reference internal" href="simple-file-read.html">Simple File Reading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="summing-three-numbers-from-a-file.html">Summing Three Numbers from a File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="summing-three-numbers-from-any-file.html">Summing Three Numbers from Any File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="displaying-a-file.html">Displaying a File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="summing-several-numbers-from-any-file.html">Summing Several Numbers from Any File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="simple-web-scrape.html">Simple Web Scrape</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a-little-puzzle.html">A Little Puzzle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="vowel-capitalization.html">Vowel Capitalization</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../lists.html">Lists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting.html">Sorting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../records.html">Records</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting-ii.html">Sorting II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../objects.html">Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arraylists.html">ArrayLists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iii.html">Projects III</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-euler.html">Project Euler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics-ii.html">Graphics II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iiii.html">Projects IIII</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Python Fundamental Exercises</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../file-rw.html">File RW</a> &raquo;</li>
+        
+      <li>Letter Revisited</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/exercises/letter-revisited.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="letter-revisited">
+<h1>Letter Revisited<a class="headerlink" href="#letter-revisited" title="Permalink to this headline">¶</a></h1>
+<p>Rewrite <a class="reference internal" href="letter-to-principal.html"><span class="doc">A Letter to Your Principal</span></a>,
+but modify it so that instead of displaying the letter on the screen,
+it puts it in a file.</p>
+<p>When you run your program, it will appear to do nothing. But if you
+wrote it correctly, it should have created a file in the same directory as your Python program called <code class="docutils literal notranslate"><span class="pre">letter.txt</span></code>  which you can then view using a text editor.</p>
+<p>Name your Python program <code class="docutils literal notranslate"><span class="pre">letter_revisited.py</span></code></p>
+<div class="section" id="what-you-should-see">
+<h2>What You Should See<a class="headerlink" href="#what-you-should-see" title="Permalink to this headline">¶</a></h2>
+<p>After running your program, we can find and open <code class="docutils literal notranslate"><span class="pre">letter.txt</span></code>. If you open it, it should look like:</p>
+<p><img alt="screenshot of letter.txt opened in Notepad" src="../_images/letter.png" /></p>
+</div>
+<div class="section" id="frequently-asked-questions">
+<h2>Frequently-Asked Questions<a class="headerlink" href="#frequently-asked-questions" title="Permalink to this headline">¶</a></h2>
+<hr class="docutils" />
+<p>©2021 Daniel Gallo</p>
+<p>This assignment is licensed under a
+<a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License</a>.</p>
+<p><img alt="Creative Commons License" src="../_images/by-nc-sa.png" /></p>
+<p>Adapted for Python from Graham Mitchell’s <a class="reference external" href="https://programmingbydoing.com/">Programming By Doing</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="high-score.html" class="btn btn-neutral float-right" title="High Score" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../file-rw.html" class="btn btn-neutral float-left" title="File RW" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Mr. Gallo.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

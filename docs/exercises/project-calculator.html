@@ -1,0 +1,348 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Project: Calculator &mdash; Python Fundamental Exercises  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="For Loops II" href="../for-loops-ii.html" />
+    <link rel="prev" title="Baby Calculator" href="baby-calculator.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Python Fundamental Exercises
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basics-and-printing.html">Basics and Printing (500 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../variables.html">Variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../keyboard-input.html">Keyboard Input</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements.html">If Statements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guis.html">GUIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements-ii.html">If Statements II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../random-numbers.html">Random Numbers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops.html">While Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops.html">Post-test Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops-ii.html">While Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops.html">For Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects.html">Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics.html">Graphics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functions.html">Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops-ii.html">Post-test Loops II</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../projects-ii.html">Projects II</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="baby-calculator.html">Baby Calculator</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Project: Calculator</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#what-to-avoid">What to avoid</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops-ii.html">For Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nested-loops.html">Nested Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../file-rw.html">File RW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists.html">Lists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting.html">Sorting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../records.html">Records</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting-ii.html">Sorting II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../objects.html">Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arraylists.html">ArrayLists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iii.html">Projects III</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-euler.html">Project Euler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics-ii.html">Graphics II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iiii.html">Projects IIII</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Python Fundamental Exercises</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../projects-ii.html">Projects II</a> &raquo;</li>
+        
+      <li>Project: Calculator</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/exercises/project-calculator.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="project-calculator">
+<h1>Project: Calculator<a class="headerlink" href="#project-calculator" title="Permalink to this headline">¶</a></h1>
+<p>Write a calculator program. A minimal calculator will support
+the following functions:</p>
+<ul class="simple">
+<li><p>numbers with decimals (not just integers)</p></li>
+<li><p>addition (<code class="docutils literal notranslate"><span class="pre">1</span> <span class="pre">+</span> <span class="pre">2</span></code> is <code class="docutils literal notranslate"><span class="pre">3</span></code>)</p></li>
+<li><p>subtraction (<code class="docutils literal notranslate"><span class="pre">12</span> <span class="pre">-</span> <span class="pre">4</span></code> is <code class="docutils literal notranslate"><span class="pre">8</span></code>)</p></li>
+<li><p>multiplication (<code class="docutils literal notranslate"><span class="pre">33</span> <span class="pre">*</span> <span class="pre">2</span></code> is <code class="docutils literal notranslate"><span class="pre">66</span></code>)</p></li>
+<li><p>division (<code class="docutils literal notranslate"><span class="pre">3</span> <span class="pre">/</span> <span class="pre">8</span></code> is <code class="docutils literal notranslate"><span class="pre">0.375</span></code>)</p></li>
+<li><p>exponents (<code class="docutils literal notranslate"><span class="pre">2</span> <span class="pre">^</span> <span class="pre">3</span></code> is <code class="docutils literal notranslate"><span class="pre">8</span></code>)</p></li>
+<li><p>error messages when you do something wrong</p></li>
+</ul>
+<p>Name your file <code class="docutils literal notranslate"><span class="pre">calculator.py</span></code></p>
+<p>Your calculator should keep on running until explicitly told to quit. I suggest typing a zero as the first operand to cause it to quit, i.e.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&gt;</span><span class="mi">2</span> <span class="o">+</span> <span class="mi">3</span>
+<span class="mi">5</span>
+<span class="o">&gt;</span><span class="mi">4</span> <span class="o">*</span> <span class="mi">9</span>
+<span class="mi">36</span>
+<span class="o">&gt;</span><span class="mi">0</span> <span class="o">+</span> <span class="mi">2</span>
+<span class="n">Bye</span><span class="p">,</span> <span class="n">now</span><span class="o">.</span>
+</pre></div>
+</div>
+<p>Programs may support other features if desired. Suggested other
+functions to add include:</p>
+<ul class="simple">
+<li><p>modulus (10 % 3 is 1)</p></li>
+<li><p>factorials (4 ! is 4<em>3</em>2*1, a.k.a. 24)</p></li>
+<li><p>trigonometric functions (sin,cos,tan)</p></li>
+<li><p>square roots</p></li>
+<li><p>negation (- -3 is 3)</p></li>
+<li><p>angles in degrees or radians</p></li>
+<li><p>a help feature to display legal syntax and supported functions</p></li>
+<li><p>previous result used as first operand</p></li>
+<li><p>the ability to store and recall results</p></li>
+<li><p>rounding</p></li>
+<li><p>logarithms</p></li>
+<li><p>arbitrary roots</p></li>
+<li><p>conversion from base 10 to binary (for integers only)</p></li>
+</ul>
+<p>Some students may wonder how to deal with the first operand possibly being a character or a number. That is, how can your program support phrases like <code class="docutils literal notranslate"><span class="pre">&quot;2</span> <span class="pre">+</span> <span class="pre">3&quot;</span></code> (<code class="docutils literal notranslate"><span class="pre">float</span> <span class="pre">str</span> <span class="pre">flost</span></code>) <em>and</em> <code class="docutils literal notranslate"><span class="pre">&quot;sin</span> <span class="pre">30&quot;</span></code> (<code class="docutils literal notranslate"><span class="pre">str</span> <span class="pre">float</span></code>) at the same time? Well, if you read in <em>everything</em> as a <code class="docutils literal notranslate"><span class="pre">str</span></code>, then there are some python string methods that may be useful to you.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;56&quot;</span><span class="o">.</span><span class="n">isdigit</span><span class="p">()</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;hello&quot;</span><span class="o">.</span><span class="n">isdigit</span><span class="p">()</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="s2">&quot;hello&quot;</span><span class="o">.</span><span class="n">isalpha</span><span class="p">()</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+<p>Checking float numbers is a bit more tricky. Use this function:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">isfloat</span><span class="p">(</span><span class="n">s</span><span class="p">:</span> <span class="nb">str</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="nb">bool</span><span class="p">:</span>
+    <span class="sd">&quot;&quot;&quot;Checks if a string contains exclusively a float number.</span>
+<span class="sd">    </span>
+<span class="sd">    Note: if the string contains an integer,</span>
+<span class="sd">    this function will return False.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        s: the string to check</span>
+<span class="sd">    </span>
+<span class="sd">    Returns:</span>
+<span class="sd">        True if the string exclusively contains a float.</span>
+<span class="sd">        False otherwise.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">assert</span> <span class="n">s</span><span class="o">.</span><span class="n">isdigit</span><span class="p">()</span> <span class="ow">is</span> <span class="kc">False</span>
+        <span class="nb">float</span><span class="p">(</span><span class="n">s</span><span class="p">)</span>
+    <span class="k">except</span> <span class="p">(</span><span class="ne">ValueError</span><span class="p">,</span> <span class="ne">AssertionError</span><span class="p">):</span>
+        <span class="k">return</span> <span class="kc">False</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">True</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+<div class="section" id="what-to-avoid">
+<h2>What to avoid<a class="headerlink" href="#what-to-avoid" title="Permalink to this headline">¶</a></h2>
+<p>Any program which presents me with a screen like the following will
+not receive a very good score.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Enter</span> <span class="n">the</span> <span class="n">function</span> <span class="n">you</span> <span class="n">wish</span> <span class="n">to</span> <span class="n">perform</span><span class="o">.</span>
+<span class="mi">1</span><span class="p">)</span> <span class="n">addition</span>
+<span class="mi">2</span><span class="p">)</span> <span class="n">subtraction</span>
+<span class="mi">3</span><span class="p">)</span> <span class="n">multiplication</span>
+<span class="mi">4</span><span class="p">)</span> <span class="n">division</span>
+<span class="mi">5</span><span class="p">)</span> <span class="n">quit</span>
+<span class="n">Your</span> <span class="n">choice</span><span class="p">:</span>
+</pre></div>
+</div>
+<p>Also, the same fate applies to any program that ever presents me with
+the following message:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span> Would you like to calculate again? (y/n) 
+</pre></div>
+</div>
+<p>For some extra points, re-use as many functions as possible. For example, multiplication is really only addition but done multiple times.</p>
+<hr class="docutils" />
+<p>©2021 Daniel Gallo</p>
+<p>This assignment is licensed under a
+<a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License</a>.</p>
+<p><img alt="Creative Commons License" src="../_images/by-nc-sa.png" /></p>
+<p>Adapted for Python from Graham Mitchell’s <a class="reference external" href="https://programmingbydoing.com/">Programming By Doing</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../for-loops-ii.html" class="btn btn-neutral float-right" title="For Loops II" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="baby-calculator.html" class="btn btn-neutral float-left" title="Baby Calculator" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Mr. Gallo.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

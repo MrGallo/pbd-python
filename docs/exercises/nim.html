@@ -1,0 +1,452 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Nim &mdash; Python Fundamental Exercises  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="For Loops" href="../for-loops.html" />
+    <link rel="prev" title="Baby Nim" href="baby-nim.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Python Fundamental Exercises
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basics-and-printing.html">Basics and Printing (500 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../variables.html">Variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../keyboard-input.html">Keyboard Input</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements.html">If Statements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guis.html">GUIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements-ii.html">If Statements II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../random-numbers.html">Random Numbers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops.html">While Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops.html">Post-test Loops</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../while-loops-ii.html">While Loops II</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="safe-square-root.html">Safe Square Root</a></li>
+<li class="toctree-l2"><a class="reference internal" href="right-triangle-checker.html">Right Triangle Checker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="collatz-sequence.html">Collatz Sequence</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adventure2.html">Adventure 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="baby-nim.html">Baby Nim</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Nim</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#sample-output">Sample Output</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bonus-1-cheat-protection">Bonus #1 - Cheat Protection</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bonus-2-dignity">Bonus #2 - Dignity</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bonus-3-fancy-display-rows">Bonus #3 - Fancy Display (Rows)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bonus-4-fancy-display-columns">Bonus #4 - Fancy Display (Columns)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#bonus-5-computer-opponent">Bonus #5 - Computer Opponent</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops.html">For Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects.html">Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics.html">Graphics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functions.html">Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops-ii.html">Post-test Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-ii.html">Projects II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops-ii.html">For Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nested-loops.html">Nested Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../file-rw.html">File RW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists.html">Lists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting.html">Sorting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../records.html">Records</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting-ii.html">Sorting II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../objects.html">Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arraylists.html">ArrayLists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iii.html">Projects III</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-euler.html">Project Euler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics-ii.html">Graphics II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iiii.html">Projects IIII</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Python Fundamental Exercises</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../while-loops-ii.html">While Loops II</a> &raquo;</li>
+        
+      <li>Nim</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/exercises/nim.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="nim">
+<h1>Nim<a class="headerlink" href="#nim" title="Permalink to this headline">¶</a></h1>
+<p>Nim is a strategy game between two players.</p>
+<ol class="simple">
+<li><p>Start by placing counters (coins or toothpicks or something) into 3 piles.</p></li>
+<li><p>Player #1 picks a pile, then removes one or more counters from that pile. (It’s okay to take the whole pile.)</p></li>
+<li><p>Player #2 picks a pile, then removes one or more counters from that pile.</p></li>
+<li><p>Player #1 plays again. (It’s okay to choose a different pile this time.)</p></li>
+<li><p>Whichever player is forced to take the last counter is the LOSER.</p></li>
+</ol>
+<p>Write a program that allows two human players to play Nim against each other. The program should detect when the last counter has been taken and declare a winner.</p>
+<p>At first, don’t worry about detecting cheating. That is one of the bonus options.</p>
+<p>Name your file <code class="docutils literal notranslate"><span class="pre">063c_nim.py</span></code></p>
+<div class="section" id="sample-output">
+<h2>Sample Output<a class="headerlink" href="#sample-output" title="Permalink to this headline">¶</a></h2>
+<p>Here is an example game, with starting piles of 3, 4, and 5 counters.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Player 1, enter your name: Alice
+Player 2, enter your name: Bob
+
+A: 3	B: 4	C: 5
+
+Alice, choose a pile: A
+How many to remove from pile A: 2
+
+A: 1	B: 4	C: 5
+
+Bob, choose a pile: C
+How many to remove from pile C: 3
+
+A: 1	B: 4	C: 2
+
+Alice, choose a pile: B
+How many to remove from pile B: 1
+
+A: 1	B: 3	C: 2
+
+Bob, choose a pile: B
+How many to remove from pile B: 1
+
+A: 1	B: 2	C: 2
+
+Alice, choose a pile: A
+How many to remove from pile A: 1
+
+A: 0	B: 2	C: 2
+
+Bob, choose a pile: B
+How many to remove from pile B: 1
+
+A: 0	B: 1	C: 2
+
+Alice, choose a pile: C
+How many to remove from pile C: 2
+
+A: 0	B: 1	C: 0
+
+Bob, choose a pile: B
+How many to remove from pile B: 1
+
+A: 0	B: 0	C: 0
+
+Alice, there are no counters left, so you WIN!
+</pre></div>
+</div>
+</div>
+<div class="section" id="bonus-1-cheat-protection">
+<h2>Bonus #1 - Cheat Protection<a class="headerlink" href="#bonus-1-cheat-protection" title="Permalink to this headline">¶</a></h2>
+<p>For +30 bonus points, prevent the users from doing anything bad:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>...a game already in progress.
+
+A: 0	B: 1	C: 0
+
+Bob, choose a pile: A
+
+Nice try, Bob. That pile is empty. Choose again: B
+How many to remove from pile B: 0
+
+You must choose at least 1. How many? 1
+
+A: 0	B: 0	C: 0
+</pre></div>
+</div>
+<p>And what about this?</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span><span class="p">:</span> <span class="mi">1</span>	<span class="n">B</span><span class="p">:</span> <span class="mi">4</span>	<span class="n">C</span><span class="p">:</span> <span class="mi">5</span>
+
+<span class="n">Bob</span><span class="p">,</span> <span class="n">choose</span> <span class="n">a</span> <span class="n">pile</span><span class="p">:</span> <span class="n">C</span>
+<span class="n">How</span> <span class="n">many</span> <span class="n">to</span> <span class="n">remove</span> <span class="kn">from</span> <span class="nn">pile</span> <span class="n">C</span><span class="p">:</span> <span class="mi">8</span>
+
+<span class="n">Pile</span> <span class="n">C</span> <span class="n">doesn</span><span class="s1">&#39;t have that many. Try again: 3</span>
+
+<span class="n">A</span><span class="p">:</span> <span class="mi">1</span>	<span class="n">B</span><span class="p">:</span> <span class="mi">4</span>	<span class="n">C</span><span class="p">:</span> <span class="mi">2</span>
+</pre></div>
+</div>
+<p>And don’t forget this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>A: 1	B: 4	C: 5
+
+Bob, choose a pile: C
+How many to remove from pile C: -2
+
+You must choose at least 1. How many? 3
+
+A: 1	B: 4	C: 2
+</pre></div>
+</div>
+</div>
+<div class="section" id="bonus-2-dignity">
+<h2>Bonus #2 - Dignity<a class="headerlink" href="#bonus-2-dignity" title="Permalink to this headline">¶</a></h2>
+<p>For +10 bonus points, make your program detect when there is only one counter left and declare the winner one turn earlier.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>...a game already in progress.
+
+A: 0	B: 2	C: 2
+
+Bob, choose a pile: B
+How many to remove from pile B: 1
+
+A: 0	B: 1	C: 2
+
+Alice, choose a pile: C
+How many to remove from pile C: 2
+
+A: 0	B: 1	C: 0
+
+Bob, you must take the last remaining counter, so
+you lose. Alice wins!
+</pre></div>
+</div>
+</div>
+<div class="section" id="bonus-3-fancy-display-rows">
+<h2>Bonus #3 - Fancy Display (Rows)<a class="headerlink" href="#bonus-3-fancy-display-rows" title="Permalink to this headline">¶</a></h2>
+<p>For +15 bonus points, visually display the counters in rows instead of just showing a number. You must use loops for this.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">A</span><span class="p">:</span> <span class="o">***</span>
+<span class="n">B</span><span class="p">:</span> <span class="o">****</span>
+<span class="n">C</span><span class="p">:</span> <span class="o">*****</span>
+
+<span class="n">Alice</span><span class="p">,</span> <span class="n">choose</span> <span class="n">a</span> <span class="n">pile</span><span class="p">:</span> <span class="n">A</span>
+<span class="n">How</span> <span class="n">many</span> <span class="n">to</span> <span class="n">remove</span> <span class="kn">from</span> <span class="nn">pile</span> <span class="n">A</span><span class="p">:</span> <span class="mi">2</span>
+
+<span class="n">A</span><span class="p">:</span> <span class="o">*</span>
+<span class="n">B</span><span class="p">:</span> <span class="o">****</span>
+<span class="n">C</span><span class="p">:</span> <span class="o">*****</span>
+
+<span class="n">Bob</span><span class="p">,</span> <span class="n">choose</span> <span class="n">a</span> <span class="n">pile</span><span class="p">:</span> <span class="n">C</span>
+<span class="n">How</span> <span class="n">many</span> <span class="n">to</span> <span class="n">remove</span> <span class="kn">from</span> <span class="nn">pile</span> <span class="n">C</span><span class="p">:</span> <span class="mi">3</span>
+
+<span class="n">A</span><span class="p">:</span> <span class="o">*</span>
+<span class="n">B</span><span class="p">:</span> <span class="o">****</span>
+<span class="n">C</span><span class="p">:</span> <span class="o">**</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="bonus-4-fancy-display-columns">
+<h2>Bonus #4 - Fancy Display (Columns)<a class="headerlink" href="#bonus-4-fancy-display-columns" title="Permalink to this headline">¶</a></h2>
+<p>For +25 bonus points, visually display the counters in columns. You must use a loop for this.</p>
+<p>This is quite difficult.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+        <span class="o">*</span>
+      <span class="o">*</span> <span class="o">*</span>
+    <span class="o">*</span> <span class="o">*</span> <span class="o">*</span>
+    <span class="o">*</span> <span class="o">*</span> <span class="o">*</span>
+    <span class="o">*</span> <span class="o">*</span> <span class="o">*</span>
+    <span class="n">A</span> <span class="n">B</span> <span class="n">C</span>
+
+<span class="n">Alice</span><span class="p">,</span> <span class="n">choose</span> <span class="n">a</span> <span class="n">pile</span><span class="p">:</span> <span class="n">A</span>
+<span class="n">How</span> <span class="n">many</span> <span class="n">to</span> <span class="n">remove</span> <span class="kn">from</span> <span class="nn">pile</span> <span class="n">A</span><span class="p">:</span> <span class="mi">2</span>
+
+        <span class="o">*</span>
+      <span class="o">*</span> <span class="o">*</span>
+      <span class="o">*</span> <span class="o">*</span>
+      <span class="o">*</span> <span class="o">*</span>
+    <span class="o">*</span> <span class="o">*</span> <span class="o">*</span>
+    <span class="n">A</span> <span class="n">B</span> <span class="n">C</span>
+
+<span class="n">Bob</span><span class="p">,</span> <span class="n">choose</span> <span class="n">a</span> <span class="n">pile</span><span class="p">:</span> <span class="n">C</span>
+<span class="n">How</span> <span class="n">many</span> <span class="n">to</span> <span class="n">remove</span> <span class="kn">from</span> <span class="nn">pile</span> <span class="n">C</span><span class="p">:</span> <span class="mi">3</span>
+ 
+      <span class="o">*</span> 
+      <span class="o">*</span> 
+      <span class="o">*</span> <span class="o">*</span>
+    <span class="o">*</span> <span class="o">*</span> <span class="o">*</span>
+    <span class="n">A</span> <span class="n">B</span> <span class="n">C</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="bonus-5-computer-opponent">
+<h2>Bonus #5 - Computer Opponent<a class="headerlink" href="#bonus-5-computer-opponent" title="Permalink to this headline">¶</a></h2>
+<p>For +50 bonus points, allow one human player to play against a computer opponent. The computer must attempt to win and not break any rules.</p>
+<p>It is possible to make a computer player that ALWAYS wins if it goes first. The <a class="reference external" href="https://en.wikipedia.org/wiki/Nim">Wikipedia article for Nim</a> explains the theory.</p>
+<p>However, your program does not need to use a winning strategy to earn bonus points: it merely must make only legal moves.</p>
+<hr class="docutils" />
+<p>©2013 <a class="reference external" href="(https://programmingbydoing.com/)">Graham Mitchell</a></p>
+<p>This assignment is licensed under a
+<a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License</a>.</p>
+<p><img alt="Creative Commons License" src="../_images/by-nc-sa.png" /></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../for-loops.html" class="btn btn-neutral float-right" title="For Loops" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="baby-nim.html" class="btn btn-neutral float-left" title="Baby Nim" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Mr. Gallo.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

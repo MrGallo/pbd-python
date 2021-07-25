@@ -1,0 +1,308 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Variables and Names &mdash; Python Fundamental Exercises  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="More Variables and Printing" href="more-variables-and-printing.html" />
+    <link rel="prev" title="Variables" href="../variables.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Python Fundamental Exercises
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basics-and-printing.html">Basics and Printing (500 points)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../variables.html">Variables</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Variables and Names</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#what-you-should-see">What You Should See</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#what-you-should-do-on-your-own">What You Should Do on Your Own</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="more-variables-and-printing.html">More Variables and Printing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="using-variables.html">Using Variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="still-using-variables.html">Still Using Variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="your-schedule.html">Your Schedule</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../keyboard-input.html">Keyboard Input</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements.html">If Statements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guis.html">GUIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements-ii.html">If Statements II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../random-numbers.html">Random Numbers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops.html">While Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops.html">Post-test Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops-ii.html">While Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops.html">For Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects.html">Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics.html">Graphics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functions.html">Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops-ii.html">Post-test Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-ii.html">Projects II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops-ii.html">For Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nested-loops.html">Nested Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../file-rw.html">File RW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists.html">Lists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting.html">Sorting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../records.html">Records</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting-ii.html">Sorting II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../objects.html">Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arraylists.html">ArrayLists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iii.html">Projects III</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-euler.html">Project Euler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics-ii.html">Graphics II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iiii.html">Projects IIII</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Python Fundamental Exercises</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../variables.html">Variables</a> &raquo;</li>
+        
+      <li>Variables and Names</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/exercises/variables-and-names.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="variables-and-names">
+<h1>Variables and Names<a class="headerlink" href="#variables-and-names" title="Permalink to this headline">¶</a></h1>
+<p>Every serious computer program will deal with an awful lot of data and we need somewhere to store all that information. The computer will store your important data inside variables. Think of them as boxes (or containers) with a label on them (a name).</p>
+<p>Because code can get quite long and complex, it is up to us to write code that not only works, but, code that is readable and understandable. We can help make our code readable by chosing descriptive variable names.</p>
+<p>Have a look at the code below. See if you can guess what the output might be. To do this, I would start at the <code class="docutils literal notranslate"><span class="pre">print</span></code> functions and look up the data stored in the variables. You can have a look at the “What you should see” section to check if you guessed properly.</p>
+<p>Type out the code below and get it to run. <strong>Do not copy and paste</strong>.</p>
+<p>Name the file: <code class="docutils literal notranslate"><span class="pre">variables_and_names.py</span></code></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">team</span> <span class="o">=</span> <span class="s2">&quot;Toronto Blue Jays&quot;</span>
+<span class="n">current_date</span> <span class="o">=</span> <span class="s2">&quot;July 18, 2021&quot;</span>
+<span class="n">player</span> <span class="o">=</span> <span class="s2">&quot;Vladimir Guerrero Jr.&quot;</span>
+<span class="n">home_runs_to_date</span> <span class="o">=</span> <span class="mi">31</span>
+<span class="n">games_played</span> <span class="o">=</span> <span class="mi">88</span>
+<span class="n">total_season_games</span> <span class="o">=</span> <span class="mi">162</span>
+<span class="n">home_run_record</span> <span class="o">=</span> <span class="mi">73</span>
+
+<span class="n">games_remaining</span> <span class="o">=</span> <span class="n">total_season_games</span> <span class="o">-</span> <span class="n">games_played</span>
+<span class="n">home_runs_per_game</span> <span class="o">=</span> <span class="n">home_runs_to_date</span> <span class="o">/</span> <span class="n">games_played</span>
+<span class="n">projected_home_runs</span> <span class="o">=</span> <span class="n">home_runs_per_game</span> <span class="o">*</span> <span class="n">total_season_games</span>
+<span class="n">can_break_record</span> <span class="o">=</span> <span class="n">projected_home_runs</span> <span class="o">&gt;</span> <span class="n">home_run_record</span>
+
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">player</span><span class="si">}</span><span class="s2"> of the </span><span class="si">{</span><span class="n">team</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;currently has </span><span class="si">{</span><span class="n">home_runs_to_date</span><span class="si">}</span><span class="s2"> home runs as of </span><span class="si">{</span><span class="n">current_date</span><span class="si">}</span><span class="s2">.&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;The current MLB record for most home runs in a season is </span><span class="si">{</span><span class="n">home_run_record</span><span class="si">}</span><span class="s2">.&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;With </span><span class="si">{</span><span class="n">games_remaining</span><span class="si">}</span><span class="s2"> games remaining and an average of </span><span class="si">{</span><span class="n">home_runs_per_game</span><span class="si">}</span><span class="s2"> home runs per game,&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;it is </span><span class="si">{</span><span class="n">can_break_record</span><span class="si">}</span><span class="s2"> that he is on pace to break the record.&quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">player</span><span class="si">}</span><span class="s2"> is projected to hit </span><span class="si">{</span><span class="n">projected_home_runs</span><span class="si">}</span><span class="s2"> home runs this season.&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="section" id="what-you-should-see">
+<h2>What You Should See<a class="headerlink" href="#what-you-should-see" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Vladimir</span> <span class="n">Guerrero</span> <span class="n">Jr</span><span class="o">.</span> <span class="n">of</span> <span class="n">the</span> <span class="n">Toronto</span> <span class="n">Blue</span> <span class="n">Jays</span>
+<span class="n">currently</span> <span class="n">has</span> <span class="mi">31</span> <span class="n">home</span> <span class="n">runs</span> <span class="k">as</span> <span class="n">of</span> <span class="n">July</span> <span class="mi">18</span><span class="p">,</span> <span class="mf">2021.</span>
+<span class="n">The</span> <span class="n">current</span> <span class="n">MLB</span> <span class="n">record</span> <span class="k">for</span> <span class="n">most</span> <span class="n">home</span> <span class="n">runs</span> <span class="ow">in</span> <span class="n">a</span> <span class="n">season</span> <span class="ow">is</span> <span class="mf">73.</span>
+<span class="n">With</span> <span class="mi">74</span> <span class="n">games</span> <span class="n">remaining</span> <span class="ow">and</span> <span class="n">an</span> <span class="n">average</span> <span class="n">of</span> <span class="mf">0.3522727272727273</span> <span class="n">home</span> <span class="n">runs</span> <span class="n">per</span> <span class="n">game</span><span class="p">,</span>
+<span class="n">it</span> <span class="ow">is</span> <span class="kc">False</span> <span class="n">that</span> <span class="n">he</span> <span class="ow">is</span> <span class="n">on</span> <span class="n">pace</span> <span class="n">to</span> <span class="k">break</span> <span class="n">the</span> <span class="n">record</span><span class="o">.</span>
+<span class="n">Vladimir</span> <span class="n">Guerrero</span> <span class="n">Jr</span><span class="o">.</span> <span class="ow">is</span> <span class="n">projected</span> <span class="n">to</span> <span class="n">hit</span> <span class="mf">57.06818181818182</span> <span class="n">home</span> <span class="n">runs</span> <span class="n">this</span> <span class="n">season</span><span class="o">.</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="what-you-should-do-on-your-own">
+<h2>What You Should Do on Your Own<a class="headerlink" href="#what-you-should-do-on-your-own" title="Permalink to this headline">¶</a></h2>
+<p>Assignments turned in <em>without</em> these things will not receive any points.</p>
+<ol class="simple">
+<li><p>Place a comment above each variable assignment explaining what is being calculated and what is being stored in the variable.</p></li>
+<li><p>My code has two empty lines in it. Explain why I might have done this and explain how I chose to group specific lines of code.</p></li>
+<li><p>Use the <code class="docutils literal notranslate"><span class="pre">round()</span></code> function to tidy up the <em>printing</em> of the values (not the values being stored in the variables).</p></li>
+<li><p>Without knowing any of the values stored in the variables, how do you know the line <code class="docutils literal notranslate"><span class="pre">games_remaining</span> <span class="pre">=</span> <span class="pre">total_season_games</span> <span class="pre">-</span> <span class="pre">games_played</span></code> must be correct?</p></li>
+</ol>
+<hr class="docutils" />
+<p>©2021 Daniel Gallo</p>
+<p>This assignment is licensed under a
+<a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License</a>.</p>
+<p><img alt="Creative Commons License" src="../_images/by-nc-sa.png" /></p>
+<p>Adapted for Python from Graham Mitchell’s <a class="reference external" href="https://programmingbydoing.com/">Programming By Doing</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="more-variables-and-printing.html" class="btn btn-neutral float-right" title="More Variables and Printing" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../variables.html" class="btn btn-neutral float-left" title="Variables" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Mr. Gallo.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

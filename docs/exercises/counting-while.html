@@ -1,0 +1,346 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Counting with a While Loop &mdash; Python Fundamental Exercises  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="PIN Lockout" href="pin-lockout.html" />
+    <link rel="prev" title="Dice Doubles" href="dice-doubles.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Python Fundamental Exercises
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basics-and-printing.html">Basics and Printing (500 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../variables.html">Variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../keyboard-input.html">Keyboard Input</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements.html">If Statements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guis.html">GUIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements-ii.html">If Statements II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../random-numbers.html">Random Numbers</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../while-loops.html">While Loops</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="enter-pin.html">Enter Your PIN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="keep-guessing.html">Keep Guessing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dice-doubles.html">Dice Doubles</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Counting with a While Loop</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#what-you-should-see">What You Should See</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#what-you-should-do-on-your-own">What You Should Do on Your Own</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pin-lockout.html">PIN Lockout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="number-guessing-with-a-counter.html">Number-Guessing with a Counter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hi-lo-with-limited-tries.html">Hi-Lo with Limited Tries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adding-values-in-a-loop.html">Adding Values in a Loop</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops.html">Post-test Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops-ii.html">While Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops.html">For Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects.html">Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics.html">Graphics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functions.html">Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops-ii.html">Post-test Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-ii.html">Projects II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops-ii.html">For Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nested-loops.html">Nested Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../file-rw.html">File RW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists.html">Lists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting.html">Sorting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../records.html">Records</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting-ii.html">Sorting II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../objects.html">Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arraylists.html">ArrayLists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iii.html">Projects III</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-euler.html">Project Euler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics-ii.html">Graphics II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iiii.html">Projects IIII</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Python Fundamental Exercises</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../while-loops.html">While Loops</a> &raquo;</li>
+        
+      <li>Counting with a While Loop</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/exercises/counting-while.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="counting-with-a-while-loop">
+<h1>Counting with a While Loop<a class="headerlink" href="#counting-with-a-while-loop" title="Permalink to this headline">¶</a></h1>
+<p>Type in the following code, and get it to run. This assignment shows you
+how we can use a <code class="docutils literal notranslate"><span class="pre">while</span></code> loop to make something repeat an
+exact number of times.</p>
+<p>Name the file: <code class="docutils literal notranslate"><span class="pre">counting_while.py</span></code></p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Type in a message, and I&#39;ll display it five times.&quot;</span><span class="p">)</span>
+
+<span class="n">message</span> <span class="o">=</span> <span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Message: &quot;</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">()</span>
+
+<span class="n">n</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">while</span> <span class="n">n</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">:</span>
+    <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;</span><span class="si">{</span><span class="n">n</span> <span class="o">+</span> <span class="mi">1</span><span class="si">}</span><span class="s2">. </span><span class="si">{</span><span class="n">message</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="n">n</span> <span class="o">+=</span> <span class="mi">1</span>
+</pre></div>
+</div>
+<p>Normally, <code class="docutils literal notranslate"><span class="pre">while</span></code> loops are best for repeating <em>as long as</em>
+something is true:</p>
+<ul class="simple">
+<li><p>Keep going as long as they haven’t guessed it.</p></li>
+<li><p>Keep going as long as you haven’t got doubles.</p></li>
+<li><p>Keep going as long as they keep typing in a negative number.</p></li>
+<li><p>Keep going as long as they haven’t typed in a zero.</p></li>
+</ul>
+<p>But sometimes, we know in advance how many times we want to do something.</p>
+<ul class="simple">
+<li><p>Do this ten times.</p></li>
+<li><p>Do this five times.</p></li>
+<li><p>Pick a random number, and do it that many times.</p></li>
+<li><p>Take this list of items, and do it one time for each item in the list.</p></li>
+</ul>
+<p>We can do that sort of thing with a <code class="docutils literal notranslate"><span class="pre">while</span></code> loop, but we have
+to use a counter. A counter is a number variable (<code class="docutils literal notranslate"><span class="pre">int</span></code>) that starts with a value of <code class="docutils literal notranslate"><span class="pre">0</span></code>, and then we add <code class="docutils literal notranslate"><span class="pre">1</span></code> to it whenever something happens. So, here, we’re going to be adding <code class="docutils literal notranslate"><span class="pre">1</span></code> to the counter everytime we repeat the loop. And when the counter reaches a predetermined value, we’ll stop looping.</p>
+<div class="section" id="what-you-should-see">
+<h2>What You Should See<a class="headerlink" href="#what-you-should-see" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Type in a message, and I&#39;ll display it five times.
+Message: I will not swear in class
+
+1. I will not swear in class
+2. I will not swear in class
+3. I will not swear in class
+4. I will not swear in class
+5. I will not swear in class
+</pre></div>
+</div>
+</div>
+<div class="section" id="what-you-should-do-on-your-own">
+<h2>What You Should Do on Your Own<a class="headerlink" href="#what-you-should-do-on-your-own" title="Permalink to this headline">¶</a></h2>
+<p>Assignments turned in <em>without</em> these things will receive
+no credit.</p>
+<ol>
+<li><p>What does <code class="docutils literal notranslate"><span class="pre">n</span> <span class="pre">+=</span> <span class="pre">1</span></code> do? Remove it and see what happens. (Then put it back.) <code class="docutils literal notranslate"><span class="pre">ctrl</span> <span class="pre">+</span> <span class="pre">c</span></code> may come in handy.</p></li>
+<li><p>Change the code so that the loop repeats ten times instead of five.</p></li>
+<li><p>See if you can change the code so that the message still prints ten times, but the numbers in front count by tens, like so:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Type</span> <span class="ow">in</span> <span class="n">a</span> <span class="n">message</span><span class="p">,</span> <span class="ow">and</span> <span class="n">I</span><span class="s1">&#39;ll display it ten times.</span>
+<span class="n">Message</span><span class="p">:</span> <span class="n">I</span><span class="s1">&#39;m sending out an S.O.S.</span>
+
+<span class="mf">10.</span> <span class="n">I</span><span class="s1">&#39;m sending out an S.O.S.</span>
+<span class="mf">20.</span> <span class="n">I</span><span class="s1">&#39;m sending out an S.O.S.</span>
+<span class="mf">30.</span> <span class="n">I</span><span class="s1">&#39;m sending out an S.O.S.</span>
+<span class="mf">40.</span> <span class="n">I</span><span class="s1">&#39;m sending out an S.O.S.</span>
+<span class="mf">50.</span> <span class="n">I</span><span class="s1">&#39;m sending out an S.O.S.</span>
+<span class="mf">60.</span> <span class="n">I</span><span class="s1">&#39;m sending out an S.O.S.</span>
+<span class="mf">70.</span> <span class="n">I</span><span class="s1">&#39;m sending out an S.O.S.</span>
+<span class="mf">80.</span> <span class="n">I</span><span class="s1">&#39;m sending out an S.O.S.</span>
+<span class="mf">90.</span> <span class="n">I</span><span class="s1">&#39;m sending out an S.O.S.</span>
+<span class="mf">100.</span> <span class="n">I</span><span class="s1">&#39;m sending out an S.O.S.</span>
+</pre></div>
+</div>
+</li>
+<li><p>Change the code so that it asks the person how many times to display the message. Then, print it that many times. Still count by tens.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Type in a message, and I&#39;ll display it several times.
+Message: HELLO! My name is Inigo Montoya. You killed my father; prepare to die.
+
+How many times? 3
+10. HELLO! My name is Inigo Montoya. You killed my father; prepare to die.
+20. HELLO! My name is Inigo Montoya. You killed my father; prepare to die.
+30. HELLO! My name is Inigo Montoya. You killed my father; prepare to die.
+</pre></div>
+</div>
+</li>
+</ol>
+<hr class="docutils" />
+<p>©2021 Daniel Gallo</p>
+<p>This assignment is licensed under a
+<a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License</a>.</p>
+<p><img alt="Creative Commons License" src="../_images/by-nc-sa.png" /></p>
+<p>Adapted for Python from Graham Mitchell’s <a class="reference external" href="https://programmingbydoing.com/">Programming By Doing</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="pin-lockout.html" class="btn btn-neutral float-right" title="PIN Lockout" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="dice-doubles.html" class="btn btn-neutral float-left" title="Dice Doubles" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Mr. Gallo.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

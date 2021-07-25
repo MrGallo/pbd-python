@@ -1,0 +1,327 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Weekday Calculator &mdash; Python Fundamental Exercises  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Area Calculator" href="area-calculator.html" />
+    <link rel="prev" title="Month Offset" href="month-offset.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Python Fundamental Exercises
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basics-and-printing.html">Basics and Printing (500 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../variables.html">Variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../keyboard-input.html">Keyboard Input</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements.html">If Statements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guis.html">GUIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements-ii.html">If Statements II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../random-numbers.html">Random Numbers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops.html">While Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops.html">Post-test Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops-ii.html">While Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops.html">For Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects.html">Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics.html">Graphics</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../functions.html">Functions</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="picture-menu.html">Picture Menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="flicker-phrase.html">Flicker Phrase</a></li>
+<li class="toctree-l2"><a class="reference internal" href="herons-formula.html">Heron’s Formula</a></li>
+<li class="toctree-l2"><a class="reference internal" href="distance-formula.html">Distance Formula</a></li>
+<li class="toctree-l2"><a class="reference internal" href="month-name.html">Month Name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="month-offset.html">Month Offset</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Weekday Calculator</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#instructions">Instructions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="area-calculator.html">Area Calculator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="function-call-alphabet.html">Function Call Alphabet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fill-in-functions.html">Fill-In Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="more-fill-in-functions.html">More Fill-In Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="keychains1.html">Keychains for Sale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="keychains2.html">Keychains for Sale, for real this time</a></li>
+<li class="toctree-l2"><a class="reference internal" href="keychains3.html">Keychains for Sale, real ultimate power</a></li>
+<li class="toctree-l2"><a class="reference internal" href="importing-functions-from-other-files.html">Importing Functions from Other Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="evenness-function.html">Evenness Function</a></li>
+<li class="toctree-l2"><a class="reference internal" href="finding-prime-numbers.html">Finding Prime Numbers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops-ii.html">Post-test Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-ii.html">Projects II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops-ii.html">For Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nested-loops.html">Nested Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../file-rw.html">File RW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists.html">Lists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting.html">Sorting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../records.html">Records</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting-ii.html">Sorting II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../objects.html">Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arraylists.html">ArrayLists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iii.html">Projects III</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-euler.html">Project Euler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics-ii.html">Graphics II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iiii.html">Projects IIII</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Python Fundamental Exercises</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../functions.html">Functions</a> &raquo;</li>
+        
+      <li>Weekday Calculator</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/exercises/weekday-calculator.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="weekday-calculator">
+<h1>Weekday Calculator<a class="headerlink" href="#weekday-calculator" title="Permalink to this headline">¶</a></h1>
+<p>Using the functions you wrote in previous assignments and
+the leap year function provided, write a function to determine the
+day of the week a person was born given his or her birthday. The
+following steps should be used to find the day of the week
+corresponding to any date from 1901 through the present.</p>
+<p>In the following explanation, the following terms will be helpful.
+Assuming I type in a birthday as <code class="docutils literal notranslate"><span class="pre">&quot;6</span> <span class="pre">10</span> <span class="pre">1981&quot;</span></code>:</p>
+<ul class="simple">
+<li><p>The <em>month</em> is <code class="docutils literal notranslate"><span class="pre">6</span></code>.</p></li>
+<li><p>The <em>day of the month</em> is <code class="docutils literal notranslate"><span class="pre">10</span></code>.</p></li>
+<li><p>The <em>year</em> is <code class="docutils literal notranslate"><span class="pre">1981</span></code>.</p></li>
+</ul>
+<ul class="simple">
+<li><p><a class="reference external" href="../_static/examples/103_weekday_calculator.py">103_weekday_calculator.py</a></p></li>
+</ul>
+<div class="section" id="instructions">
+<h2>Instructions<a class="headerlink" href="#instructions" title="Permalink to this headline">¶</a></h2>
+<p><em>Tip</em>: I would comment-out the input section and leave the “automatic tests”. This way, when you run the program you don’t need to waste time typing anything in. The tests will tell you if your function is working or not. When you are convinced that it is working, you can uncomment that input section to turn the assignment in.</p>
+<p><strong>First</strong>, paste in your <code class="docutils literal notranslate"><span class="pre">month_name</span></code>, <code class="docutils literal notranslate"><span class="pre">weekday_name</span></code>, and <code class="docutils literal notranslate"><span class="pre">month_offset</span></code> functions from your previous exercises.</p>
+<p>In the <code class="docutils literal notranslate"><span class="pre">weekday</span></code> function:</p>
+<ol class="simple">
+<li><p>Find the number of years since <code class="docutils literal notranslate"><span class="pre">1900</span></code>, and put it into a variable called <code class="docutils literal notranslate"><span class="pre">years_since_1900</span></code>. Simply subtract <code class="docutils literal notranslate"><span class="pre">1900</span></code> from the year (<code class="docutils literal notranslate"><span class="pre">yyyy</span></code>) to get this.</p></li>
+<li><p>Divide the number of years since <code class="docutils literal notranslate"><span class="pre">1900</span></code> by <code class="docutils literal notranslate"><span class="pre">4</span></code>. Put the quotient in a variable called <code class="docutils literal notranslate"><span class="pre">total</span></code>. For example, if the person was born in <code class="docutils literal notranslate"><span class="pre">1983</span></code>, <code class="docutils literal notranslate"><span class="pre">years_since_1900</span></code> would be <code class="docutils literal notranslate"><span class="pre">83</span></code>. Divide <code class="docutils literal notranslate"><span class="pre">83</span></code> by <code class="docutils literal notranslate"><span class="pre">4</span></code> and store <code class="docutils literal notranslate"><span class="pre">20</span></code> in <code class="docutils literal notranslate"><span class="pre">total</span></code>. The result must be an integer, so use floor division.</p></li>
+<li><p>Also add the number of years since <code class="docutils literal notranslate"><span class="pre">1900</span></code> to <code class="docutils literal notranslate"><span class="pre">total</span></code>.</p></li>
+<li><p>Add the day of the month to <code class="docutils literal notranslate"><span class="pre">total</span></code>, but because we need to <code class="docutils literal notranslate"><span class="pre">0</span></code>-index the day of the month, we need to also subtract <code class="docutils literal notranslate"><span class="pre">1</span></code>.</p></li>
+<li><p>Using the function <code class="docutils literal notranslate"><span class="pre">month_offset()</span></code> you wrote, find the “month offset” and add it to <code class="docutils literal notranslate"><span class="pre">total</span></code>.</p></li>
+<li><p>If the year is a leap year and if the month you are working with is either January or February, then subtract <code class="docutils literal notranslate"><span class="pre">1</span></code> from the <code class="docutils literal notranslate"><span class="pre">total</span></code>. You can use the function <code class="docutils literal notranslate"><span class="pre">is_leap()</span></code> provided to determine if the year is a leap year.</p></li>
+<li><p>Find the remainder when <code class="docutils literal notranslate"><span class="pre">total</span></code> is divided by 7. Pass this remainder to the function <code class="docutils literal notranslate"><span class="pre">weekday_name()</span></code> you wrote to determine the day of the week the person was born. Store this in a variable called <code class="docutils literal notranslate"><span class="pre">weekday</span></code>.</p></li>
+<li><p>Finally, build up a single String value containing the whole date (day of week, month, day, year). You’ll need to use the function <code class="docutils literal notranslate"><span class="pre">month_name()</span></code> you wrote to show the month name rather than its number.</p></li>
+<li><p>Return that String value.</p></li>
+</ol>
+<p>Whew. Here’s some code to get you started.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Welcome to Mr. Mitchell&#39;s fantastic birth-o-meter!
+
+All you have to do is enter your birthday, and it will tell you
+the day of the week on which you were born.
+
+Some automatic tests....
+12 10 2003 =&gt; Wednesday December 10, 2003
+ 2 13 1976 =&gt; Friday February 13, 1976
+ 2 13 1977 =&gt; Sunday February 13, 1977
+ 7  2 1974 =&gt; Tuesday July 2, 1974
+ 1 15 2003 =&gt; Wednesday,January 15, 2003
+10 13 2000 =&gt; Friday October 13, 2000
+
+Now it&#39;s your turn!  What&#39;s your birthday?
+Birthday (mm dd yyyy):
+mm: 11
+dd: 11
+yyyy: 2010
+
+You were born on Thursday November 11, 2010!
+</pre></div>
+</div>
+<hr class="docutils" />
+<p>©2021 Daniel Gallo</p>
+<p>This assignment is licensed under a
+<a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License</a>.</p>
+<p><img alt="Creative Commons License" src="../_images/by-nc-sa.png" /></p>
+<p>Adapted for Python from Graham Mitchell’s <a class="reference external" href="https://programmingbydoing.com/">Programming By Doing</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="area-calculator.html" class="btn btn-neutral float-right" title="Area Calculator" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="month-offset.html" class="btn btn-neutral float-left" title="Month Offset" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Mr. Gallo.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,478 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Python Fundamental Exercises &mdash; Python Fundamental Exercises  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/copybutton.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script src="_static/clipboard.min.js"></script>
+        <script src="_static/copybutton.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Basics and Printing (500 points)" href="basics-and-printing.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> Python Fundamental Exercises
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="basics-and-printing.html">Basics and Printing (500 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="variables.html">Variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="keyboard-input.html">Keyboard Input</a></li>
+<li class="toctree-l1"><a class="reference internal" href="if-statements.html">If Statements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guis.html">GUIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="if-statements-ii.html">If Statements II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="random-numbers.html">Random Numbers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="while-loops.html">While Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="post-test-loops.html">Post-test Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="while-loops-ii.html">While Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="for-loops.html">For Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="projects.html">Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="graphics.html">Graphics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="functions.html">Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="post-test-loops-ii.html">Post-test Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="projects-ii.html">Projects II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="for-loops-ii.html">For Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nested-loops.html">Nested Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="file-rw.html">File RW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="lists.html">Lists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sorting.html">Sorting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="records.html">Records</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sorting-ii.html">Sorting II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="objects.html">Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="arraylists.html">ArrayLists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="projects-iii.html">Projects III</a></li>
+<li class="toctree-l1"><a class="reference internal" href="project-euler.html">Project Euler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="graphics-ii.html">Graphics II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="projects-iiii.html">Projects IIII</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Python Fundamental Exercises</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Python Fundamental Exercises</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="python-fundamental-exercises">
+<h1>Python Fundamental Exercises<a class="headerlink" href="#python-fundamental-exercises" title="Permalink to this headline">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="basics-and-printing.html">Basics and Printing (500 points)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/installing-python.html">Installing Python</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/interpreter-check.html">Interpreter Check</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/execution-practice.html">Execution Practice</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/an-important-message.html">An Important Message</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/escape-artist.html">Escape Artist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/comments.html">Comments</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/letter-to-principal.html">A Letter to Your Principal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/your-initials.html">Your Initials</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/numbers-and-math.html">Numbers and Math</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="variables.html">Variables</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/variables-and-names.html">Variables and Names</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/more-variables-and-printing.html">More Variables and Printing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/using-variables.html">Using Variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/still-using-variables.html">Still Using Variables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/your-schedule.html">Your Schedule</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="keyboard-input.html">Keyboard Input</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/user_input.html">User Input</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/the-forgetful-machine.html">The Forgetful Machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/name-age-and-salary.html">Name, Age, and Salary</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/more-user-input-of-data.html">More User Input of Data</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/age-in-five-years.html">Age in Five Years</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/a-silly-calculator.html">A Silly Calculator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/bmi-calculator.html">BMI Calculator</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="if-statements.html">If Statements</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/what-if.html">If Intro</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/how-old-are-you.html">How Old Are You?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/if-elif-else.html">If, Elif, Else</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/weekday-name.html">Weekday Name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/how-old-are-you-elseif.html">How Old Are You, Specifically?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/space-boxing.html">Space Boxing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/a-little-quiz.html">A Little Quiz</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/modulus-animation.html">Modulus Animation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="guis.html">GUIs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/using-tkinter-for-input.html">Using Tkinter for Input</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/favourite-colour.html">Favourite Colour</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/clear-text.html">Clear text</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="if-statements-ii.html">If Statements II</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/twenty-questions.html">Twenty Questions… well, actually just Two</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/choose-your-own-short-adventure.html">Choose Your Own Adventure!</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/age-messages-3.html">Age Messages 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/two-more-questions.html">Two More Questions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/bmi-categories.html">BMI Categories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/gender-game.html">Gender Game</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/alpha-order.html">Alpha Order</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/attendance.html">Attendance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/the-worst-number-guessing-game-ever.html">The Worst Number-Guessing Game Ever</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="random-numbers.html">Random Numbers</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/randomness.html">Randomness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/magic-8ball.html">Magic 8-Ball</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/a-number-guessing-game.html">A Number-Guessing Game</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/fortune-cookie.html">Fortune Cookie</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/dice.html">Dice</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/one-shot-hi-lo.html">One Shot Hi-Lo</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/three-card-monte.html">Three Card Monte</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="while-loops.html">While Loops</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/enter-pin.html">Enter Your PIN</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/keep-guessing.html">Keep Guessing</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/dice-doubles.html">Dice Doubles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/counting-while.html">Counting with a While Loop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/pin-lockout.html">PIN Lockout</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/number-guessing-with-a-counter.html">Number-Guessing with a Counter</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/hi-lo-with-limited-tries.html">Hi-Lo with Limited Tries</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/adding-values-in-a-loop.html">Adding Values in a Loop</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="post-test-loops.html">Post-test Loops</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/swimming.html">Swimming</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/flip-again.html">Flip Again?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/shorter-double-dice.html">Shorter Double Dice</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/again-with-the-number-guessing.html">Again with the Number-Guessing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="while-loops-ii.html">While Loops II</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/safe-square-root.html">Safe Square Root</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/right-triangle-checker.html">Right Triangle Checker</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/collatz-sequence.html">Collatz Sequence</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/adventure2.html">Adventure 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/baby-nim.html">Baby Nim</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/nim.html">Nim</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="for-loops.html">For Loops</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/counting-for.html">Counting with a For Loop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/ten-times.html">Ten Times</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/counting-machine.html">Counting Machine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/counting-machine-revisited.html">Counting Machine Revisited</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/counting-by-halves.html">Counting By Halves</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/xs-and-ys.html">Xs and Ys</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/noticing-even-numbers.html">Noticing Even Numbers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/fizzbuzz.html">Fizz Buzz</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/letter-at-a-time.html">Letter at a Time</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/for-loop-challenge.html">For Loop Challenge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/for-loop-challenge.html#bonus">Bonus</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/adding-values-with-a-for-loop.html">Adding Values with a For Loop</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="projects.html">Projects</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/baby-blackjack.html">Baby Blackjack</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/project-blackjack.html">Project: Blackjack</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="graphics.html">Graphics</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="functions.html">Functions</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/picture-menu.html">Picture Menu</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/flicker-phrase.html">Flicker Phrase</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/herons-formula.html">Heron’s Formula</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/distance-formula.html">Distance Formula</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/month-name.html">Month Name</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/month-offset.html">Month Offset</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/weekday-calculator.html">Weekday Calculator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/area-calculator.html">Area Calculator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/function-call-alphabet.html">Function Call Alphabet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/fill-in-functions.html">Fill-In Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/more-fill-in-functions.html">More Fill-In Functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/keychains1.html">Keychains for Sale</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/keychains2.html">Keychains for Sale, for real this time</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/keychains3.html">Keychains for Sale, real ultimate power</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/importing-functions-from-other-files.html">Importing Functions from Other Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/evenness-function.html">Evenness Function</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/finding-prime-numbers.html">Finding Prime Numbers</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="post-test-loops-ii.html">Post-test Loops II</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/baby-nim.html">Baby Nim</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="projects-ii.html">Projects II</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/baby-calculator.html">Baby Calculator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/project-calculator.html">Project: Calculator</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="for-loops-ii.html">For Loops II</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/a-refresher.html">A Refresher</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/refresher2.html">Refresher Challenge</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/displaying-some-multiples.html">Displaying Some Multiples</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="nested-loops.html">Nested Loops</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/nesting-loops.html">Nesting Loops</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/odometer-loops.html">Odometer Loops</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/basic-nested-loops.html">Basic Nested Loops</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/multiplication-table.html">Multiplication Table</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/number-puzzle-i.html">Number Puzzles I</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/getting-individual-digits.html">Getting Individual Digits</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/more-number-puzzles.html">More Number Puzzles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/number-puzzles-iii.html">Number Puzzles III: Armstrong Numbers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/number-puzzles-iv-a-new-hope.html">Number Puzzles IV: A New Hope</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="file-rw.html">File RW</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/letter-revisited.html">Letter Revisited</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/high-score.html">High Score</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/simple-file-read.html">Simple File Reading</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/summing-three-numbers-from-a-file.html">Summing Three Numbers from a File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/summing-three-numbers-from-any-file.html">Summing Three Numbers from Any File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/displaying-a-file.html">Displaying a File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/summing-several-numbers-from-any-file.html">Summing Several Numbers from Any File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/simple-web-scrape.html">Simple Web Scrape</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/a-little-puzzle.html">A Little Puzzle</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/vowel-capitalization.html">Vowel Capitalization</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="lists.html">Lists</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/basic-lists-0.html">Basic Lists 0</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/basic-lists-1.html">Basic Lists 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/basic-lists-2.html">Basic Lists 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/basic-lists-3.html">Basic Lists 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/copying-lists.html">Copying Lists</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/grades-in-a-list-and-a-file.html">Grades in a List and a File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/finding-a-value-in-a-list.html">Finding a Value in a List</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/how-many-times.html">How Many Times?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/is-it-there-or-not.html">Is It There or Not?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/where-is-it.html">Where Is It?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/finding-the-largest-value-in-a-list.html">Finding the Largest Value in a List</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/locating-the-largest-value-in-a-list.html">Locating the Largest Value in a List</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/giving-a-list-a-bunch-of-values-at-once.html">Giving a List a Bunch of Values at Once</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/parallel-lists.html">Parallel Lists</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/tic-tac-toe.html">Tic-Tac-Toe</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/hangman.html">Hangman</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="sorting.html">Sorting</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exercises/madlib-random.html">MadLib Random</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/movie-title-gen.html">Movie Title Generator</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/poke-swap.html">PokéSwap</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/poke-trader.html">PokéTrader</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/poke-trader2.html">PokéTrader 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/exchange-sort-inner-loop.html">Exchange Sort Inner Loop</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/exchange-sort.html">Exchange Sort</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/bubble-sort.html">Bubble Sort</a></li>
+<li class="toctree-l2"><a class="reference internal" href="exercises/selection-sort.html">Selection Sort</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="records.html">Records</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="sorting-ii.html">Sorting II</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="objects.html">Objects</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="arraylists.html">ArrayLists</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="projects-iii.html">Projects III</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="project-euler.html">Project Euler</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="graphics-ii.html">Graphics II</a><ul class="simple">
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="projects-iiii.html">Projects IIII</a><ul class="simple">
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="basics-and-printing.html" class="btn btn-neutral float-right" title="Basics and Printing (500 points)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Mr. Gallo.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

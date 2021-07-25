@@ -1,0 +1,321 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Swimming &mdash; Python Fundamental Exercises  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Flip Again?" href="flip-again.html" />
+    <link rel="prev" title="Post-test Loops" href="../post-test-loops.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Python Fundamental Exercises
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basics-and-printing.html">Basics and Printing (500 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../variables.html">Variables</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../keyboard-input.html">Keyboard Input</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements.html">If Statements</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guis.html">GUIs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements-ii.html">If Statements II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../random-numbers.html">Random Numbers</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops.html">While Loops</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../post-test-loops.html">Post-test Loops</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Swimming</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#files-needed">Files Needed</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#what-you-should-see">What You Should See</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#what-you-should-do-on-your-own">What You Should Do on Your Own</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="flip-again.html">Flip Again?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="shorter-double-dice.html">Shorter Double Dice</a></li>
+<li class="toctree-l2"><a class="reference internal" href="again-with-the-number-guessing.html">Again with the Number-Guessing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops-ii.html">While Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops.html">For Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects.html">Projects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics.html">Graphics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functions.html">Functions</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops-ii.html">Post-test Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-ii.html">Projects II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops-ii.html">For Loops II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nested-loops.html">Nested Loops</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../file-rw.html">File RW</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists.html">Lists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting.html">Sorting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../records.html">Records</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting-ii.html">Sorting II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../objects.html">Objects</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arraylists.html">ArrayLists</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iii.html">Projects III</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-euler.html">Project Euler</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics-ii.html">Graphics II</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iiii.html">Projects IIII</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Python Fundamental Exercises</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../post-test-loops.html">Post-test Loops</a> &raquo;</li>
+        
+      <li>Swimming</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/exercises/swimming.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="swimming">
+<h1>Swimming<a class="headerlink" href="#swimming" title="Permalink to this headline">¶</a></h1>
+<p>So far you have only worked with one type of loop: the <code class="docutils literal notranslate"><span class="pre">while</span></code>
+loop. But there is another type: the “do-while” loop.</p>
+<p>The do-while loop works <em>almost</em> exactly like a
+<code class="docutils literal notranslate"><span class="pre">while</span></code> loop. In fact, most of the time they
+are equivalent. Examine the program below to see if you can figure
+out the tiny difference.</p>
+<div class="section" id="files-needed">
+<h2>Files Needed<a class="headerlink" href="#files-needed" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="../_static/examples/056_swimming.py">056_swimming.py</a></p></li>
+</ul>
+</div>
+<div class="section" id="what-you-should-see">
+<h2>What You Should See<a class="headerlink" href="#what-you-should-see" title="Permalink to this headline">¶</a></h2>
+<p>Goofus and Gallant are both going swimming. They hate to swim in cold water; once the water temperature drops below <code class="docutils literal notranslate"><span class="pre">79°</span></code>F, they stop.</p>
+<p>Run the program, and type in <code class="docutils literal notranslate"><span class="pre">80.5</span></code> for the water temperature.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>What is the current water temperature? 80.5
+
+Okay, so the current water temperature is 80.5 F.
+GALLANT approaches the lake....
+    GALLANT swims for a bit. Swim time: 1 min.
+    The current water temperature is now 80.0 F.
+    GALLANT swims for a bit. Swim time: 2 min.
+    The current water temperature is now 79.5 F.
+    GALLANT swims for a bit. Swim time: 3 min.
+    The current water temperature is now 79.0 F.
+    GALLANT swims for a bit. Swim time: 4 min.
+    The current water temperature is now 78.5 F.
+GALLANT stops swimming. Total swim time: 4 min.
+
+Okay, so the current water temperature is 80.5 F.
+GOOFUS  approaches the lake....
+    GOOFUS  swims for a bit. Swim time: 1 min.
+    The current water temperature is now 80.0 F.
+    GOOFUS  swims for a bit. Swim time: 2 min.
+    The current water temperature is now 79.5 F.
+    GOOFUS  swims for a bit. Swim time: 3 min.
+    The current water temperature is now 79.0 F.
+    GOOFUS  swims for a bit. Swim time: 4 min.
+    The current water temperature is now 78.5 F.
+GOOFUS  stops swimming. Total swim time: 4 min.
+</pre></div>
+</div>
+</div>
+<div class="section" id="what-you-should-do-on-your-own">
+<h2>What You Should Do on Your Own<a class="headerlink" href="#what-you-should-do-on-your-own" title="Permalink to this headline">¶</a></h2>
+<p>Assignments turned in <em>without</em> these things will receive
+no credit.</p>
+<ol class="simple">
+<li><p>Run the program, and type in 80.5 for the current
+water temperature. Do Goofus and Gallant swim for the same amount of
+time? Put your answer in a comment.</p></li>
+<li><p>Run the program again, but this time enter 78 for the starting temperature. What changes?</p></li>
+<li><p>Does Gallant check the water temperature first, or does he just dive right in?</p></li>
+<li><p>What about Goofus? Does he check the water temperature first or just dive in?</p></li>
+<li><p>What is the difference between the first <code class="docutils literal notranslate"><span class="pre">while</span></code> loop and the second <code class="docutils literal notranslate"><span class="pre">while</span></code> loop? What do you suppose the keyword <code class="docutils literal notranslate"><span class="pre">break</span></code> does in the second loop?</p></li>
+<li><p>One of these loops is sometimes called a “pre-test loop”,
+and the other is called a “post-test loop”. Which one is which?</p></li>
+</ol>
+<hr class="docutils" />
+<p>©2021 Daniel Gallo</p>
+<p>This assignment is licensed under a
+<a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License</a>.</p>
+<p><img alt="Creative Commons License" src="../_images/by-nc-sa.png" /></p>
+<p>Adapted for Python from Graham Mitchell’s <a class="reference external" href="https://programmingbydoing.com/">Programming By Doing</a></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="flip-again.html" class="btn btn-neutral float-right" title="Flip Again?" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../post-test-loops.html" class="btn btn-neutral float-left" title="Post-test Loops" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Mr. Gallo.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
