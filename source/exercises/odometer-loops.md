@@ -6,7 +6,7 @@ Download the following code, and get it to run.
 
 ## Files Needed
 
-* [120_odometer_loops.py](../_static/examples/120_odometer_loops.py)
+* [odometer_loops.py](../_static/examples/odometer_loops.py)
 
 
 

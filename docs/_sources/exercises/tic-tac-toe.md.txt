@@ -3,7 +3,7 @@
 Code an interactive, two-player game of Tic-Tac-Toe. You'll use a two-dimensional list of `str`s.
 
 ## Starter Code
-* [152_tic_tac_toe.py](../_static/examples/152_tic_tac_toe.py)
+* [tic_tac_toe.py](../_static/examples/tic_tac_toe.py)
 
 
 

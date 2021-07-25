@@ -21,7 +21,7 @@ What will PIKACHU do?
 
 ## Files Needed
 
-* [156_poke_swap.py](../_static/examples/156_poke_swap.py)
+* [poke_swap.py](../_static/examples/poke_swap.py)
 
 
 What You Should Do on Your Own

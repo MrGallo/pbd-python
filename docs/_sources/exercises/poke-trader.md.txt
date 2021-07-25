@@ -2,7 +2,7 @@
 
 Download the following code, and get it to compile.
 ## Files Needed
-* [157_poke_trader.py](../_static/examples/157_poke_trader.py)
+* [poke_trader.py](../_static/examples/poke_trader.py)
 
 
 What You Should See

@@ -28,7 +28,7 @@ and must have one parameter (an `int`), and return a
 
 And finally, here's some starter code.
 
-* [101_month_name.py](../_static/examples/101_month_name.py)
+* [month_name.py](../_static/examples/month_name.py)
 
 Final result
 ------------

@@ -15,7 +15,7 @@ Assuming I type in a birthday as `"6 10 1981"`:
 - The *day of the month* is `10`.  
 - The *year* is `1981`.
 
-* [103_weekday_calculator.py](../_static/examples/103_weekday_calculator.py)
+* [weekday_calculator.py](../_static/examples/weekday_calculator.py)
 
 Instructions
 ------------

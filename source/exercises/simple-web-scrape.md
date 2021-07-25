@@ -7,7 +7,7 @@ In Java, reading text from a web page isn't much more difficult than reading fro
 ## Files Needed
 
 
-* [135_simple_web_scrape.py](../_static/examples/135_simple_web_scrape.py)
+* [simple_web_scrape.py](../_static/examples/simple_web_scrape.py)
 
 
 

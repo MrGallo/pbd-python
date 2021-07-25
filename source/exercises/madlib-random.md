@@ -46,7 +46,7 @@ Of course, many of the words are randomized, so your output will probably look d
 ## Files Needed
 
 
-* [154_madlib_random.py](../_static/examples/154_madlib_random.py)
+* [madlib_random.py](../_static/examples/madlib_random.py)
 
 
 What You Should Do on Your Own

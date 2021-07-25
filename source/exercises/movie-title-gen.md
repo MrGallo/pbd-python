@@ -9,7 +9,7 @@ a random adjective and noun out of the lists.
 
 ## Files Needed
 
-* [155_movie_title_gen.py](../_static/examples/155_movie_title_gen.py)
+* [movie_title_gen.py](../_static/examples/movie_title_gen.py)
 
 
 What You Should See

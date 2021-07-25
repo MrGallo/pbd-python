@@ -13,7 +13,7 @@ out the tiny difference.
 
 ## Files Needed
 
-* [056_swimming.py](../_static/examples/056_swimming.py)
+* [swimming.py](../_static/examples/swimming.py)
 
 
 What You Should See

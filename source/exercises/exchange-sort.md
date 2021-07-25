@@ -3,7 +3,7 @@
 
 Take your [exchange sort inner loop](exchange-sort-inner-loop.md) code and insert it in the following file in the appropriate loactions:
 
-* [160_exchange_sort.py](../_static/examples/160_exchange_sort.py)
+* [exchange_sort.py](../_static/examples/exchange_sort.py)
 
 What to do
 ----------

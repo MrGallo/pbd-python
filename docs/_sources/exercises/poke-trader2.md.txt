@@ -7,7 +7,7 @@ Download the following code, and get it to compile.
 ## Files Needed
 
 
-* [158_poke_trader2.py](../_static/examples/158_poke_trader2.py)
+* [poke_trader2.py](../_static/examples/poke_trader2.py)
 
 
 What You Should See

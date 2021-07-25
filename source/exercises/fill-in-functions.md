@@ -4,7 +4,7 @@
 Download and finish the following code to practice working with
 functions:  
 
-[106_fill_in_functions.py](../_static/examples/106_fill_in_functions.py)
+[fill_in_functions.py](../_static/examples/fill_in_functions.py)
 
 
 If you do everything correctly, it should produce output like the

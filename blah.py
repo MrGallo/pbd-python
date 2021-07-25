@@ -79,6 +79,9 @@ ROOT_DIR = 'source/exercises'
 # regex = r"\((examples/.+)\)"
 # subst = "(../_static/\\1)"
 
+regex = r"\[[0-9]{3}_(.+)\]\((.+)[0-9]{3}_(.+)\)"
+subst = "[\\1](\\2\\3)"
+
 # for file in os.listdir(ROOT_DIR):
 #     if not file.endswith(".md"):
 #         continue

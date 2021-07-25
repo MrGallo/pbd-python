@@ -23,7 +23,7 @@ representing the month. This refers to the day of the week the month starts on (
 Of course, here's the starter code to test your function.
 
 
-* [102_month_offset.py](../_static/examples/102_month_offset.py)
+* [month_offset.py](../_static/examples/month_offset.py)
 
 ```
 Offset for month 1: 1

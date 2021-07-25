@@ -4,7 +4,7 @@
 Download and finish the following code to practice working with
 functions:
 
-- [107_more_fill_in_functions.py](../_static/examples/107_more_fill_in_functions.py)
+- [more_fill_in_functions.py](../_static/examples/more_fill_in_functions.py)
 
 The functions are commented out. I would uncomment them one at a time once you get it correct.
 
