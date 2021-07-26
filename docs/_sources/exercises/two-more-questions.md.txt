@@ -3,7 +3,7 @@
 Using `if` statements with compound conditions
 (like `and`), make a guessing game of two questions
 similar to the [Twenty Questions
-assignment](twenty-questions.md).
+assignment](twenty-questions-well-actually-just-two.md).
 
 
 However, this time you *must* accomplish it using `if` statements with compound conditions and **you *must

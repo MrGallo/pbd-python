@@ -1,0 +1,305 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>6.1. Twenty Questions… well, actually just Two &mdash; Python Fundamental Exercises  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="6.2. Choose Your Own Adventure!" href="choose-your-own-short-adventure.html" />
+    <link rel="prev" title="6. If Statements II (320-330 points)" href="../if-statements-ii.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Python Fundamental Exercises
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basics-and-printing.html">1. Basics and Printing (58 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../variables.html">2. Variables (48 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../keyboard-input.html">3. Keyboard Input (106-119 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements.html">4. If Statements (185 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guis.html">5. GUIs (80 points)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../if-statements-ii.html">6. If Statements II (320-330 points)</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">6.1. Twenty Questions... well, actually just Two (35 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="choose-your-own-short-adventure.html">6.2. Choose Your Own Short Adventure! (60 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="age-messages-3.html">6.3. Age Messages 3 (25 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="two-more-questions.html">6.4. Two More Questions (35 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="bmi-categories.html">6.5. BMI Categories (35-45 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gender-game.html">6.6. Gender Game (50 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="alpha-order.html">6.7. Alpha Order (35 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="attendance.html">6.8. Attendance (30 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="the-worst-number-guessing-game-ever.html">6.9. The Worst Number-Guessing Game Ever (15 points)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../random-numbers.html">7. Random Numbers (140-150 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops.html">8. While Loops (275 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops.html">9. Post-test Loops (110 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops-ii.html">10. While Loops II (355-500 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops.html">11. For Loops (265 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects.html">12. Projects (100-220 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics.html">13. Graphics (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functions.html">14. Functions (1070 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-ii.html">15. Projects II (100-320 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops-ii.html">16. For Loops II (70 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nested-loops.html">17. Nested Loops (580 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../file-rw.html">18. File RW (530 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists.html">19. Lists (1245 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting.html">20. Sorting (600 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../records.html">21. Records (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting-ii.html">22. Sorting II (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../objects.html">23. Objects (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../arraylists.html">24. ArrayLists (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iii.html">25. Projects III (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-euler.html">26. Project Euler (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics-ii.html">27. Graphics II (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../projects-iiii.html">28. Projects IIII (0 points)</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Python Fundamental Exercises</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../if-statements-ii.html"><span class="section-number">6. </span>If Statements II (320-330 points)</a> &raquo;</li>
+        
+      <li><span class="section-number">6.1. </span>Twenty Questions… well, actually just Two</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/exercises/twenty-questions-well-actually-just-two.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="twenty-questions-well-actually-just-two">
+<h1><span class="section-number">6.1. </span>Twenty Questions… well, actually just Two<a class="headerlink" href="#twenty-questions-well-actually-just-two" title="Permalink to this headline">¶</a></h1>
+<p>Make a program which plays a simple game of ~~<code class="docutils literal notranslate"><span class="pre">20</span></code>~~ <code class="docutils literal notranslate"><span class="pre">2</span></code> Questions.</p>
+<p>The first question should be <code class="docutils literal notranslate"><span class="pre">&quot;animal,</span> <span class="pre">vegetable,</span> <span class="pre">or</span> <span class="pre">mineral?&quot;</span></code> Then, the second question should be <code class="docutils literal notranslate"><span class="pre">&quot;is</span> <span class="pre">it</span> <span class="pre">bigger</span> <span class="pre">than</span> <span class="pre">a</span> <span class="pre">breadbox?&quot;</span></code> Then, display one of six possible responses, depending on their answers. You can choose what answers to give for each of the six possibilities.</p>
+<p>Here’s a suggestion:</p>
+<p>|  | animal | vegetable | mineral |
+| - | - | - | - |
+| <strong>smaller than a breadbox</strong> | squirrel | carrot | paper clip
+| <strong>bigger than a breadbox</strong> | moose | watermelon | Camaro</p>
+<p>You will use <em>nested</em> <strong><code class="docutils literal notranslate"><span class="pre">if</span></code></strong> statements to do this.</p>
+<p>Name your file: <code class="docutils literal notranslate"><span class="pre">two_questions.py</span></code></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>TWO QUESTIONS!
+Think of an object, and I&#39;ll try to guess it.
+
+Question 1) Is it animal, vegetable, or mineral?
+&gt; animal
+
+Question 2) Is it bigger than a breadbox?
+&gt; no
+
+My guess is that you are thinking of a mouse.
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>TWO QUESTIONS!
+Think of an object, and I&#39;ll try to guess it.
+
+Question 1) Is it animal, vegetable, or mineral?
+&gt; mineral
+
+Question 2) Is it bigger than a breadbox?
+&gt; yes
+
+My guess is that you are thinking of a Camaro.
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>TWO QUESTIONS!
+Think of an object, and I&#39;ll try to guess it.
+
+Question 1) Is it animal, vegetable, or mineral?
+&gt; vegetable
+
+Question 2) Is it bigger than a breadbox?
+&gt; yes
+
+You&#39;re thinking of a watermelon!
+</pre></div>
+</div>
+<hr class="docutils" />
+<p>©2021 Daniel Gallo</p>
+<p>This assignment is licensed under a
+<a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License</a>.</p>
+<p><img alt="Creative Commons License" src="../_images/by-nc-sa.png" /></p>
+<p>Adapted for Python from Graham Mitchell’s <a class="reference external" href="https://programmingbydoing.com/">Programming By Doing</a></p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="choose-your-own-short-adventure.html" class="btn btn-neutral float-right" title="6.2. Choose Your Own Adventure!" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../if-statements-ii.html" class="btn btn-neutral float-left" title="6. If Statements II (320-330 points)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Mr. Gallo.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

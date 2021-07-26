@@ -1,7 +1,8 @@
-Projects II
-===========
+Projects II (100-320 points)
+============================
+
 .. toctree::
     :maxdepth: 1
 
-    exercises/baby-calculator
-    exercises/project-calculator
+    Baby Calculator (20 points) <exercises/baby-calculator>
+    Project: Calculator (80-300 points) <exercises/project-calculator>

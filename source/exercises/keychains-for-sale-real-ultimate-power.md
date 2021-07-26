@@ -1,7 +1,7 @@
 # Keychains for Sale, real ultimate power
 
 
-You're going to add some error checking and additional features, to [Keychains2](keychains2.md).
+You're going to add some error checking and additional features, to [Keychains for real](keychains-for-sale-for-real-this-time.md).
 
 You need to make sure that the user always has a positive number, or `0`, of keychains in the order.
 

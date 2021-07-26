@@ -1,7 +1,7 @@
 # Counting with a For Loop
 
 
-As you saw in [Counting with a While Loop](counting-while.md),
+As you saw in [Counting with a While Loop](counting-with-a-while-loop.md),
 a `while` loop can be used to to make something happen an
 exact number of times.
 

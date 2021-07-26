@@ -16,7 +16,6 @@ import os
 import recommonmark
 from recommonmark.transform import AutoStructify
 
-
 # -- Project information -----------------------------------------------------
 
 project = 'Python Fundamental Exercises'

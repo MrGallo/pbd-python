@@ -1,6 +1,6 @@
-Graphics
-========
+Graphics (0 points)
+===================
+
 .. toctree::
     :maxdepth: 1
 
-.. warning:: Under construction

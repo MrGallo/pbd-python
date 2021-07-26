@@ -1,13 +1,14 @@
-If Statements
-=============
+If Statements (185 points)
+==========================
+
 .. toctree::
     :maxdepth: 1
 
-    exercises/what-if
-    exercises/how-old-are-you
-    exercises/if-elif-else
-    exercises/weekday-name
-    exercises/how-old-are-you-elseif
-    exercises/space-boxing
-    exercises/a-little-quiz
-    exercises/modulus-animation
+    What If (15 points) <exercises/what-if>
+    How Old Are You? (25 points) <exercises/how-old-are-you>
+    If, Elif, Else (20 points) <exercises/if-elif-else>
+    Weekday Name (15 points) <exercises/weekday-name>
+    How Old Are You, Specifically? (20 points) <exercises/how-old-are-you-specifically>
+    Space Boxing (30 points) <exercises/space-boxing>
+    A Little Quiz (40 points) <exercises/a-little-quiz>
+    Modulus Animation (20 points) <exercises/modulus-animation>

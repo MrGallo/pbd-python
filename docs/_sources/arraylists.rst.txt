@@ -1,5 +1,6 @@
-ArrayLists
-==========
+ArrayLists (0 points)
+=====================
+
 .. toctree::
     :maxdepth: 1
 

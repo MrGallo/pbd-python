@@ -15,7 +15,7 @@ message depending on the age given.
 
 
 This output of this assignment is identical to [the "How
-Old Are You, Specifically" assignment](how-old-are-you-elseif.md). However, this time you *must*
+Old Are You, Specifically" assignment](how-old-are-you-specifically.md). However, this time you *must*
 accomplish it using `if` statements with compound conditions and **you *must not* use `elif` or `else`**.
 
 Name your file: `034-age-compound-boolean.py`

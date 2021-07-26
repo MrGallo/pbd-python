@@ -3,6 +3,7 @@ Python Fundamental Exercises
 
 .. toctree::
     :maxdepth: 2
+    :numbered: 2
 
     basics-and-printing
     variables
@@ -18,7 +19,6 @@ Python Fundamental Exercises
     projects
     graphics
     functions
-    post-test-loops-ii
     projects-ii
     for-loops-ii
     nested-loops
@@ -33,4 +33,3 @@ Python Fundamental Exercises
     project-euler
     graphics-ii
     projects-iiii
-

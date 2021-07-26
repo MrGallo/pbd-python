@@ -1,6 +1,6 @@
 # Letter Revisited
 
-Rewrite [A Letter to Your Principal](letter-to-principal.md),
+Rewrite [A Letter to Your Principal](a-letter-to-your-principal.md),
 but modify it so that instead of displaying the letter on the screen,
 it puts it in a file.
 

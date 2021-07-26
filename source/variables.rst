@@ -1,11 +1,11 @@
-Variables
-=========
+Variables (48 points)
+=====================
 
 .. toctree::
-   :maxdepth: 1
+    :maxdepth: 1
 
-   exercises/variables-and-names
-   exercises/more-variables-and-printing
-   exercises/using-variables
-   exercises/still-using-variables
-   exercises/your-schedule
+    Variables and Names (7 points) <exercises/variables-and-names>
+    More Variables and Printing (7 points) <exercises/more-variables-and-printing>
+    Using Variables (9 points) <exercises/using-variables>
+    Still Using Variables (10 points) <exercises/still-using-variables>
+    Your Schedule (15 points) <exercises/your-schedule>

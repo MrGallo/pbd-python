@@ -6,7 +6,7 @@ how long they have to wait during roll call. You need to use
 `elif`'s to make sure only one statement
 gets printed.
 
-Once you understand how comparing strings works using the comparison operators, this is a pretty straightforward assignment, much like [How Old Are You, specifically](how-old-are-you-elseif.md), except that it uses strings instead of `int`s.
+Once you understand how comparing strings works using the comparison operators, this is a pretty straightforward assignment, much like [How Old Are You, specifically](how-old-are-you-specifically.md), except that it uses strings instead of `int`s.
 
 
 * name is `"Carswell"` or before: say `"you don't have to wait long"`
