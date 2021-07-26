@@ -1,10 +1,12 @@
 import json
 import pathlib
-from os import path
+import shutil
+import os
 from typing import List
 
 from slugify import slugify
 
+DOCS_DIR = pathlib.Path("docs/")
 ROOT_DIR = pathlib.Path("source/")
 EXERCISES_DIR = ROOT_DIR / "exercises"
 INDEX_PATH = pathlib.Path("exercise_index.json")
@@ -15,6 +17,9 @@ EXERCISES_DIR.mkdir(parents=True, exist_ok=True)
 
 def generate_docs():
     print("GENERATING DOCS")
+    remove_docs()
+    remove_section_index_files()
+
     with open(INDEX_PATH, "r") as f:
         exercises = json.load(f)
 
@@ -56,6 +61,24 @@ def generate_docs():
     # write last section
     write_section(current_section, current_total, current_section_links)
     create_root_index(sections)
+    create_nojekyll()
+
+
+def remove_docs():
+    shutil.rmtree(DOCS_DIR)
+
+def remove_section_index_files():
+    for file in os.listdir(ROOT_DIR):
+        if not file.endswith(".rst"):
+            continue
+        print(f"Removing: {ROOT_DIR / file}")
+        os.remove(ROOT_DIR / file)
+
+
+def create_nojekyll():
+    DOCS_DIR.mkdir(parents=True, exist_ok=True)
+    with open(DOCS_DIR / ".nojekyll", 'w') as f:
+        f.write("\n")
 
 
 def write_section(current_section, current_total, current_section_links):
