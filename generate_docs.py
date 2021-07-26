@@ -12,22 +12,6 @@ INDEX_PATH = pathlib.Path("exercise_index.json")
 ROOT_DIR.mkdir(parents=True, exist_ok=True)
 EXERCISES_DIR.mkdir(parents=True, exist_ok=True)
 
-def save_markdown():
-    with open(INDEX_PATH, "r") as f:
-        exercises = json.load(f)
-    
-    for ex in exercises:
-        md_file_path = pathlib.Path(EXERCISES_DIR / f"{slugify(ex['name'])}.md")
-
-        if md_file_path.exists():
-            with open(md_file_path, "r") as f:
-                source = f.read()
-            
-            ex['markdown'] = source
-
-    with open(INDEX_PATH, 'w') as f:
-        json.dump(exercises, f, indent=4)
-
 
 def generate_docs():
     print("GENERATING DOCS")
@@ -36,7 +20,6 @@ def generate_docs():
 
     # GENERATE DOCUMENTATION
     not_found = []
-    no_markdown = []
 
     current_section = exercises[0]["section"]
     sections = [slugify(current_section)]
@@ -55,11 +38,7 @@ def generate_docs():
             current_section_links = ""
             current_total = [0, 0]
 
-        exercise_path = EXERCISES_DIR / f"{slugify(ex['name'])}.md"
-        try:
-            markdown = ex['markdown']
-        except KeyError:
-            no_markdown.append(exercise_path)
+        if ex["published"] is False:
             continue
             
         try:
@@ -73,8 +52,6 @@ def generate_docs():
             current_total[1] += high
         
         current_section_links += f"    {ex['name']} ({points} points) <exercises/{slugify(ex['name'])}>\n"
-        with open(exercise_path, 'w') as f:
-            f.write(markdown)
     
     # write last section
     write_section(current_section, current_total, current_section_links)
