@@ -462,13 +462,13 @@
         "published": true
     },
     {
-        "section": "Projects",
+        "section": "Project",
         "name": "Baby Blackjack",
         "points": "20",
         "published": true
     },
     {
-        "section": "Projects",
+        "section": "Project",
         "name": "Project: Blackjack",
         "points": "80-200",
         "published": true
@@ -696,13 +696,13 @@
         "published": true
     },
     {
-        "section": "Projects II",
+        "section": "Project II",
         "name": "Baby Calculator",
         "points": "20",
         "published": true
     },
     {
-        "section": "Projects II",
+        "section": "Project II",
         "name": "Project: Calculator",
         "points": "80-300",
         "published": true
@@ -1158,13 +1158,13 @@
         "published": false
     },
     {
-        "section": "Projects III",
+        "section": "Project III",
         "name": "Project: Address Book",
         "points": "200-400",
         "published": false
     },
     {
-        "section": "Projects III",
+        "section": "Project III",
         "name": "Project: Hearts",
         "points": "300-500",
         "published": false
@@ -1356,7 +1356,7 @@
         "published": false
     },
     {
-        "section": "Projects IIII",
+        "section": "Project IIII",
         "name": "Project: Paint",
         "points": "200-500",
         "published": false
