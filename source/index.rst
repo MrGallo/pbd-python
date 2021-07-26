@@ -16,10 +16,10 @@ Python Fundamental Exercises
     post-test-loops
     while-loops-ii
     for-loops
-    projects
+    project
     graphics
     functions
-    projects-ii
+    project-ii
     for-loops-ii
     nested-loops
     file-rw
@@ -29,7 +29,7 @@ Python Fundamental Exercises
     sorting-ii
     objects
     arraylists
-    projects-iii
+    project-iii
     project-euler
     graphics-ii
-    projects-iiii
+    project-iiii
