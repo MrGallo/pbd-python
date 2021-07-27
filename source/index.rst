@@ -25,10 +25,8 @@ Python Fundamental Exercises
     file-rw
     lists
     sorting
-    records
-    sorting-ii
     objects
-    arraylists
+    objects-ii
     project-iii
     project-euler
     graphics-ii

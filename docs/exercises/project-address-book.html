@@ -1,0 +1,282 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>23.1. Project: Address Book &mdash; Python Fundamental Exercises  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="23.2. Project: Hearts" href="project-hearts.html" />
+    <link rel="prev" title="23. Project III (500-900 points)" href="../project-iii.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Python Fundamental Exercises
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basics-and-printing.html">1. Basics and Printing (58 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../variables.html">2. Variables (48 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../keyboard-input.html">3. Keyboard Input (106-119 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements.html">4. If Statements (185 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guis.html">5. GUIs (80 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements-ii.html">6. If Statements II (320-330 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../random-numbers.html">7. Random Numbers (140-150 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops.html">8. While Loops (275 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops.html">9. Post-test Loops (110 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops-ii.html">10. While Loops II (355-500 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops.html">11. For Loops (265 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project.html">12. Project (100-220 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics.html">13. Graphics (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functions.html">14. Functions (1070 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-ii.html">15. Project II (100-320 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops-ii.html">16. For Loops II (70 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nested-loops.html">17. Nested Loops (580 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../file-rw.html">18. File RW (530 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists.html">19. Lists (1245 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting.html">20. Sorting (600 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../objects.html">21. Objects (1390 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../objects-ii.html">22. Objects II (0 points)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../project-iii.html">23. Project III (500-900 points)</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">23.1. Project: Address Book (200-400 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project-hearts.html">23.2. Project: Hearts (300-500 points)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../project-euler.html">24. Project Euler (1715 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics-ii.html">25. Graphics II (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-iiii.html">26. Project IIII (0 points)</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Python Fundamental Exercises</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../project-iii.html"><span class="section-number">23. </span>Project III (500-900 points)</a> &raquo;</li>
+        
+      <li><span class="section-number">23.1. </span>Project: Address Book</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/exercises/project-address-book.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="project-address-book">
+<h1><span class="section-number">23.1. </span>Project: Address Book<a class="headerlink" href="#project-address-book" title="Permalink to this headline">¶</a></h1>
+<p>Write a program that functions as an address book. It should
+have entries containing <em>at least</em> the following information: first
+and last name, phone number, address, and email address. You should be
+able to add entries and remove entries, as well as printing out any
+given entry. It should save entries to a file, and be able to read in
+entries from a file as well.</p>
+<p>The address book must be able to sort by at least one field
+(preferably last name). You may use any sort for this that you like.</p>
+<hr class="docutils" />
+<p>An excellent program will be able to sort the entries by any field
+(first name, last name, phone number, email address, etc).</p>
+<p>An excellent program will be able to display only entries matching
+a certain criteria (only last names beginning with the letter ‘M’, for
+example).</p>
+<p>An excellent program easily and intelligently handles the use
+of multiple address books (multiple files).</p>
+<hr class="docutils" />
+<p>A spectacular program features the ability to move an entry from one
+address book to another.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">1</span><span class="p">)</span> <span class="n">Load</span> <span class="kn">from</span> <span class="nn">file</span>
+<span class="mi">2</span><span class="p">)</span> <span class="n">Save</span> <span class="n">to</span> <span class="n">file</span>
+<span class="mi">3</span><span class="p">)</span> <span class="n">Add</span> <span class="n">an</span> <span class="n">entry</span>
+<span class="mi">4</span><span class="p">)</span> <span class="n">Remove</span> <span class="n">an</span> <span class="n">entry</span>
+<span class="mi">5</span><span class="p">)</span> <span class="n">Edit</span> <span class="n">an</span> <span class="n">existing</span> <span class="n">entry</span>
+<span class="mi">6</span><span class="p">)</span> <span class="n">Sort</span> <span class="n">the</span> <span class="n">address</span> <span class="n">book</span>
+<span class="mi">7</span><span class="p">)</span> <span class="n">Search</span> <span class="k">for</span> <span class="n">a</span> <span class="n">specific</span> <span class="n">entry</span>
+<span class="mi">8</span><span class="p">)</span> <span class="n">Quit</span>
+
+<span class="n">Please</span> <span class="n">choose</span> <span class="n">what</span> <span class="n">you</span><span class="s1">&#39;d like to do with the database:</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+<p>©2021 Daniel Gallo</p>
+<p>This assignment is licensed under a
+<a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License</a>.</p>
+<p><img alt="Creative Commons License" src="../_images/by-nc-sa.png" /></p>
+<p>Adapted for Python from Graham Mitchell’s <a class="reference external" href="https://programmingbydoing.com/">Programming By Doing</a></p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="project-hearts.html" class="btn btn-neutral float-right" title="23.2. Project: Hearts" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../project-iii.html" class="btn btn-neutral float-left" title="23. Project III (500-900 points)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Mr. Gallo.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

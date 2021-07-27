@@ -1,0 +1,265 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>24.14. Longest Collatz Sequence &mdash; Python Fundamental Exercises  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="24.15. Routes Through a 20x20 Grid" href="015-routes-through-a-20x20-grid.html" />
+    <link rel="prev" title="24.13. Sum 100 Fifty-Digit Numbers" href="013-sum-100-fifty-digit-numbers.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Python Fundamental Exercises
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basics-and-printing.html">1. Basics and Printing (58 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../variables.html">2. Variables (48 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../keyboard-input.html">3. Keyboard Input (106-119 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements.html">4. If Statements (185 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guis.html">5. GUIs (80 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements-ii.html">6. If Statements II (320-330 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../random-numbers.html">7. Random Numbers (140-150 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops.html">8. While Loops (275 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops.html">9. Post-test Loops (110 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops-ii.html">10. While Loops II (355-500 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops.html">11. For Loops (265 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project.html">12. Project (100-220 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics.html">13. Graphics (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functions.html">14. Functions (1070 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-ii.html">15. Project II (100-320 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops-ii.html">16. For Loops II (70 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nested-loops.html">17. Nested Loops (580 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../file-rw.html">18. File RW (530 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists.html">19. Lists (1245 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting.html">20. Sorting (600 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../objects.html">21. Objects (1390 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../objects-ii.html">22. Objects II (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-iii.html">23. Project III (500-900 points)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../project-euler.html">24. Project Euler (1715 points)</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="001-sum-multiples-of-3-or-5.html">24.1. 001 - Sum Multiples of 3 or 5 (20 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="002-sum-even-fibonacci-numbers.html">24.2. 002 - Sum Even Fibonacci Numbers (40 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="003-largest-prime-factor-of-big-number.html">24.3. 003 - Largest Prime Factor of Big Number (60 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="004-largest-palindromic-product.html">24.4. 004 - Largest Palindromic Product (70 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="005-smallest-divisible-by-1-20.html">24.5. 005 - Smallest Divisible by 1-20 (50 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="006-sums-of-squares-minus-squares-of-sums.html">24.6. 006 - Sums of Squares Minus Squares of Sums (50 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="007-the-10001st-prime.html">24.7. 007 - The 10001st Prime (80 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="008-largest-product-of-consecutive-digits.html">24.8. 008 - Largest Product of Consecutive Digits (100 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="009-pythagorean-triplet.html">24.9. 009 - Pythagorean Triplet (75 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="010-sum-of-primes-under-two-million.html">24.10. 010 - Sum of Primes Under Two Million (100 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="011-largest-product-of-4-numbers-in-grid.html">24.11. 011 - Largest Product of 4 Numbers in Grid (160 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="012-first-triangle-number-w-501-divisors.html">24.12. 012 - First Triangle Number w/501 Divisors (160 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="013-sum-100-fifty-digit-numbers.html">24.13. 013 - Sum 100 Fifty-Digit Numbers (80 points)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">24.14. 014 - Longest Collatz Sequence (150 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="015-routes-through-a-20x20-grid.html">24.15. 015 - Routes Through a 20x20 Grid (100 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="016-sum-of-the-digits-of-2-1000.html">24.16. 016 - Sum of the Digits of 2^1000 (50 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="017-letters-in-one-to-one-thousand.html">24.17. 017 - Letters in One to One Thousand (110 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="018-maximum-sum-path-through-triangle.html">24.18. 018 - Maximum Sum Path through Triangle (160 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="019-sundays-on-the-1st-of-the-month.html">24.19. 019 - Sundays on the 1st of the Month (50 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="020-sum-of-the-digits-of-100.html">24.20. 020 - Sum of the Digits of 100! (50 points)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics-ii.html">25. Graphics II (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-iiii.html">26. Project IIII (0 points)</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Python Fundamental Exercises</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../project-euler.html"><span class="section-number">24. </span>Project Euler (1715 points)</a> &raquo;</li>
+        
+      <li><span class="section-number">24.14. </span>Longest Collatz Sequence</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/exercises/014-longest-collatz-sequence.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="longest-collatz-sequence">
+<h1><span class="section-number">24.14. </span>Longest Collatz Sequence<a class="headerlink" href="#longest-collatz-sequence" title="Permalink to this headline">¶</a></h1>
+<p>Complete the Project Euler problem <em><a class="reference external" href="https://projecteuler.net/problem=14">Longest Collatz Sequence</a></em>.</p>
+<p>Save the file as <code class="docutils literal notranslate"><span class="pre">euler_014.py</span></code></p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="015-routes-through-a-20x20-grid.html" class="btn btn-neutral float-right" title="24.15. Routes Through a 20x20 Grid" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="013-sum-100-fifty-digit-numbers.html" class="btn btn-neutral float-left" title="24.13. Sum 100 Fifty-Digit Numbers" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Mr. Gallo.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

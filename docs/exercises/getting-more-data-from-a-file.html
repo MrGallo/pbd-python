@@ -1,0 +1,280 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>21.8. Getting More Data from a File &mdash; Python Fundamental Exercises  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="21.9. Storing Data in a File" href="storing-data-in-a-file.html" />
+    <link rel="prev" title="21.7. Getting Data from a File" href="getting-data-from-a-file.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Python Fundamental Exercises
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basics-and-printing.html">1. Basics and Printing (58 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../variables.html">2. Variables (48 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../keyboard-input.html">3. Keyboard Input (106-119 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements.html">4. If Statements (185 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guis.html">5. GUIs (80 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements-ii.html">6. If Statements II (320-330 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../random-numbers.html">7. Random Numbers (140-150 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops.html">8. While Loops (275 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops.html">9. Post-test Loops (110 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops-ii.html">10. While Loops II (355-500 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops.html">11. For Loops (265 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project.html">12. Project (100-220 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics.html">13. Graphics (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functions.html">14. Functions (1070 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-ii.html">15. Project II (100-320 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops-ii.html">16. For Loops II (70 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nested-loops.html">17. Nested Loops (580 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../file-rw.html">18. File RW (530 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists.html">19. Lists (1245 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting.html">20. Sorting (600 points)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../objects.html">21. Objects (1390 points)</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="web-addresses.html">21.1. Web Addresses (30 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="web-addresses-list.html">21.2. Web Addresses List (10 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="address-str-method.html">21.3. Address str Method (20 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="basic-classes.html">21.4. Basic Classes (80 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a-little-database.html">21.5. A Little Database (100 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a-little-database-is-shorter-with-a-loop.html">21.6. A Little Database is shorter with a loop (100 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="getting-data-from-a-file.html">21.7. Getting Data from a File (120 points)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">21.8. Getting More Data from a File (140 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="storing-data-in-a-file.html">21.9. Storing Data in a File (150 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="reading-what-you-wrote.html">21.10. Reading What You Wrote (160 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sorting-a-list-of-objects.html">21.11. Sorting a List of Objects (160 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sorting-string-fields.html">21.12. Sorting String Fields (120 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="sorting-objects-on-two-fields.html">21.13. Sorting Objects on Two Fields (200 points)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../objects-ii.html">22. Objects II (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-iii.html">23. Project III (500-900 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-euler.html">24. Project Euler (1715 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics-ii.html">25. Graphics II (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-iiii.html">26. Project IIII (0 points)</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Python Fundamental Exercises</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../objects.html"><span class="section-number">21. </span>Objects (1390 points)</a> &raquo;</li>
+        
+      <li><span class="section-number">21.8. </span>Getting More Data from a File</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/exercises/getting-more-data-from-a-file.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="getting-more-data-from-a-file">
+<h1><span class="section-number">21.8. </span>Getting More Data from a File<a class="headerlink" href="#getting-more-data-from-a-file" title="Permalink to this headline">¶</a></h1>
+<p>Using Notepad or the text editor of your choice, create a text
+file containing five names and five ages. Save this file in your home
+directory.</p>
+<p>Make a class to store information about a person:</p>
+<p><img alt="Person UML" src="../_images/uml-person.png" /></p>
+<p>Create a list of five <code class="docutils literal notranslate"><span class="pre">Person</span></code> objects.</p>
+<p>Ask the user for the name of a file to open, and open that file and read in five names and ages from the file.</p>
+<p>Display the contents of the list using a loop.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Which</span> <span class="n">file</span> <span class="n">to</span> <span class="nb">open</span><span class="p">:</span> <span class="n">nameage</span><span class="o">.</span><span class="n">txt</span>
+<span class="n">Reading</span> <span class="n">data</span> <span class="kn">from</span> <span class="nn">nameage.txt</span>
+
+<span class="n">Steve</span> <span class="n">Jobs</span> <span class="ow">is</span> <span class="mi">50</span>
+<span class="n">James</span> <span class="n">Brown</span> <span class="ow">is</span> <span class="mi">71</span>
+<span class="n">Britney</span> <span class="n">Spears</span> <span class="ow">is</span> <span class="mi">23</span>
+<span class="n">Michael</span> <span class="n">Jackson</span> <span class="ow">is</span> <span class="mi">46</span>
+<span class="n">Stanley</span> <span class="n">Kubrick</span> <span class="ow">is</span> <span class="mi">76</span>
+</pre></div>
+</div>
+<hr class="docutils" />
+<p>©2021 Daniel Gallo</p>
+<p>This assignment is licensed under a
+<a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License</a>.</p>
+<p><img alt="Creative Commons License" src="../_images/by-nc-sa.png" /></p>
+<p>Adapted for Python from Graham Mitchell’s <a class="reference external" href="https://programmingbydoing.com/">Programming By Doing</a></p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="storing-data-in-a-file.html" class="btn btn-neutral float-right" title="21.9. Storing Data in a File" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="getting-data-from-a-file.html" class="btn btn-neutral float-left" title="21.7. Getting Data from a File" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Mr. Gallo.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
