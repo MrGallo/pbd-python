@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>7.7. Three Card Monte &mdash; Python Fundamental Exercises  documentation</title>
+  <title>Three Card Monte &mdash; Python Fundamental Exercises  documentation</title>
   
 
   
@@ -45,7 +45,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="8. While Loops (275 points)" href="../while-loops.html" />
-    <link rel="prev" title="7.6. One Shot Hi-Lo" href="one-shot-hi-lo.html" /> 
+    <link rel="prev" title="One Shot Hi-Lo" href="one-shot-hi-lo.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -98,13 +98,13 @@
 <li class="toctree-l1"><a class="reference internal" href="../guis.html">5. GUIs (80 points)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../if-statements-ii.html">6. If Statements II (320-330 points)</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="../random-numbers.html">7. Random Numbers (140-150 points)</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="randomness.html">7.1. Randomness (15 points)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="magic-8-ball.html">7.2. Magic 8-Ball (10 points)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="a-number-guessing-game.html">7.3. A Number-Guessing Game (20 points)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="fortune-cookie.html">7.4. Fortune Cookie (15-25 points)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="dice.html">7.5. Dice (25 points)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="one-shot-hi-lo.html">7.6. One Shot Hi-Lo (35 points)</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">7.7. Three-Card Monte (20 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="randomness.html">Randomness (15 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="magic-8-ball.html">Magic 8-Ball (10 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="a-number-guessing-game.html">A Number-Guessing Game (20 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fortune-cookie.html">Fortune Cookie (15-25 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dice.html">Dice (25 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="one-shot-hi-lo.html">One Shot Hi-Lo (35 points)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Three-Card Monte (20 points)</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../while-loops.html">8. While Loops (275 points)</a></li>
@@ -120,12 +120,13 @@
 <li class="toctree-l1"><a class="reference internal" href="../file-rw.html">18. File RW (530 points)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../lists.html">19. Lists (1245 points)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../sorting.html">20. Sorting (600 points)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../objects.html">21. Objects (1390 points)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../objects-ii.html">22. Objects II (0 points)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../project-iii.html">23. Project III (500-900 points)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../project-euler.html">24. Project Euler (1715 points)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../graphics-ii.html">25. Graphics II (0 points)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../project-iiii.html">26. Project IIII (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dictionaries.html">21. Dictionaries (1185 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../classes.html">22. Classes (1390 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../objects-ii.html">23. Objects II (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-iii.html">24. Project III (500-900 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-euler.html">25. Project Euler (1715 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics-ii.html">26. Graphics II (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-iiii.html">27. Project IIII (0 points)</a></li>
 </ul>
 
             
@@ -176,7 +177,7 @@
         
           <li><a href="../random-numbers.html"><span class="section-number">7. </span>Random Numbers (140-150 points)</a> &raquo;</li>
         
-      <li><span class="section-number">7.7. </span>Three Card Monte</li>
+      <li>Three Card Monte</li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -196,7 +197,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="three-card-monte">
-<h1><span class="section-number">7.7. </span>Three Card Monte<a class="headerlink" href="#three-card-monte" title="Permalink to this headline">¶</a></h1>
+<h1>Three Card Monte<a class="headerlink" href="#three-card-monte" title="Permalink to this headline">¶</a></h1>
 <p>This is the original “ball and cups” game where you try to find out which cup has the ball under it. You may play with three cups and a ball, three cards (two jacks and an ace), or three doors and a car. Basically, randomly select a cup to hide the “ball”. Let the player guess which cup hides the ball. The player wins if they guess correctly.</p>
 <p>Name the file: <code class="docutils literal notranslate"><span class="pre">three_card_monty.py</span></code></p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>You slide up to Fast Eddie&#39;s card table and plop down your cash.
@@ -257,7 +258,7 @@ You nailed it! Fast Eddie reluctantly hands over your winnings, scowling.
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
         <a href="../while-loops.html" class="btn btn-neutral float-right" title="8. While Loops (275 points)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="one-shot-hi-lo.html" class="btn btn-neutral float-left" title="7.6. One Shot Hi-Lo" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="one-shot-hi-lo.html" class="btn btn-neutral float-left" title="One Shot Hi-Lo" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

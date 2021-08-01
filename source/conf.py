@@ -32,6 +32,7 @@ extensions = [
     "recommonmark",
     "sphinx_rtd_theme",
     "sphinx_copybutton",
+    'sphinx_markdown_tables',
 ]
 
 # Add any paths that contain templates here, relative to this directory.

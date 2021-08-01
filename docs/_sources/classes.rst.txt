@@ -1,4 +1,4 @@
-Objects (1390 points)
+Classes (1390 points)
 =====================
 
 .. toctree::

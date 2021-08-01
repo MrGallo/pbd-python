@@ -990,79 +990,151 @@
         "published": true
     },
     {
-        "section": "Objects",
+        "section": "Dictionaries",
+        "name": "Person Info",
+        "points": "10",
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Mini Passivist RPG",
+        "points": "25",
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Converting a List",
+        "points": "20",
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Converting Parallel Lists",
+        "points": "40",
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Fields in a Row",
+        "points": "60",
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Country Capitals",
+        "points": "60",
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Using Keys Method to Edit All Fields",
+        "points": "50",
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Modify and Rewrite",
+        "points": "50",
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Most Difficult Published Exercise",
+        "points": "70",
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Restructuring Database",
+        "points": "150",
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Adding Unique Entries",
+        "points": "150",
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Inventory Management System",
+        "points": "500",
+        "published": true
+    },
+    {
+        "section": "Classes",
         "name": "Web Addresses",
         "points": "30",
         "published": true
     },
     {
-        "section": "Objects",
+        "section": "Classes",
         "name": "Web Addresses List",
         "points": "10",
         "published": true
     },
     {
-        "section": "Objects",
+        "section": "Classes",
         "name": "Address str Method",
         "points": "20",
         "published": true
     },
     {
-        "section": "Objects",
+        "section": "Classes",
         "name": "Basic Classes",
         "points": "80",
         "published": true
     },
     {
-        "section": "Objects",
+        "section": "Classes",
         "name": "A Little Database",
         "points": "100",
         "published": true
     },
     {
-        "section": "Objects",
+        "section": "Classes",
         "name": "A Little Database is shorter with a loop",
         "points": "100",
         "published": true
     },
     {
-        "section": "Objects",
+        "section": "Classes",
         "name": "Getting Data from a File",
         "points": "120",
         "published": true
     },
     {
-        "section": "Objects",
+        "section": "Classes",
         "name": "Getting More Data from a File",
         "points": "140",
         "published": true
     },
     {
-        "section": "Objects",
+        "section": "Classes",
         "name": "Storing Data in a File",
         "points": "150",
         "published": true
     },
     {
-        "section": "Objects",
+        "section": "Classes",
         "name": "Reading What You Wrote",
         "points": "160",
         "published": true
     },
     {
-        "section": "Objects",
+        "section": "Classes",
         "name": "Sorting a List of Objects",
         "points": "160",
         "published": true
     },
     {
-        "section": "Objects",
+        "section": "Classes",
         "name": "Sorting String Fields",
         "points": "120",
         "published": true
     },
     {
-        "section": "Objects",
+        "section": "Classes",
         "name": "Sorting Objects on Two Fields",
         "points": "200",
         "published": true

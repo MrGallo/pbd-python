@@ -1,0 +1,56 @@
+[
+    {
+        "section": "Dictionaries",
+        "name": "Person Info",
+        "points": 10,
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Mini Passivist RPG",
+        "points": 25,
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Converting a List",
+        "points": 20,
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Converting Parallel Lists",
+        "points": 40,
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Fields in a Row",
+        "points": 60,
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Country Capitals",
+        "points": 60,
+        "published": false
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Using Keys Method to Edit All Fields",
+        "points": 50,
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Modify and Rewrite",
+        "points": 50,
+        "published": false
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Most Difficult Published Exercises",
+        "points": 70,
+        "published": true
+    }
+]

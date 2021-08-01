@@ -1,0 +1,288 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Converting a List &mdash; Python Fundamental Exercises  documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/copybutton.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/clipboard.min.js"></script>
+        <script src="../_static/copybutton.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Converting Parallel Lists" href="converting-parallel-lists.html" />
+    <link rel="prev" title="Mini Passivist RPG" href="mini-passivist-rpg.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Python Fundamental Exercises
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basics-and-printing.html">1. Basics and Printing (58 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../variables.html">2. Variables (48 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../keyboard-input.html">3. Keyboard Input (106-119 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements.html">4. If Statements (185 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../guis.html">5. GUIs (80 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../if-statements-ii.html">6. If Statements II (320-330 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../random-numbers.html">7. Random Numbers (140-150 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops.html">8. While Loops (275 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../post-test-loops.html">9. Post-test Loops (110 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../while-loops-ii.html">10. While Loops II (355-500 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops.html">11. For Loops (265 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project.html">12. Project (100-220 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics.html">13. Graphics (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../functions.html">14. Functions (1070 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-ii.html">15. Project II (100-320 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../for-loops-ii.html">16. For Loops II (70 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nested-loops.html">17. Nested Loops (580 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../file-rw.html">18. File RW (530 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lists.html">19. Lists (1245 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../sorting.html">20. Sorting (600 points)</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../dictionaries.html">21. Dictionaries (1185 points)</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="person-info.html">Person Info (10 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mini-passivist-rpg.html">Mini Passivist RPG (25 points)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Converting a List (20 points)</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#what-you-should-see">What you should see</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#what-you-should-do">What you should do</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="converting-parallel-lists.html">Converting Parallel Lists (40 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="fields-in-a-row.html">Fields in a Row (60 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="country-capitals.html">Country Capitals (60 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="using-keys-method-to-edit-all-fields.html">Using Keys Method to Edit All Fields (50 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="modify-and-rewrite.html">Modify and Rewrite (50 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="most-difficult-published-exercise.html">Most Difficult Published Exercise (70 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="restructuring-database.html">Restructuring Database (150 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adding-unique-entries.html">Adding Unique Entries (150 points)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="inventory-management-system.html">Inventory Management System (500 points)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../classes.html">22. Classes (1390 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../objects-ii.html">23. Objects II (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-iii.html">24. Project III (500-900 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-euler.html">25. Project Euler (1715 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../graphics-ii.html">26. Graphics II (0 points)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../project-iiii.html">27. Project IIII (0 points)</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Python Fundamental Exercises</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../dictionaries.html"><span class="section-number">21. </span>Dictionaries (1185 points)</a> &raquo;</li>
+        
+      <li>Converting a List</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/exercises/converting-a-list.md.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="converting-a-list">
+<h1>Converting a List<a class="headerlink" href="#converting-a-list" title="Permalink to this headline">¶</a></h1>
+<p>You may have used a list before to store a lot of different information about a particular thing. As you were using it, chances are you forgot what index position a particular piece of info was located.</p>
+<p>Download the code and get it to run:</p>
+<ul class="simple">
+<li><p><a class="reference download internal" download="" href="../_downloads/6d990016ce0b61ea866cfebd6347f9dd/converting_a_list.py"><code class="xref download docutils literal notranslate"><span class="pre">converting_a_list.py</span></code></a></p></li>
+</ul>
+<div class="section" id="what-you-should-see">
+<h2>What you should see<a class="headerlink" href="#what-you-should-see" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Name: Jim
+Age: 54
+Eye colour: ???
+Favourite colour: ???
+</pre></div>
+</div>
+</div>
+<div class="section" id="what-you-should-do">
+<h2>What you should do<a class="headerlink" href="#what-you-should-do" title="Permalink to this headline">¶</a></h2>
+<p>Without clarifying comments accompanying that list, it is impossible to know for sure what the eye colour or favourite colour is. Comments are good, but clear, self-explanatory code is better.</p>
+<ol class="simple">
+<li><p>Convert this list to a dictionary. We will say their eye color is the <code class="docutils literal notranslate"><span class="pre">&quot;green&quot;</span></code> there. Notice how the <em>key -&gt; value pair</em> structure of a dictionary makes it extremely clear what each piece of data is.</p></li>
+<li><p>Complete the print statements using the dictionary.</p></li>
+<li><p>Close your eyes (after reading this) and try to remember what index position the person’s age was at in the original list. No peaking. The fact we need to refer back to the original code to remind ourselves of this should be a clue that a list isn’t the greatest tool for holding different pieces of information about a single entity. Lists are, however, excellent at storing a lot of one type of thing, like a list of marks.</p></li>
+</ol>
+<hr class="docutils" />
+<p>©2021 Daniel Gallo</p>
+<p>This assignment is licensed under a
+<a class="reference external" href="https://creativecommons.org/licenses/by-nc-sa/3.0/us/deed.en_US">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License</a>.</p>
+<p><img alt="Creative Commons License" src="../_images/by-nc-sa.png" /></p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="converting-parallel-lists.html" class="btn btn-neutral float-right" title="Converting Parallel Lists" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="mini-passivist-rpg.html" class="btn btn-neutral float-left" title="Mini Passivist RPG" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2021, Mr. Gallo.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

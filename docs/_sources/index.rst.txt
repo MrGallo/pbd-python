@@ -3,7 +3,7 @@ Python Fundamental Exercises
 
 .. toctree::
     :maxdepth: 2
-    :numbered: 2
+    :numbered: 1
 
     basics-and-printing
     variables
@@ -25,7 +25,8 @@ Python Fundamental Exercises
     file-rw
     lists
     sorting
-    objects
+    dictionaries
+    classes
     objects-ii
     project-iii
     project-euler

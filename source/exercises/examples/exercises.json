@@ -1,0 +1,44 @@
+[
+    {
+        "section": "Dictionaries",
+        "name": "Person Info",
+        "points": "10",
+        "number": 0
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Mini Passivist RPG",
+        "points": "25",
+        "number": 1
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Converting a List",
+        "points": "20",
+        "number": 2
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Converting Parallel Lists",
+        "points": "40",
+        "number": 3
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Fields in a Row",
+        "points": "60",
+        "number": 4
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Country Capitals",
+        "points": "60",
+        "number": 5
+    },
+    {
+        "section": "Dictionaries",
+        "name": "Using Keys Method to Edit All Fields",
+        "points": "50",
+        "number": 6
+    }
+]

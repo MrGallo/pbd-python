@@ -104,7 +104,7 @@ def create_root_index(sections: List[str]):
 
 .. toctree::
     :maxdepth: 2
-    :numbered: 2
+    :numbered: 1
 
 """
     for sec in sections:

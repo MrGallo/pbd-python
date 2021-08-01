@@ -20,11 +20,10 @@ Values:
 	
 ID number to find: 307760
 
-Found in slot 3
+Found at index 3
 	Name: Zimmerman
 	Average: 96.8
 	ID: 307760
-
 ```
 
 ---
