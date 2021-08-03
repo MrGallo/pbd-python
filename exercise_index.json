@@ -708,6 +708,60 @@
         "published": true
     },
     {
+        "section": "Exceptions",
+        "name": "No Negative Args, Please!",
+        "points": "20",
+        "published": true
+    },
+    {
+        "section": "Exceptions",
+        "name": "An Abundance of Caution",
+        "points": "60",
+        "published": true
+    },
+    {
+        "section": "Exceptions",
+        "name": "Try a Validation Loop",
+        "points": "50",
+        "published": true
+    },
+    {
+        "section": "Exceptions",
+        "name": "Modify Evenness Function",
+        "points": "50",
+        "published": true
+    },
+    {
+        "section": "Exceptions",
+        "name": "Modify Heron's Formula",
+        "points": "50",
+        "published": true
+    },
+    {
+        "section": "Exceptions",
+        "name": "Modify Month Name",
+        "points": "30",
+        "published": true
+    },
+    {
+        "section": "Exceptions",
+        "name": "Month Name Handling",
+        "points": "100",
+        "published": true
+    },
+    {
+        "section": "Exceptions",
+        "name": "Refactor Most Common Issue",
+        "points": "50",
+        "published": true
+    },
+    {
+        "section": "Exceptions",
+        "name": "Serious Menu Error Handling",
+        "points": "150",
+        "published": true
+    },
+    {
         "section": "For Loops II",
         "name": "A Refresher",
         "points": "20",
