@@ -20,6 +20,7 @@ Python Fundamental Exercises
     graphics
     functions
     project-ii
+    exceptions
     for-loops-ii
     nested-loops
     file-rw

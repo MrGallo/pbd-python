@@ -757,6 +757,12 @@
     },
     {
         "section": "Exceptions",
+        "name": "A Picky Function",
+        "points": "70",
+        "published": true
+    },
+    {
+        "section": "Exceptions",
         "name": "Serious Menu Error Handling",
         "points": "150",
         "published": true
