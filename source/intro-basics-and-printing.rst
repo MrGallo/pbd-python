@@ -1,5 +1,5 @@
-Basics and Printing (58 points)
-===============================
+Intro: Basics and Printing (58 points)
+======================================
 
 .. toctree::
     :maxdepth: 1

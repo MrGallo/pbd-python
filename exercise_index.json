@@ -1,126 +1,126 @@
 [
     {
-        "section": "Basics and Printing",
+        "section": "Intro: Basics and Printing",
         "name": "Installing Python",
         "points": "20",
         "published": true
     },
     {
-        "section": "Basics and Printing",
+        "section": "Intro: Basics and Printing",
         "name": "Interpreter Check",
         "points": "3",
         "published": true
     },
     {
-        "section": "Basics and Printing",
+        "section": "Intro: Basics and Printing",
         "name": "Execution Practice",
         "points": "3",
         "published": true
     },
     {
-        "section": "Basics and Printing",
+        "section": "Intro: Basics and Printing",
         "name": "An Important Message",
         "points": "5",
         "published": true
     },
     {
-        "section": "Basics and Printing",
+        "section": "Intro: Basics and Printing",
         "name": "Escape Artist",
         "points": "4",
         "published": true
     },
     {
-        "section": "Basics and Printing",
+        "section": "Intro: Basics and Printing",
         "name": "Comments",
         "points": "3",
         "published": true
     },
     {
-        "section": "Basics and Printing",
+        "section": "Intro: Basics and Printing",
         "name": "A Letter to Your Principal",
         "points": "7",
         "published": true
     },
     {
-        "section": "Basics and Printing",
+        "section": "Intro: Basics and Printing",
         "name": "Your Initials",
         "points": "6",
         "published": true
     },
     {
-        "section": "Basics and Printing",
+        "section": "Intro: Basics and Printing",
         "name": "Numbers and Math",
         "points": "7",
         "published": true
     },
     {
-        "section": "Variables",
+        "section": "Intro: Variables",
         "name": "Variables and Names",
         "points": "7",
         "published": true
     },
     {
-        "section": "Variables",
+        "section": "Intro: Variables",
         "name": "More Variables and Printing",
         "points": "7",
         "published": true
     },
     {
-        "section": "Variables",
+        "section": "Intro: Variables",
         "name": "Using Variables",
         "points": "9",
         "published": true
     },
     {
-        "section": "Variables",
+        "section": "Intro: Variables",
         "name": "Still Using Variables",
         "points": "10",
         "published": true
     },
     {
-        "section": "Variables",
+        "section": "Intro: Variables",
         "name": "Your Schedule",
         "points": "15",
         "published": true
     },
     {
-        "section": "Keyboard Input",
+        "section": "Intro: Keyboard Input",
         "name": "User Input",
         "points": "10",
         "published": true
     },
     {
-        "section": "Keyboard Input",
+        "section": "Intro: Keyboard Input",
         "name": "The Forgetful Machine",
         "points": "12",
         "published": true
     },
     {
-        "section": "Keyboard Input",
+        "section": "Intro: Keyboard Input",
         "name": "Name, Age, and Salary",
         "points": "15",
         "published": true
     },
     {
-        "section": "Keyboard Input",
+        "section": "Intro: Keyboard Input",
         "name": "More User Input of Data",
         "points": "16",
         "published": true
     },
     {
-        "section": "Keyboard Input",
+        "section": "Intro: Keyboard Input",
         "name": "Age in Five Years",
         "points": "18",
         "published": true
     },
     {
-        "section": "Keyboard Input",
+        "section": "Intro: Keyboard Input",
         "name": "A Silly Calculator",
         "points": "20",
         "published": true
     },
     {
-        "section": "Keyboard Input",
+        "section": "Intro: Keyboard Input",
         "name": "BMI Calculator",
         "points": "15-28",
         "published": true

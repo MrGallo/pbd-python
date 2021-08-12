@@ -1,5 +1,5 @@
-Variables (48 points)
-=====================
+Intro: Variables (48 points)
+============================
 
 .. toctree::
     :maxdepth: 1

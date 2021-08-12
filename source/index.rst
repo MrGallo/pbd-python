@@ -5,9 +5,9 @@ Python Fundamental Exercises
     :maxdepth: 2
     :numbered: 1
 
-    basics-and-printing
-    variables
-    keyboard-input
+    intro-basics-and-printing
+    intro-variables
+    intro-keyboard-input
     if-statements
     guis
     if-statements-ii

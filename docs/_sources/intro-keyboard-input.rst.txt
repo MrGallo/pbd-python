@@ -1,5 +1,5 @@
-Keyboard Input (106-119 points)
-===============================
+Intro: Keyboard Input (106-119 points)
+======================================
 
 .. toctree::
     :maxdepth: 1
