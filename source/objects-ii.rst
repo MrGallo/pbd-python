@@ -1,5 +1,5 @@
-Objects II (0 points)
-=====================
+Objects II ⁰ ᵖᵒⁱⁿᵗˢ
+===================
 
 .. toctree::
     :maxdepth: 1

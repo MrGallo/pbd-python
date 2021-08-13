@@ -1,12 +1,12 @@
-While Loops II (355-500 points)
-===============================
+While Loops II ³⁵⁵⁻⁵⁰⁰ ᵖᵒⁱⁿᵗˢ
+=============================
 
 .. toctree::
     :maxdepth: 1
 
-    Safe Square Root (55 points) <exercises/safe-square-root>
-    Right Triangle Checker (65 points) <exercises/right-triangle-checker>
-    Collatz Sequence (30-60 points) <exercises/collatz-sequence>
-    Short Adventure 2: With a Loop (75 points) <exercises/short-adventure-2-with-a-loop>
-    Baby Nim (60 points) <exercises/baby-nim>
-    Nim (70-185 points) <exercises/nim>
+    Safe Square Root ⁵⁵ ᵖᵒⁱⁿᵗˢ <exercises/safe-square-root>
+    Right Triangle Checker ⁶⁵ ᵖᵒⁱⁿᵗˢ <exercises/right-triangle-checker>
+    Collatz Sequence ³⁰⁻⁶⁰ ᵖᵒⁱⁿᵗˢ <exercises/collatz-sequence>
+    Short Adventure 2: With a Loop ⁷⁵ ᵖᵒⁱⁿᵗˢ <exercises/short-adventure-2-with-a-loop>
+    Baby Nim ⁶⁰ ᵖᵒⁱⁿᵗˢ <exercises/baby-nim>
+    Nim ⁷⁰⁻¹⁸⁵ ᵖᵒⁱⁿᵗˢ <exercises/nim>

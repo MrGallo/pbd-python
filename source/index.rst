@@ -5,9 +5,7 @@ Python Fundamental Exercises
     :maxdepth: 2
     :numbered: 1
 
-    intro-basics-and-printing
-    intro-variables
-    intro-keyboard-input
+    introduction-to-programming
     if-statements
     guis
     if-statements-ii
@@ -27,9 +25,10 @@ Python Fundamental Exercises
     lists
     sorting
     dictionaries
-    classes
-    objects-ii
+    classes-fields
     project-iii
+    classes-methods
+    objects-ii
     project-euler
     graphics-ii
     project-iiii

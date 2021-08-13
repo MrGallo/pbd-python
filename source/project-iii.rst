@@ -1,8 +1,8 @@
-Project III (500-900 points)
-============================
+Project III ⁵⁰⁰⁻⁹⁰⁰ ᵖᵒⁱⁿᵗˢ
+==========================
 
 .. toctree::
     :maxdepth: 1
 
-    Project: Address Book (200-400 points) <exercises/project-address-book>
-    Project: Hearts (300-500 points) <exercises/project-hearts>
+    Project: Address Book ²⁰⁰⁻⁴⁰⁰ ᵖᵒⁱⁿᵗˢ <exercises/project-address-book>
+    Project: Hearts ³⁰⁰⁻⁵⁰⁰ ᵖᵒⁱⁿᵗˢ <exercises/project-hearts>

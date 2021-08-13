@@ -1,8 +1,8 @@
-Project (100-220 points)
-========================
+Project ¹⁰⁰⁻²²⁰ ᵖᵒⁱⁿᵗˢ
+======================
 
 .. toctree::
     :maxdepth: 1
 
-    Baby Blackjack (20 points) <exercises/baby-blackjack>
-    Project: Blackjack (80-200 points) <exercises/project-blackjack>
+    Baby Blackjack ²⁰ ᵖᵒⁱⁿᵗˢ <exercises/baby-blackjack>
+    Project: Blackjack ⁸⁰⁻²⁰⁰ ᵖᵒⁱⁿᵗˢ <exercises/project-blackjack>

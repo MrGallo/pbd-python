@@ -1,9 +1,9 @@
-GUIs (80 points)
-================
+GUIs ⁸⁰ ᵖᵒⁱⁿᵗˢ
+==============
 
 .. toctree::
     :maxdepth: 1
 
-    Using Tkinter for Input (20 points) <exercises/using-tkinter-for-input>
-    Favourite Colour (30 points) <exercises/favourite-colour>
-    Clear Text (30 points) <exercises/clear-text>
+    Using Tkinter for Input ²⁰ ᵖᵒⁱⁿᵗˢ <exercises/using-tkinter-for-input>
+    Favourite Colour ³⁰ ᵖᵒⁱⁿᵗˢ <exercises/favourite-colour>
+    Clear Text ³⁰ ᵖᵒⁱⁿᵗˢ <exercises/clear-text>

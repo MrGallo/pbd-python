@@ -1,128 +1,188 @@
 [
     {
-        "section": "Intro: Basics and Printing",
+        "section": "Introduction to Programming",
+        "name": "📓 Introduction to Programming",
+        "link": "https://mrgallo.github.io/fundamentals/intro.html",
+        "published": true
+    },
+    {
+        "section": "Introduction to Programming",
+        "name": "▶️ Install and Setup for Mac and Windows",
+        "link": "https://www.youtube.com/watch?v=YYXdXT2l-Gg",
+        "published": true
+    },
+    {
+        "section": "Introduction to Programming",
+        "name": "▶️ Visual Studio Code (Windows)",
+        "link": "https://www.youtube.com/watch?v=-nh9rCzPJ20&ab_channel=CoreySchafer",
+        "published": true
+    },
+    {
+        "section": "Introduction to Programming",
+        "name": "▶️ Visual Studio Code (Mac)",
+        "link": "https://www.youtube.com/watch?v=06I63_p-2A4&ab_channel=CoreySchafer",
+        "published": true
+    },
+    {
+        "section": "Introduction to Programming",
         "name": "Installing Python",
         "points": "20",
         "published": true
     },
     {
-        "section": "Intro: Basics and Printing",
+        "section": "Introduction to Programming",
         "name": "Interpreter Check",
         "points": "3",
         "published": true
     },
     {
-        "section": "Intro: Basics and Printing",
+        "section": "Introduction to Programming",
         "name": "Execution Practice",
         "points": "3",
         "published": true
     },
     {
-        "section": "Intro: Basics and Printing",
+        "section": "Introduction to Programming",
         "name": "An Important Message",
         "points": "5",
         "published": true
     },
     {
-        "section": "Intro: Basics and Printing",
+        "section": "Introduction to Programming",
         "name": "Escape Artist",
         "points": "4",
         "published": true
     },
     {
-        "section": "Intro: Basics and Printing",
+        "section": "Introduction to Programming",
         "name": "Comments",
         "points": "3",
         "published": true
     },
     {
-        "section": "Intro: Basics and Printing",
+        "section": "Introduction to Programming",
         "name": "A Letter to Your Principal",
         "points": "7",
         "published": true
     },
     {
-        "section": "Intro: Basics and Printing",
+        "section": "Introduction to Programming",
         "name": "Your Initials",
         "points": "6",
         "published": true
     },
     {
-        "section": "Intro: Basics and Printing",
+        "section": "Introduction to Programming",
+        "name": "▶️ Integers and Floats - Working with Numeric Data",
+        "link": "https://www.youtube.com/watch?v=khKv-8q7YmY",
+        "published": true
+    },
+    {
+        "section": "Introduction to Programming",
         "name": "Numbers and Math",
         "points": "7",
         "published": true
     },
     {
-        "section": "Intro: Variables",
+        "section": "Introduction to Programming",
+        "name": "📓 Strings",
+        "link": "https://mrgallo.github.io/fundamentals/strings.html",
+        "published": true
+    },
+    {
+        "section": "Introduction to Programming",
+        "name": "▶️ Strings - Working with Textual Data",
+        "link": "https://www.youtube.com/watch?v=k9TUPpGqYTo",
+        "published": true
+    },
+    {
+        "section": "Introduction to Programming",
         "name": "Variables and Names",
         "points": "7",
         "published": true
     },
     {
-        "section": "Intro: Variables",
+        "section": "Introduction to Programming",
         "name": "More Variables and Printing",
         "points": "7",
         "published": true
     },
     {
-        "section": "Intro: Variables",
+        "section": "Introduction to Programming",
         "name": "Using Variables",
         "points": "9",
         "published": true
     },
     {
-        "section": "Intro: Variables",
+        "section": "Introduction to Programming",
         "name": "Still Using Variables",
         "points": "10",
         "published": true
     },
     {
-        "section": "Intro: Variables",
+        "section": "Introduction to Programming",
         "name": "Your Schedule",
         "points": "15",
         "published": true
     },
     {
-        "section": "Intro: Keyboard Input",
+        "section": "Introduction to Programming",
+        "name": "▶️ Get Input from the User",
+        "link": "https://www.youtube.com/embed/zWbOxihFwJs",
+        "published": true
+    },
+    {
+        "section": "Introduction to Programming",
         "name": "User Input",
         "points": "10",
         "published": true
     },
     {
-        "section": "Intro: Keyboard Input",
+        "section": "Introduction to Programming",
         "name": "The Forgetful Machine",
         "points": "12",
         "published": true
     },
     {
-        "section": "Intro: Keyboard Input",
+        "section": "Introduction to Programming",
         "name": "Name, Age, and Salary",
         "points": "15",
         "published": true
     },
     {
-        "section": "Intro: Keyboard Input",
+        "section": "Introduction to Programming",
         "name": "More User Input of Data",
         "points": "16",
         "published": true
     },
     {
-        "section": "Intro: Keyboard Input",
+        "section": "Introduction to Programming",
         "name": "Age in Five Years",
         "points": "18",
         "published": true
     },
     {
-        "section": "Intro: Keyboard Input",
+        "section": "Introduction to Programming",
         "name": "A Silly Calculator",
         "points": "20",
         "published": true
     },
     {
-        "section": "Intro: Keyboard Input",
+        "section": "Introduction to Programming",
         "name": "BMI Calculator",
         "points": "15-28",
+        "published": true
+    },
+    {
+        "section": "If Statements",
+        "name": "📓 If Statements",
+        "link": "https://mrgallo.github.io/fundamentals/if_statements.html",
+        "published": true
+    },
+    {
+        "section": "If Statements",
+        "name": "▶️ Conditionals and Booleans - If, Else, and Elif Statements",
+        "link": "https://www.youtube.com/watch?v=DZwmZ8Usvnk",
         "published": true
     },
     {
@@ -288,6 +348,24 @@
         "published": true
     },
     {
+        "section": "Random Numbers",
+        "name": "▶️ Generate Random Numbers and Data Using the random Module",
+        "link": "https://www.youtube.com/watch?v=KzqSDvzOFNA",
+        "published": true
+    },
+    {
+        "section": "While Loops",
+        "name": "📓 Loops",
+        "link": "https://mrgallo.github.io/fundamentals/loops.html",
+        "published": true
+    },
+    {
+        "section": "While Loops",
+        "name": "▶️ While Loop",
+        "link": "https://www.youtube.com/watch?v=Ghz4YwOXtTA",
+        "published": true
+    },
+    {
         "section": "While Loops",
         "name": "Enter Your PIN",
         "points": "15",
@@ -333,6 +411,24 @@
         "section": "While Loops",
         "name": "Adding Values in a Loop",
         "points": "30",
+        "published": true
+    },
+    {
+        "section": "Post-test Loops",
+        "name": "▶️ do while Loop in Python",
+        "link": "https://www.youtube.com/watch?v=6vPHm7z_n0M",
+        "published": true
+    },
+    {
+        "section": "Post-test Loops",
+        "name": "▶️ Indefinite Loop",
+        "link": "https://www.youtube.com/watch?v=_FVC-L-hbtM",
+        "published": true
+    },
+    {
+        "section": "Post-test Loops",
+        "name": "▶️ How to Use 'break' and 'continue' in Python 'while' Loops",
+        "link": "https://www.youtube.com/watch?v=BTaPo33TBIM",
         "published": true
     },
     {
@@ -393,6 +489,36 @@
         "section": "While Loops II",
         "name": "Nim",
         "points": "70-185",
+        "published": true
+    },
+    {
+        "section": "For Loops",
+        "name": "📓 For Loops",
+        "link": "https://mrgallo.github.io/fundamentals/loops.html#loop-using-range",
+        "published": true
+    },
+    {
+        "section": "For Loops",
+        "name": "▶️ For Loop",
+        "link": "https://www.youtube.com/watch?v=ahWIRov-w58",
+        "published": true
+    },
+    {
+        "section": "For Loops",
+        "name": "▶️ range() Function",
+        "link": "https://www.youtube.com/watch?v=T6_pYAWkzzA",
+        "published": true
+    },
+    {
+        "section": "For Loops",
+        "name": "▶️ Range Starting Position",
+        "link": "https://www.youtube.com/watch?v=9HMYCLvYWlE",
+        "published": true
+    },
+    {
+        "section": "For Loops",
+        "name": "▶️ Step in Range Explained",
+        "link": "https://www.youtube.com/watch?v=yAqWHXObABo",
         "published": true
     },
     {
@@ -595,6 +721,24 @@
     },
     {
         "section": "Functions",
+        "name": "📓 Functions",
+        "link": "https://mrgallo.github.io/fundamentals/functions.html",
+        "published": true
+    },
+    {
+        "section": "Functions",
+        "name": "▶️ Functions (watch until 10:30)",
+        "link": "https://www.youtube.com/watch?v=9Os0o3wzS_I",
+        "published": true
+    },
+    {
+        "section": "Functions",
+        "name": "▶️ Variable Scope (watch until 9:20)",
+        "link": "https://www.youtube.com/watch?v=QVdf0LgmICw",
+        "published": true
+    },
+    {
+        "section": "Functions",
         "name": "Picture Menu",
         "points": "10",
         "published": true
@@ -675,6 +819,18 @@
         "section": "Functions",
         "name": "Keychains for Sale, real ultimate power",
         "points": "80",
+        "published": true
+    },
+    {
+        "section": "Functions",
+        "name": "▶️ Import Modules (watch until 6:30)",
+        "link": "https://www.youtube.com/watch?v=CqvZ3vGoGs0",
+        "published": true
+    },
+    {
+        "section": "Functions",
+        "name": "▶️ if __name__ == '__main__'",
+        "link": "https://www.youtube.com/watch?v=sugvnHA7ElY",
         "published": true
     },
     {
@@ -841,6 +997,18 @@
     },
     {
         "section": "File RW",
+        "name": "📓 File RW",
+        "link": "https://mrgallo.github.io/fundamentals/file-rw.html",
+        "published": true
+    },
+    {
+        "section": "File RW",
+        "name": "▶️ File RW",
+        "link": "https://www.youtube.com/watch?v=eEFpPRSbuQE",
+        "published": true
+    },
+    {
+        "section": "File RW",
         "name": "Letter Revisited",
         "points": "40",
         "published": true
@@ -897,6 +1065,24 @@
         "section": "File RW",
         "name": "Vowel Capitalization",
         "points": "80",
+        "published": true
+    },
+    {
+        "section": "Lists",
+        "name": "📓 Lists",
+        "link": "https://mrgallo.github.io/fundamentals/lists.html",
+        "published": true
+    },
+    {
+        "section": "Lists",
+        "name": "▶️ Lists, Tuples, and Sets (optional after 20:10)",
+        "link": "https://www.youtube.com/watch?v=W8KRzm-HUcc&ab_channel=CoreySchafer",
+        "published": true
+    },
+    {
+        "section": "Lists",
+        "name": "▶️ Slicing Lists and Strings (optional)",
+        "link": "https://www.youtube.com/watch?v=ajrtAuDg3yw",
         "published": true
     },
     {
@@ -1051,6 +1237,18 @@
     },
     {
         "section": "Dictionaries",
+        "name": "📓 Dictionaries",
+        "link": "https://mrgallo.github.io/fundamentals/dictionaries.html",
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
+        "name": "▶️ Dictionaries",
+        "link": "https://www.youtube.com/watch?v=qq5054jqU40",
+        "published": true
+    },
+    {
+        "section": "Dictionaries",
         "name": "Person Info",
         "points": "10",
         "published": true
@@ -1122,88 +1320,94 @@
         "published": true
     },
     {
-        "section": "Classes",
+        "section": "Classes: Fields",
+        "name": "📓 Classes",
+        "link": "https://mrgallo.github.io/fundamentals/classes.html",
+        "published": true
+    },
+    {
+        "section": "Classes: Fields",
+        "name": "▶️ Classes and Instances (until 4:46)",
+        "link": "https://mrgallo.github.io/fundamentals/classes.html",
+        "published": true
+    },
+    {
+        "section": "Classes: Fields",
         "name": "Web Addresses",
         "points": "30",
         "published": true
     },
     {
-        "section": "Classes",
+        "section": "Classes: Fields",
         "name": "Web Addresses List",
         "points": "10",
         "published": true
     },
     {
-        "section": "Classes",
+        "section": "Classes: Fields",
         "name": "Address str Method",
         "points": "20",
         "published": true
     },
     {
-        "section": "Classes",
+        "section": "Classes: Fields",
         "name": "Basic Classes",
         "points": "80",
         "published": true
     },
     {
-        "section": "Classes",
+        "section": "Classes: Fields",
         "name": "A Little Database",
         "points": "100",
         "published": true
     },
     {
-        "section": "Classes",
+        "section": "Classes: Fields",
         "name": "A Little Database is shorter with a loop",
         "points": "100",
         "published": true
     },
     {
-        "section": "Classes",
+        "section": "Classes: Fields",
         "name": "Getting Data from a File",
         "points": "120",
         "published": true
     },
     {
-        "section": "Classes",
+        "section": "Classes: Fields",
         "name": "Getting More Data from a File",
         "points": "140",
         "published": true
     },
     {
-        "section": "Classes",
+        "section": "Classes: Fields",
         "name": "Storing Data in a File",
         "points": "150",
         "published": true
     },
     {
-        "section": "Classes",
+        "section": "Classes: Fields",
         "name": "Reading What You Wrote",
         "points": "160",
         "published": true
     },
     {
-        "section": "Classes",
+        "section": "Classes: Fields",
         "name": "Sorting a List of Objects",
         "points": "160",
         "published": true
     },
     {
-        "section": "Classes",
+        "section": "Classes: Fields",
         "name": "Sorting String Fields",
         "points": "120",
         "published": true
     },
     {
-        "section": "Classes",
+        "section": "Classes: Fields",
         "name": "Sorting Objects on Two Fields",
         "points": "200",
         "published": true
-    },
-    {
-        "section": "Objects II",
-        "name": "A Tic-Tac-Toe Class",
-        "points": "100",
-        "published": false
     },
     {
         "section": "Project III",
@@ -1216,6 +1420,18 @@
         "name": "Project: Hearts",
         "points": "300-500",
         "published": true
+    },
+    {
+        "section": "Classes: Methods",
+        "name": "▶️ Classes and Instances (4:43 onward)",
+        "link": "https://youtu.be/ZDa-Z5JzLYM?t=283",
+        "published": true
+    },
+    {
+        "section": "Classes: Methods",
+        "name": "On Initialization",
+        "points": "200",
+        "published": false
     },
     {
         "section": "Project Euler",

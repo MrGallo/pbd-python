@@ -7,9 +7,14 @@ Then erase all the functions except for `main()` `is_leap()` and `weekday()`.
 
 Now, when you run it, you should get a lot of errors about undefined functions.
 
-To fix this, all we need to do is import those specific functions from files they are in. 
+To fix this, all we need to do is import those specific functions from files they are in. Assuming the files are named::
 
-At the top of your `importing_functions.py` file, let's import those freshly named files:
+    weekday_name.py
+    month_name.py
+    month_offset.py
+
+
+At the top of your `importing_functions.py` file, let's import those files:
 
 ```python
 import weekday_name

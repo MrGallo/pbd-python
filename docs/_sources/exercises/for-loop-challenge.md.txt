@@ -18,7 +18,7 @@ Here's an example of what you'll be asked to do:
 
 > "Write a for loop that prints out all the numbers from 15 to 30, counting by 3s"
 
-# Bonus
+## Bonus
 
 If you feel like you are up for a greater challenge you can offer to sum up the numbers, or sum up certain multiples as you print out the numbers.
 

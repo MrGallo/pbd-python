@@ -1,5 +1,5 @@
-Graphics II (0 points)
-======================
+Graphics II ⁰ ᵖᵒⁱⁿᵗˢ
+====================
 
 .. toctree::
     :maxdepth: 1

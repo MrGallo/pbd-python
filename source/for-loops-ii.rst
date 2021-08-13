@@ -1,9 +1,9 @@
-For Loops II (70 points)
-========================
+For Loops II ⁷⁰ ᵖᵒⁱⁿᵗˢ
+======================
 
 .. toctree::
     :maxdepth: 1
 
-    A Refresher (20 points) <exercises/a-refresher>
-    Refresher Challenge (20 points) <exercises/refresher-challenge>
-    Displaying Some Multiples (30 points) <exercises/displaying-some-multiples>
+    A Refresher ²⁰ ᵖᵒⁱⁿᵗˢ <exercises/a-refresher>
+    Refresher Challenge ²⁰ ᵖᵒⁱⁿᵗˢ <exercises/refresher-challenge>
+    Displaying Some Multiples ³⁰ ᵖᵒⁱⁿᵗˢ <exercises/displaying-some-multiples>

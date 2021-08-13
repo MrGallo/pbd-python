@@ -20,7 +20,7 @@ def generate_docs():
     remove_docs()
     remove_section_index_files()
 
-    with open(INDEX_PATH, "r") as f:
+    with open(INDEX_PATH, "r", encoding="utf8") as f:
         exercises = json.load(f)
 
     # GENERATE DOCUMENTATION
@@ -50,18 +50,33 @@ def generate_docs():
             points = int(ex['points'])
             current_total[0] += points
             current_total[1] += points
+            points_str = number_to_superscript(points)
         except ValueError:
             low, high = tuple(map(int, ex['points'].split("-")))
-            points = ex['points']
+            # points_str = ex['points']
+            points_str = f"{number_to_superscript(low)}⁻{number_to_superscript(high)}"
             current_total[0] += low
             current_total[1] += high
+        except KeyError:
+            # instruction entries do not have a points key, so ignore
+            pass
         
-        current_section_links += f"    {ex['name']} ({points} points) <exercises/{slugify(ex['name'])}>\n"
+        if (link := ex.get("link")):
+            current_section_links += f"    {ex['name']} <{link}>\n"
+        else:
+            # current_section_links += f"    {ex['name']} ({points} points) <exercises/{slugify(ex['name'])}>\n"
+            current_section_links += f"    {ex['name']} {points_str} ᵖᵒⁱⁿᵗˢ <exercises/{slugify(ex['name'])}>\n"
     
     # write last section
     write_section(current_section, current_total, current_section_links)
     create_root_index(sections)
     create_nojekyll()
+
+
+def number_to_superscript(num: int) -> str:
+    num = str(num)
+    number_map = list("⁰¹²³⁴⁵⁶⁷⁸⁹")
+    return ''.join((number_map[int(n)] for n in str(num)))
 
 
 def remove_docs():
@@ -84,17 +99,17 @@ def create_nojekyll():
 def write_section(current_section, current_total, current_section_links):
     low, high = current_total
     if low == high:
-        section_points = str(low)
+        section_points = number_to_superscript(low)
     else:
-        section_points = f"{low}-{high}"
+        section_points = f"{number_to_superscript(low)}⁻{number_to_superscript(high)}"
     
-    title = current_section + f" ({section_points} points)"
+    title = current_section + f" {section_points} ᵖᵒⁱⁿᵗˢ"
     current_section_index = f"{title}\n{'=' * len(title)}\n\n.. toctree::\n    :maxdepth: 1\n\n"
     current_section_index += current_section_links
 
     file_name = slugify(current_section) + ".rst"
 
-    with open(ROOT_DIR / file_name, "w") as f:
+    with open(ROOT_DIR / file_name, "w", encoding="utf8") as f:
         f.write(current_section_index)
 
 

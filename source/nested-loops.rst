@@ -1,15 +1,15 @@
-Nested Loops (580 points)
-=========================
+Nested Loops ⁵⁸⁰ ᵖᵒⁱⁿᵗˢ
+=======================
 
 .. toctree::
     :maxdepth: 1
 
-    Nesting Loops (20 points) <exercises/nesting-loops>
-    Odometer Loops (25 points) <exercises/odometer-loops>
-    Basic Nested Loops (50 points) <exercises/basic-nested-loops>
-    Multiplication Table (65 points) <exercises/multiplication-table>
-    Number Puzzle I (60 points) <exercises/number-puzzle-i>
-    Getting Individual Digits (80 points) <exercises/getting-individual-digits>
-    More Number Puzzles (100 points) <exercises/more-number-puzzles>
-    Number Puzzles III: Armstrong Numbers (90 points) <exercises/number-puzzles-iii-armstrong-numbers>
-    Number Puzzles IV: A New Hope (90 points) <exercises/number-puzzles-iv-a-new-hope>
+    Nesting Loops ²⁰ ᵖᵒⁱⁿᵗˢ <exercises/nesting-loops>
+    Odometer Loops ²⁵ ᵖᵒⁱⁿᵗˢ <exercises/odometer-loops>
+    Basic Nested Loops ⁵⁰ ᵖᵒⁱⁿᵗˢ <exercises/basic-nested-loops>
+    Multiplication Table ⁶⁵ ᵖᵒⁱⁿᵗˢ <exercises/multiplication-table>
+    Number Puzzle I ⁶⁰ ᵖᵒⁱⁿᵗˢ <exercises/number-puzzle-i>
+    Getting Individual Digits ⁸⁰ ᵖᵒⁱⁿᵗˢ <exercises/getting-individual-digits>
+    More Number Puzzles ¹⁰⁰ ᵖᵒⁱⁿᵗˢ <exercises/more-number-puzzles>
+    Number Puzzles III: Armstrong Numbers ⁹⁰ ᵖᵒⁱⁿᵗˢ <exercises/number-puzzles-iii-armstrong-numbers>
+    Number Puzzles IV: A New Hope ⁹⁰ ᵖᵒⁱⁿᵗˢ <exercises/number-puzzles-iv-a-new-hope>
