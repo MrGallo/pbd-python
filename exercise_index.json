@@ -601,6 +601,24 @@
     },
     {
         "section": "Graphics",
+        "name": "📓 Introduction to Graphics",
+        "link": "http://programarcadegames.com/index.php?chapter=introduction_to_graphics&lang=en#section_5",
+        "published": true
+    },
+    {
+        "section": "Graphics",
+        "name": "Introduction to Graphics Worksheet",
+        "points": "25",
+        "published": true
+    },
+    {
+        "section": "Graphics",
+        "name": "Introduction to Graphics Lab",
+        "points": "100",
+        "published": true
+    },
+    {
+        "section": "Graphics",
         "name": "Graphics Demo 1: Basics",
         "points": "20",
         "published": false
@@ -861,6 +879,18 @@
         "section": "Project II",
         "name": "Project: Calculator",
         "points": "80-300",
+        "published": true
+    },
+    {
+        "section": "Exceptions",
+        "name": "📓 Python Docs: Errors and Exceptions",
+        "link": "https://docs.python.org/3/tutorial/errors.html",
+        "published": true
+    },
+    {
+        "section": "Exceptions",
+        "name": "▶️ Python Tutorial: Using Try/Except Blocks for Error Handling",
+        "link": "https://www.youtube.com/watch?v=NIWwJbo-9_8&ab_channel=CoreySchafer",
         "published": true
     },
     {
@@ -1236,6 +1266,108 @@
         "published": true
     },
     {
+        "section": "Graphics II",
+        "name": "📓 Introduction to Animation (8.1 and 8.2)",
+        "link": "http://programarcadegames.com/index.php?chapter=introduction_to_animation&lang=en",
+        "published": true
+    },
+    {
+        "section": "Graphics II",
+        "name": "Introduction to Animation Worksheet",
+        "points": "70",
+        "published": true
+    },
+    {
+        "section": "Graphics II",
+        "name": "Introduction to Animation Lab",
+        "points": "80",
+        "published": true
+    },
+    {
+        "section": "Graphics II",
+        "name": "📓 Controllers and Graphics",
+        "link": "http://programarcadegames.com/index.php?chapter=controllers_and_graphics&lang=en",
+        "published": true
+    },
+    {
+        "section": "Graphics II",
+        "name": "Controllers and Graphics Worksheet",
+        "points": "50",
+        "published": true
+    },
+    {
+        "section": "Graphics II",
+        "name": "Controllers and Graphics Lab",
+        "points": "100",
+        "published": true
+    },
+    {
+        "section": "Graphics II",
+        "name": "Mouse Demo",
+        "points": "20",
+        "published": false
+    },
+    {
+        "section": "Graphics II",
+        "name": "Traffic Light - Drawing Shapes and Clicking Them",
+        "points": "40",
+        "published": false
+    },
+    {
+        "section": "Graphics II",
+        "name": "Shapes Demo - Easily Drawing and Transforming Shapes",
+        "points": "1",
+        "published": false
+    },
+    {
+        "section": "Graphics II",
+        "name": "Last Clicked - Drawing Boxes Where You Clicked",
+        "points": "1",
+        "published": false
+    },
+    {
+        "section": "Graphics II",
+        "name": "No Erasey - Making Stuff Stay on the Screen",
+        "points": "1",
+        "published": false
+    },
+    {
+        "section": "Graphics II",
+        "name": "Drag Location - Getting Drags instead of Clicks",
+        "points": "1",
+        "published": false
+    },
+    {
+        "section": "Graphics II",
+        "name": "Drawing Layers",
+        "points": "1",
+        "published": false
+    },
+    {
+        "section": "Graphics II",
+        "name": "Etch-A-Sketch",
+        "points": "20",
+        "published": false
+    },
+    {
+        "section": "Graphics II",
+        "name": "Bouncing Ball",
+        "points": "1",
+        "published": false
+    },
+    {
+        "section": "Graphics II",
+        "name": "Pong",
+        "points": "100",
+        "published": false
+    },
+    {
+        "section": "Graphics II",
+        "name": "Reversi",
+        "points": "200",
+        "published": false
+    },
+    {
         "section": "Dictionaries",
         "name": "📓 Dictionaries",
         "link": "https://mrgallo.github.io/fundamentals/dictionaries.html",
@@ -1434,6 +1566,12 @@
         "published": false
     },
     {
+        "section": "Classes: Inheritance",
+        "name": "Classes and Graphics Lab",
+        "points": "200",
+        "published": true
+    },
+    {
         "section": "Project Euler",
         "name": "001 - Sum Multiples of 3 or 5",
         "points": "20",
@@ -1552,72 +1690,6 @@
         "name": "020 - Sum of the Digits of 100!",
         "points": "50",
         "published": true
-    },
-    {
-        "section": "Graphics II",
-        "name": "Mouse Demo",
-        "points": "20",
-        "published": false
-    },
-    {
-        "section": "Graphics II",
-        "name": "Traffic Light - Drawing Shapes and Clicking Them",
-        "points": "40",
-        "published": false
-    },
-    {
-        "section": "Graphics II",
-        "name": "Shapes Demo - Easily Drawing and Transforming Shapes",
-        "points": "1",
-        "published": false
-    },
-    {
-        "section": "Graphics II",
-        "name": "Last Clicked - Drawing Boxes Where You Clicked",
-        "points": "1",
-        "published": false
-    },
-    {
-        "section": "Graphics II",
-        "name": "No Erasey - Making Stuff Stay on the Screen",
-        "points": "1",
-        "published": false
-    },
-    {
-        "section": "Graphics II",
-        "name": "Drag Location - Getting Drags instead of Clicks",
-        "points": "1",
-        "published": false
-    },
-    {
-        "section": "Graphics II",
-        "name": "Drawing Layers",
-        "points": "1",
-        "published": false
-    },
-    {
-        "section": "Graphics II",
-        "name": "Etch-A-Sketch",
-        "points": "20",
-        "published": false
-    },
-    {
-        "section": "Graphics II",
-        "name": "Bouncing Ball",
-        "points": "1",
-        "published": false
-    },
-    {
-        "section": "Graphics II",
-        "name": "Pong",
-        "points": "100",
-        "published": false
-    },
-    {
-        "section": "Graphics II",
-        "name": "Reversi",
-        "points": "200",
-        "published": false
     },
     {
         "section": "Project IIII",

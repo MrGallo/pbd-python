@@ -24,11 +24,11 @@ Python Fundamental Exercises
     file-rw
     lists
     sorting
+    graphics-ii
     dictionaries
     classes-fields
     project-iii
     classes-methods
-    objects-ii
+    classes-inheritance
     project-euler
-    graphics-ii
     project-iiii

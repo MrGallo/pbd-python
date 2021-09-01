@@ -1,9 +1,7 @@
 # Graphics Demo 1
 
 
-GRAPHICS! Kids, we're going to learn how to draw some stuff on the
-screen in a Java application. Download the following code
-file and get it to compile.
+GRAPHICS! Kids, we're going to learn how to draw some stuff in Python using Pygame. Download the following code file and get it to compile.
 
 
 ## Files Needed
@@ -11,43 +9,6 @@ file and get it to compile.
 
 * [GraphicsDemo1.java](examples/GraphicsDemo1.java)
 
-
-
-```
-**import** java.awt.*;
-**import** javax.swing.JFrame;
-
-**public** **class** **Graphics**Demo1 **extends** Canvas
-**{**
-    **public** **void** paint**(** **Graphics** g **)**
-    **{**
-        g.setColor**(**Color.green**)**;
-        g.drawRect**(**50,20,100,200**)**;  **// draw a rectangle**
-        g.fillOval**(**160,20,100,200**)**; **// draw a filled-in oval**
-        g.setColor**(**Color.blue**)**;
-        g.fillRect**(**200,400,200,20**)**; **// a filled-in rectangle**
-        g.drawOval**(**200,430,200,100**)**;
-        
-        g.setColor**(**Color.black**)**;
-        g.drawString**(****"Graphics are pretty neat."**, 500, 100**)**;
-        **int** x = getWidth**(****)** / 2;
-        **int** y = getHeight**(****)** / 2;
-        g.drawString**(****"The first letter of this string is at **(**"** + x + **","** + y + **"**)**"**, x, y**)**;
-    **}**
-
-    **public** **static** **void** main**(** **String****[]** args **)**
-    **{**
-        **// You can change the title or size here **if** you want.**
-        JFrame win = **new** JFrame**(****"**Graphics**Demo1"****)**;
-        win.setSize**(**800,600**)**;
-        win.setDefaultCloseOperation**(**JFrame.EXIT\_ON\_CLOSE**)**;
-        GraphicsDemo1 canvas = **new** GraphicsDemo1**()**;
-        win.add**(** canvas **)**;
-        win.setVisible**(**true**)**;
-    **}**
-**}**
-
-```
 
 What You Should Do on Your Own
 ------------------------------
