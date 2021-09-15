@@ -1,5 +1,5 @@
-Project IIII ⁰ ᵖᵒⁱⁿᵗˢ
-=====================
+Project IIII
+============
 
 .. toctree::
     :maxdepth: 1

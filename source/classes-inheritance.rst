@@ -1,7 +1,7 @@
-Classes: Inheritance ²⁰⁰ ᵖᵒⁱⁿᵗˢ
-===============================
+Classes: Inheritance
+====================
 
 .. toctree::
     :maxdepth: 1
 
-    Classes and Graphics Lab ²⁰⁰ ᵖᵒⁱⁿᵗˢ <exercises/classes-and-graphics-lab>
+    Classes and Graphics Lab <exercises/classes-and-graphics-lab>

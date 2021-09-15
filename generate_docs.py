@@ -65,7 +65,8 @@ def generate_docs():
             current_section_links += f"    {ex['name']} <{link}>\n"
         else:
             # current_section_links += f"    {ex['name']} ({points} points) <exercises/{slugify(ex['name'])}>\n"
-            current_section_links += f"    {ex['name']} {points_str} ᵖᵒⁱⁿᵗˢ <exercises/{slugify(ex['name'])}>\n"
+            # current_section_links += f"    {ex['name']} {points_str} ᵖᵒⁱⁿᵗˢ <exercises/{slugify(ex['name'])}>\n"
+            current_section_links += f"    {ex['name']} <exercises/{slugify(ex['name'])}>\n"
     
     # write last section
     write_section(current_section, current_total, current_section_links)
@@ -103,7 +104,8 @@ def write_section(current_section, current_total, current_section_links):
     else:
         section_points = f"{number_to_superscript(low)}⁻{number_to_superscript(high)}"
     
-    title = current_section + f" {section_points} ᵖᵒⁱⁿᵗˢ"
+    # title = current_section + f" {section_points} ᵖᵒⁱⁿᵗˢ"
+    title = current_section
     current_section_index = f"{title}\n{'=' * len(title)}\n\n.. toctree::\n    :maxdepth: 1\n\n"
     current_section_index += current_section_links
 

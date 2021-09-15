@@ -1,5 +1,5 @@
-Classes: Methods ⁰ ᵖᵒⁱⁿᵗˢ
-=========================
+Classes: Methods
+================
 
 .. toctree::
     :maxdepth: 1

@@ -1,15 +1,15 @@
-Sorting ⁶⁰⁰ ᵖᵒⁱⁿᵗˢ
-==================
+Sorting
+=======
 
 .. toctree::
     :maxdepth: 1
 
-    MadLib Random ⁴⁰ ᵖᵒⁱⁿᵗˢ <exercises/madlib-random>
-    Movie Title Generator ⁴⁰ ᵖᵒⁱⁿᵗˢ <exercises/movie-title-generator>
-    PokeSwap ⁴⁰ ᵖᵒⁱⁿᵗˢ <exercises/pokeswap>
-    PokeTrader ³⁰ ᵖᵒⁱⁿᵗˢ <exercises/poketrader>
-    PokeTrader 2 ²⁰ ᵖᵒⁱⁿᵗˢ <exercises/poketrader-2>
-    Exchange Sort Inner Loop ⁵⁰ ᵖᵒⁱⁿᵗˢ <exercises/exchange-sort-inner-loop>
-    Exchange Sort ¹²⁰ ᵖᵒⁱⁿᵗˢ <exercises/exchange-sort>
-    Bubble Sort ¹³⁰ ᵖᵒⁱⁿᵗˢ <exercises/bubble-sort>
-    Selection Sort ¹³⁰ ᵖᵒⁱⁿᵗˢ <exercises/selection-sort>
+    MadLib Random <exercises/madlib-random>
+    Movie Title Generator <exercises/movie-title-generator>
+    PokeSwap <exercises/pokeswap>
+    PokeTrader <exercises/poketrader>
+    PokeTrader 2 <exercises/poketrader-2>
+    Exchange Sort Inner Loop <exercises/exchange-sort-inner-loop>
+    Exchange Sort <exercises/exchange-sort>
+    Bubble Sort <exercises/bubble-sort>
+    Selection Sort <exercises/selection-sort>
