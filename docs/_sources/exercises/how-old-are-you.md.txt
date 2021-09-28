@@ -28,9 +28,16 @@ What You Should Do on Your Own
 ------------------------------
 1. Come up with a test plan that takes into account all possible outcomes of this program. Think of the IPO model. What inputs will result in what output? For example:
     
-    |Input|Output|
-    |-----|------|
-    | `age = 17` | Can't vote, can't rent a car |
+    ```eval_rst
+    .. list-table::
+        :header-rows: 1
+
+        * - Input
+          - Output
+        * - ``age = 17``
+          - Can’t vote, can’t rent a car
+
+    ```
     
 ---
 

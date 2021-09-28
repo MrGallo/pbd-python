@@ -95,7 +95,7 @@ Frequently-Asked Questions
 - How does modulus (`%`) work?
 	- Another way to say it is, "X divided by Y with a remainder of J." As in, "100 divided by 16 with a remainder of 4." The result of `%` is the J part, or the remainder part.
 - What is the order of operations?
-	- In the United States we use an acronym called PEMDAS which stands for Parentheses Exponents Multiplication Division Addition Subtraction. That's the order Java follows as well.
+	- In the United States we use an acronym called PEMDAS which stands for Parentheses Exponents Multiplication Division Addition Subtraction. That's the order Python follows as well.
 
 ---
 
