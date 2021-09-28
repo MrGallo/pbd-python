@@ -1,7 +1,7 @@
 # Alpha Order
 
 
-Write a program that compares several strings using the comparison operators `<` and `<`. You should display the strings and display the Boolean evaluation (`True` or `False`) that the comparison gives you.
+Write a program that compares several strings using the comparison operators `<` and `>`. You should display the strings and display the Boolean evaluation (`True` or `False`) that the comparison gives you.
 
 
 Produce:
