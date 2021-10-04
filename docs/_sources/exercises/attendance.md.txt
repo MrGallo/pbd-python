@@ -15,7 +15,7 @@ Once you understand how comparing strings works using the comparison operators, 
 * name is `"Young"` or before: say `"it's gonna be a while"`
 * name is after `"Young"`: say `"not going anywhere for a while?"`
 
-Name your file: `039_attendance.py
+Name your file: `039_attendance.py`
 
 ```
 What's your last name? Stephanopolis
