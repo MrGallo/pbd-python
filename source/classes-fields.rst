@@ -5,7 +5,7 @@ Classes: Fields
     :maxdepth: 1
 
     📓 Classes <https://mrgallo.github.io/fundamentals/classes.html>
-    ▶️ Classes and Instances (until 4:46) <https://mrgallo.github.io/fundamentals/classes.html>
+    ▶️ Classes and Instances (until 4:46) <https://youtu.be/ZDa-Z5JzLYM>
     Web Addresses <exercises/web-addresses>
     Web Addresses List <exercises/web-addresses-list>
     Address str Method <exercises/address-str-method>
