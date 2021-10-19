@@ -17,6 +17,7 @@ Classes: Fields
     Storing Data in a File <exercises/storing-data-in-a-file>
     Reading What You Wrote <exercises/reading-what-you-wrote>
     Searching Objects <exercises/searching-objects>
+    Filtering Objects <exercises/filtering-objects>
     Sorting a List of Objects <exercises/sorting-a-list-of-objects>
     Sorting String Fields <exercises/sorting-string-fields>
     Sorting Objects on Two Fields <exercises/sorting-objects-on-two-fields>

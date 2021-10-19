@@ -1,4 +1,4 @@
-# Searching Objects
+# Filtering Objects
 
 
 Create a ``Student`` class with the following UML:
@@ -6,8 +6,8 @@ Create a ``Student`` class with the following UML:
 ![Student UML](examples/uml-student-2.png)
 
 
-Create a function that will take a list of ``Student`` objects and a student id to search for. The function will return a single
-``Student`` object if there is a student with that id, or ``None`` if it doesn't exist in the list. Annotate this function and provide a doc-string.
+Create a function that will take a list of ``Student`` objects and an ``int`` value for a grade. The function will return a sub-list of all
+``Student`` objects in that grade. Annotate this function and provide a doc-string.
 
 In a ``main`` function, write code that proves the function works both for found and not found student ids.
 

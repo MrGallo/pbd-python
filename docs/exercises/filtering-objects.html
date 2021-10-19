@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Searching Objects &mdash; Python Fundamental Exercises  documentation</title>
+  <title>Filtering Objects &mdash; Python Fundamental Exercises  documentation</title>
   
 
   
@@ -44,8 +44,8 @@
     
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Filtering Objects" href="filtering-objects.html" />
-    <link rel="prev" title="Reading What You Wrote" href="reading-what-you-wrote.html" /> 
+    <link rel="next" title="Sorting a List of Records" href="sorting-a-list-of-objects.html" />
+    <link rel="prev" title="Searching Objects" href="searching-objects.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -125,8 +125,8 @@
 <li class="toctree-l2"><a class="reference internal" href="getting-more-data-from-a-file.html">Getting More Data from a File</a></li>
 <li class="toctree-l2"><a class="reference internal" href="storing-data-in-a-file.html">Storing Data in a File</a></li>
 <li class="toctree-l2"><a class="reference internal" href="reading-what-you-wrote.html">Reading What You Wrote</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Searching Objects</a></li>
-<li class="toctree-l2"><a class="reference internal" href="filtering-objects.html">Filtering Objects</a></li>
+<li class="toctree-l2"><a class="reference internal" href="searching-objects.html">Searching Objects</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Filtering Objects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="sorting-a-list-of-objects.html">Sorting a List of Objects</a></li>
 <li class="toctree-l2"><a class="reference internal" href="sorting-string-fields.html">Sorting String Fields</a></li>
 <li class="toctree-l2"><a class="reference internal" href="sorting-objects-on-two-fields.html">Sorting Objects on Two Fields</a></li>
@@ -187,13 +187,13 @@
         
           <li><a href="../classes-fields.html"><span class="section-number">22. </span>Classes: Fields</a> &raquo;</li>
         
-      <li>Searching Objects</li>
+      <li>Filtering Objects</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../_sources/exercises/searching-objects.md.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/exercises/filtering-objects.md.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -206,12 +206,12 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="searching-objects">
-<h1>Searching Objects<a class="headerlink" href="#searching-objects" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="filtering-objects">
+<h1>Filtering Objects<a class="headerlink" href="#filtering-objects" title="Permalink to this headline">¶</a></h1>
 <p>Create a <code class="docutils literal notranslate"><span class="pre">Student</span></code> class with the following UML:</p>
 <p><img alt="Student UML" src="../_images/uml-student-2.png" /></p>
-<p>Create a function that will take a list of <code class="docutils literal notranslate"><span class="pre">Student</span></code> objects and a student id to search for. The function will return a single
-<code class="docutils literal notranslate"><span class="pre">Student</span></code> object if there is a student with that id, or <code class="docutils literal notranslate"><span class="pre">None</span></code> if it doesn’t exist in the list. Annotate this function and provide a doc-string.</p>
+<p>Create a function that will take a list of <code class="docutils literal notranslate"><span class="pre">Student</span></code> objects and an <code class="docutils literal notranslate"><span class="pre">int</span></code> value for a grade. The function will return a sub-list of all
+<code class="docutils literal notranslate"><span class="pre">Student</span></code> objects in that grade. Annotate this function and provide a doc-string.</p>
 <p>In a <code class="docutils literal notranslate"><span class="pre">main</span></code> function, write code that proves the function works both for found and not found student ids.</p>
 <hr class="docutils" />
 <p>©2021 Daniel Gallo</p>
@@ -223,8 +223,8 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="filtering-objects.html" class="btn btn-neutral float-right" title="Filtering Objects" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="reading-what-you-wrote.html" class="btn btn-neutral float-left" title="Reading What You Wrote" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="sorting-a-list-of-objects.html" class="btn btn-neutral float-right" title="Sorting a List of Records" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="searching-objects.html" class="btn btn-neutral float-left" title="Searching Objects" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>
