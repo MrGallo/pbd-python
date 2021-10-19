@@ -1525,6 +1525,12 @@
     },
     {
         "section": "Classes: Fields",
+        "name": "Searching Objects",
+        "points": "100",
+        "published": true
+    },
+    {
+        "section": "Classes: Fields",
         "name": "Sorting a List of Objects",
         "points": "160",
         "published": true
