@@ -7,7 +7,12 @@ Create a ``Student`` class with the following UML:
 
 
 Create a function that will take a list of ``Student`` objects and an ``int`` value for a grade. The function will return a sub-list of all
-``Student`` objects in that grade. Annotate this function and provide a doc-string.
+``Student`` objects in that grade. 
+
+Please be sure to:
+
+- Annotate this function and provide a doc-string.
+- Create a proper constructor (init method) for this class.
 
 In a ``main`` function, write code that proves the function works both for found and not found student ids.
 

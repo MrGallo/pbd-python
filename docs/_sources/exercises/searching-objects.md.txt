@@ -7,7 +7,12 @@ Create a ``Student`` class with the following UML:
 
 
 Create a function that will take a list of ``Student`` objects and a student id to search for. The function will return a single
-``Student`` object if there is a student with that id, or ``None`` if it doesn't exist in the list. Annotate this function and provide a doc-string.
+``Student`` object if there is a student with that id, or ``None`` if it doesn't exist in the list. 
+
+Please be sure to:
+
+- Annotate this function and provide a doc-string.
+- Create a proper constructor (init method) for this class.
 
 In a ``main`` function, write code that proves the function works both for found and not found student ids.
 
