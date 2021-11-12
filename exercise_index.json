@@ -1575,7 +1575,25 @@
         "section": "Classes: Methods",
         "name": "On Initialization",
         "points": "200",
-        "published": false
+        "published": true
+    },
+    {
+        "section": "Classes: Methods",
+        "name": "Speak",
+        "points": "50",
+        "published": true
+    },
+    {
+        "section": "Classes: Methods",
+        "name": "Speak with Name",
+        "points": "50",
+        "published": true
+    },
+    {
+        "section": "Classes: Methods",
+        "name": "Speak with Return Value",
+        "points": "50",
+        "published": true
     },
     {
         "section": "Classes: Inheritance",
