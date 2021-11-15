@@ -1596,6 +1596,12 @@
         "published": true
     },
     {
+        "section": "Classes: Methods",
+        "name": "Drain Method",
+        "points": "50",
+        "published": true
+    },
+    {
         "section": "Classes: Inheritance",
         "name": "Classes and Graphics Lab",
         "points": "200",

@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Speak with Return Value &mdash; Python Fundamental Exercises  documentation</title>
+  <title>Drain Capping &mdash; Python Fundamental Exercises  documentation</title>
   
 
   
@@ -43,9 +43,7 @@
 
     
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Drain Method" href="drain-method.html" />
-    <link rel="prev" title="Speak with Name" href="speak-with-name.html" /> 
+    <link rel="search" title="Search" href="../search.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -90,7 +88,7 @@
               
             
             
-              <ul class="current">
+              <ul>
 <li class="toctree-l1"><a class="reference internal" href="../introduction-to-programming.html">1. Introduction to Programming</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../if-statements.html">2. If Statements</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../guis.html">3. GUIs</a></li>
@@ -114,18 +112,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../dictionaries.html">21. Dictionaries</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../classes-fields.html">22. Classes: Fields</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../project-iii.html">23. Project III</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../classes-methods.html">24. Classes: Methods</a><ul class="current">
-<li class="toctree-l2"><a class="reference external" href="https://youtu.be/ZDa-Z5JzLYM?t=283">▶️ Classes and Instances (4:43 onward)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="on-initialization.html">On Initialization</a></li>
-<li class="toctree-l2"><a class="reference internal" href="speak.html">Speak</a></li>
-<li class="toctree-l2"><a class="reference internal" href="speak-with-name.html">Speak with Name</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Speak with Return Value</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#starter-code">Starter code</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="drain-method.html">Drain Method</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../classes-methods.html">24. Classes: Methods</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../classes-inheritance.html">25. Classes: Inheritance</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../project-euler.html">26. Project Euler</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../project-iiii.html">27. Project IIII</a></li>
@@ -177,15 +164,13 @@
     
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
         
-          <li><a href="../classes-methods.html"><span class="section-number">24. </span>Classes: Methods</a> &raquo;</li>
-        
-      <li>Speak with Return Value</li>
+      <li>Drain Capping</li>
     
     
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../_sources/exercises/speak-with-return-value.md.txt" rel="nofollow"> View page source</a>
+            <a href="../_sources/exercises/drain-capping.md.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -198,30 +183,23 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="speak-with-return-value">
-<h1>Speak with Return Value<a class="headerlink" href="#speak-with-return-value" title="Permalink to this headline">¶</a></h1>
-<p>Continuing from the prior two exercises, we should move away from outputting from inside methods. This should normally only be done for debugging purposes. Rather than printing the information out, we should ensure our methods return a value.</p>
-<p>Modify your code from <a class="reference internal" href="speak-with-name.html"><span class="doc">Speak with Name</span></a> to return the speak string, rather than printing it out.</p>
-<p><img alt="Student UML" src="../_images/uml-animal-speak.png" /></p>
-<div class="section" id="starter-code">
-<h2>Starter code<a class="headerlink" href="#starter-code" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Animal</span><span class="p">:</span>
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">name</span><span class="p">:</span> <span class="nb">str</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="n">name</span>
-    
-    <span class="c1"># place the instance method here (in the class)</span>
-
-
-<span class="n">dog</span> <span class="o">=</span> <span class="n">Animal</span><span class="p">(</span><span class="s2">&quot;dog&quot;</span><span class="p">)</span>
-<span class="n">result</span> <span class="o">=</span> <span class="n">dog</span><span class="o">.</span><span class="n">speak</span><span class="p">()</span>  
-<span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>  <span class="c1"># should output &quot;The dog speaks&quot;</span>
-
-<span class="n">cat</span> <span class="o">=</span> <span class="n">Animal</span><span class="p">(</span><span class="s2">&quot;cat&quot;</span><span class="p">)</span>
-<span class="n">result</span> <span class="o">=</span> <span class="n">cat</span><span class="o">.</span><span class="n">speak</span><span class="p">()</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">result</span><span class="p">)</span>  <span class="c1"># should output &quot;The cat speaks&quot;</span>
+  <div class="section" id="drain-capping">
+<h1>Drain Capping<a class="headerlink" href="#drain-capping" title="Permalink to this headline">¶</a></h1>
+<p>Take your drain method from the <a class="reference internal" href="drain-method.html"><span class="doc">previous exercise</span></a> and prevent it from being drained below a volume of <code class="docutils literal notranslate"><span class="pre">0</span></code>.</p>
+<div class="section" id="what-is-expected">
+<h2>What is expected<a class="headerlink" href="#what-is-expected" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">tub</span> <span class="o">=</span> <span class="n">Bathtub</span><span class="p">(</span><span class="s2">&quot;white&quot;</span><span class="p">,</span> <span class="mi">20</span><span class="p">)</span>
+<span class="n">tub</span><span class="o">.</span><span class="n">drain</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">tub</span><span class="o">.</span><span class="n">current_volume</span><span class="p">)</span>  <span class="c1"># should be 5</span>
+<span class="n">tub</span><span class="o">.</span><span class="n">drain</span><span class="p">(</span><span class="mi">15</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">tub</span><span class="o">.</span><span class="n">current_volume</span><span class="p">)</span>  <span class="c1"># should be 0, NOT -10</span>
 </pre></div>
 </div>
-</div>
+<p><img alt="Student UML" src="../_images/uml-student-2.png" />
+<a class="reference internal" href="interpreter-check.html"><span class="doc">Interpreter Check</span></a></p>
+<hr class="docutils" />
+<p>©2021 Daniel Gallo</p>
+<p xmlns:cc="http://creativecommons.org/ns#" >This work is licensed under <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">Attribution-NonCommercial-ShareAlike 4.0 International<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p></div>
 </div>
 
 
@@ -229,10 +207,6 @@
            
           </div>
           <footer>
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="drain-method.html" class="btn btn-neutral float-right" title="Drain Method" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="speak-with-name.html" class="btn btn-neutral float-left" title="Speak with Name" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-    </div>
 
   <hr/>
 

@@ -9,3 +9,4 @@ Classes: Methods
     Speak <exercises/speak>
     Speak with Name <exercises/speak-with-name>
     Speak with Return Value <exercises/speak-with-return-value>
+    Drain Method <exercises/drain-method>
