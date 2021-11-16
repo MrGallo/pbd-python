@@ -11,9 +11,6 @@ tub.drain(15)
 print(tub.current_volume)  # should be 0, NOT -10
 ```
 
-![Student UML](examples/uml-student-2.png)
-[Interpreter Check](interpreter-check.md)
-
 ---
 
 ©2021 Daniel Gallo
