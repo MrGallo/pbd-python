@@ -15,7 +15,7 @@ class Bathtub:
 
 tub = Bathtub("white", 19.5)
 tub.drain(10)
-print(tub.current_volume)  # should be 10.5
+print(tub.current_volume)  # should be 9.5
 ```
 
 ---
