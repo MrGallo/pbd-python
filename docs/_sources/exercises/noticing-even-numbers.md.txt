@@ -3,9 +3,8 @@
 
 Write a program that uses a `for`
 loop to display all the numbers from `1` to `20`, marking those which
-are even (divisible by two). It should use modulus `2`: if the
+are even (divisible by two). You should should use modulus for this (`% 2`). If the
 remainder is zero, it's divisible by `2`.
-
 
 This means you'll need an `if` statement inside the loop.
 

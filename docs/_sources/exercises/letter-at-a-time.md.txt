@@ -10,9 +10,7 @@ Did you know that using a for loop, you can examine a string one letter at a tim
  the variable `str` contains the String `"hello"`, then `len(str)` will
  return `5`.
 
- * `[n]` returns the
- `n`th character (`char`)
- in the String. The character positions are zero-based. If the variable `str` contains the String `"ligature"`, then `str[0]` (`str` at index `0`) will return `'l'`, and `str[4]` (`str` at index `4`) will return `'t'`.
+ * You can access single characters in the string by using square-bracket notation. `my_string[n]` returns the `n`th character in the String. The character positions are zero-based. If the variable `my_string` contains the String `"ligature"`, then `my_string[0]` (`my_string` at index `0`) will return `'l'`, and `my_string[4]` (`my_string` at index `4`) will return `'t'`.
 
 
 ## Files Needed

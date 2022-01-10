@@ -1,6 +1,6 @@
 # Exchange Sort Inner Loop
 
-Download the following code, and get it to run. Exchange sort works by using a marker at the front of the list and comparing the rest of the list to that marker using a loop. If, as you iterate through the rest of the list, you incounter a number that is smaller than the number at the marker, you need to swap the values.
+Download the following code, and get it to run. Exchange sort works by using a marker at the front of the list and comparing the rest of the list to that marker using a loop. If, as you iterate through the rest of the list, you encounter a number that is smaller than the number at the marker, you need to swap the values.
 
 ## Files Needed
 ```eval_rst
