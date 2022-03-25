@@ -30,9 +30,8 @@ half credit or less.
 
 
 1. The code provided counts up to `18` in the first loop instead of using the `len()` function on the list `file_lines`. Fix this.
-2. The code is also using the value `5` to print out the `addresses` list. Use the `len()` function on that list too for that loop.
-3. Also, the code provided makes an array that only holds five addresses, but the text file contains six. Make the array bigger, so that all six addresses are read in.
-4. What happens if you simply print the `Address` variable? In your loop, print out `print(address)` and observe. What do you suppose it might mean? Wouldn't it be nice if, when you print the variable directly, it would display something more intelligible? We will take care of that in the next exercise.
+2. The code is also using the value `5` to print out the `addresses` list. Use the `len()` function on that list too for that loop. Ensure that all six addresses are read in.
+3. What happens if you simply print the `address` variable? In your loop, print out `print(address)` and observe. What do you suppose it might mean? Wouldn't it be nice if, when you print the variable directly, it would display something more intelligible? We will take care of that in the next exercise.
 
 
 ---
